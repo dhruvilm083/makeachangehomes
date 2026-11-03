@@ -19,15 +19,18 @@ def esc(s):
 
 def block(page):
     parts = []
+    k = 0  # tile number on the page: the first rows load right away, the rest lazily
     for i, p in enumerate(page['projects']):
         # A line between projects. Its id keeps old links like #kidzpen working.
         parts.append(f'<div class="pg-sep{" pg-sep-first" if i == 0 else ""}" id="{esc(p["id"])}" role="presentation"></div>')
         n = len(p['photos'])
         for j, ph in enumerate(p['photos'], 1):
             alt = f"{p['name']}, photo {j} of {n}"
+            k += 1
+            load = 'loading="eager" fetchpriority="high"' if k <= 4 else 'loading="eager"' if k <= 12 else 'loading="lazy"'
             parts.append(
                 f'<a class="pg-item" href="/assets/{esc(ph["full"])}">'
-                f'<img src="/assets/{esc(ph["thumb"])}" loading="lazy" decoding="async" alt="{esc(alt)}"/></a>')
+                f'<img src="/assets/{esc(ph["thumb"])}" {load} decoding="async" alt="{esc(alt)}"/></a>')
     return (
         '<div class="pg-wrap">'
         f'<header class="pg-head"><h1>{esc(page["title"])}</h1><p>{esc(page["intro"])}</p></header>'
