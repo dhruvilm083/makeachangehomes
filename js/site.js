@@ -47,24 +47,34 @@
     if (mobile.addEventListener) mobile.addEventListener('change', onBreakpoint);
   }
 
-  // Hide the bar while scrolling down, bring it back when scrolling up.
+  // Header motion: slides away while scrolling down past the top of the page,
+  // slides back as soon as you scroll up, and gets a soft shadow once the page
+  // has moved. Small jitters (trackpads, iOS bounce) are ignored.
   if (nav) {
-    var lastY = window.scrollY;
-    window.addEventListener('scroll', function () {
-      var y = window.scrollY;
-      if (Math.abs(y - lastY) < 4) return;
-      var down = y > lastY && y > 10;
-      if (down && button && button.classList.contains('w--open')) down = false;
-      nav.classList.toggle('nav-hidden', down);
+    var lastY = Math.max(window.scrollY, 0), ticking = false;
+    var update = function () {
+      ticking = false;
+      var y = Math.max(window.scrollY, 0);
+      var dy = y - lastY;
+      nav.classList.toggle('nav-scrolled', y > 8);
+      if (button && button.classList.contains('w--open')) { nav.classList.remove('nav-hidden'); lastY = y; return; }
+      if (y < nav.offsetHeight) nav.classList.remove('nav-hidden');
+      else if (dy > 6) nav.classList.add('nav-hidden');
+      else if (dy < -6) nav.classList.remove('nav-hidden');
+      else return;
       lastY = y;
+    };
+    window.addEventListener('scroll', function () {
+      if (!ticking) { ticking = true; requestAnimationFrame(update); }
     }, { passive: true });
     nav.addEventListener('focusin', function () { nav.classList.remove('nav-hidden'); });
+    update();
   }
 
   // ---- Photo lightbox ---------------------------------------------------
-  // Tiles are .pg-item links (project galleries) or older .skate-img[href]
-  // images. Arrows and swipes stay inside the tile's project
-  // (the nearest [data-gallery]); the caption names the project.
+  // Tiles are .pg-item links (photo galleries) or older .skate-img[href]
+  // images. Arrows and swipes move through every photo on the page, or only
+  // the nearest [data-gallery] group when there is one.
   var tiles = Array.prototype.slice.call(document.querySelectorAll('a.pg-item, .skate-img[href]'));
   if (tiles.length) {
     var box, img, count, set = [], label = '', index = 0, lastFocus = null, touchX = null;
@@ -153,17 +163,14 @@
     });
   }
 
-  // ---- Project galleries: "Show all photos" -----------------------------
-  document.querySelectorAll('.pg-more').forEach(function (b) {
-    var grid = b.previousElementSibling;
-    b.addEventListener('click', function () {
-      var opening = grid.classList.contains('is-collapsed');
-      grid.classList.toggle('is-collapsed', !opening);
-      b.setAttribute('aria-expanded', opening ? 'true' : 'false');
-      b.textContent = b.getAttribute(opening ? 'data-less' : 'data-more');
-      if (!opening) b.closest('.pg-project').scrollIntoView({ block: 'start' });
-    });
-  });
+  // ---- Pinned contact button: steps aside while the footer is on screen --
+  var fab = document.querySelector('.contact-fab');
+  var foot = document.querySelector('.footer-subscribe');
+  if (fab && foot && 'IntersectionObserver' in window) {
+    new IntersectionObserver(function (entries) {
+      fab.classList.toggle('is-away', entries[0].isIntersecting);
+    }).observe(foot);
+  }
 
   // ---- Testimonial slider -----------------------------------------------
   document.querySelectorAll('.w-slider').forEach(function (slider) {

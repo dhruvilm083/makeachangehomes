@@ -19,8 +19,10 @@ body>*{flex-shrink:0}
 body>.footer-subscribe{margin-top:auto}
 
 /* Navigation: hides while scrolling down, comes back when scrolling up. */
-.navbar-logo-left-container.shadow-three{transition:transform .5s ease-in-out}
-.navbar-logo-left-container.shadow-three.nav-hidden{transform:translateY(-300px);transition-duration:1s}
+.navbar-logo-left-container.shadow-three{transition:transform .35s cubic-bezier(.2,.7,.2,1),box-shadow .3s ease;will-change:transform}
+.navbar-logo-left-container.shadow-three.nav-scrolled{box-shadow:0 2px 14px rgba(0,0,0,.08)}
+.navbar-logo-left-container.shadow-three.nav-hidden{transform:translateY(-100%);box-shadow:none;transition-duration:.3s;transition-timing-function:cubic-bezier(.4,0,1,1)}
+@media (prefers-reduced-motion:reduce){.navbar-logo-left-container.shadow-three{transition:none}}
 .w-nav-button:focus-visible{outline:2px solid #a20e15;outline-offset:2px}
 
 /* Phone menu: white panel with dark text instead of grey on grey. */
@@ -57,8 +59,6 @@ body>.footer-subscribe{margin-top:auto}
 .gallery-back:hover{text-decoration:underline}
 .gallery-head + .section-8{padding-top:20px}
 .gallery-head + .section-8 .wrapper{padding-top:20px}
-.gallery-cta{text-align:center;padding:10px 20px 70px}
-.gallery-cta p{font-size:20px;line-height:28px;margin:0 0 20px}
 
 /* Lightbox (replaces the Magnific Popup + jQuery combo). */
 .no-scroll{overflow:hidden}
@@ -84,8 +84,8 @@ body>.footer-subscribe{margin-top:auto}
 .contact-details{flex:0 0 320px;padding:28px;border:1px solid #e4e4e4;border-radius:6px;margin-top:118px}
 .contact-details h2{font-size:22px;line-height:28px;margin:0 0 16px}
 .contact-details .list{list-style:none;padding:0;margin:0 0 16px}
-.contact-details .list li{list-style:none;text-align:left;margin:0 0 10px;font-size:18px;line-height:26px}
-.contact-details .text-block-2{font-size:18px;line-height:26px;text-align:left;margin:0}
+.contact-details .list li{list-style:none;text-align:left;margin:0 0 10px;font-size:16px;line-height:26px}
+.contact-details .text-block-2{font-size:16px;line-height:26px;text-align:left;margin:0}
 .form textarea.w-input{min-height:100px;height:100px}
 .form select.w-select{height:38px}
 @media (max-width:767px){.contact-layout{flex-direction:column;gap:0}.contact-layout .form-wrapper{width:100%}.contact-details{flex:none;margin:0 30px 20px;width:auto;align-self:stretch}}
@@ -96,44 +96,38 @@ h2:where(.as-h1){font-size:38px;line-height:44px}
 h1:where(.as-h2){font-size:32px;line-height:36px}
 .form select.w-select{background-color:#fff}
 
-/* Project galleries on the Commercial and Residential pages (built by scripts/build_galleries.py). */
-.pg-wrap{width:100%;max-width:1200px;margin:0 auto;padding:10px 20px 0;box-sizing:border-box}
-.pg-jump{border-bottom:1px solid #e4e4e4;padding:8px 0 20px;margin:0}
-.pg-jump-title{font-size:14px;line-height:20px;letter-spacing:.08em;text-transform:uppercase;color:#777;margin:0 0 10px}
-.pg-jump ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px}
-.pg-jump li{margin:0}
-.pg-jump a{display:inline-block;padding:7px 14px;border:1px solid #d6d6d6;border-radius:999px;color:#212121;text-decoration:none;font-size:15px;line-height:20px;transition:border-color .2s,color .2s,background-color .2s}
-.pg-jump a:hover,.pg-jump a:focus-visible{border-color:#a20e15;color:#a20e15}
-.pg-project{padding:36px 0 24px;scroll-margin-top:24px}
-.pg-project + .pg-project{border-top:1px solid #eee}
-.pg-project-head{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:4px 16px;margin:0 0 18px}
-.pg-project-head h2{margin:0;font-size:30px;line-height:36px}
-.pg-meta{margin:0;color:#777;font-size:15px;line-height:20px}
+/* Photo galleries on the Commercial and Residential pages (built by scripts/build_galleries.py):
+   a heading, a short intro, then one grid of every photo with a thin line between projects. */
+.pg-wrap{width:100%;max-width:1200px;margin:0 auto;padding:110px 20px 40px;box-sizing:border-box}
+.pg-head{text-align:center;max-width:760px;margin:0 auto 32px}
+.pg-head h1{margin:0 0 12px}
+.pg-head p{margin:0}
 .pg-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
-.pg-grid.is-collapsed .pg-item:nth-child(n+9){display:none}
+.pg-sep{grid-column:1/-1;height:1px;background:#e4e4e4;margin:12px 0;scroll-margin-top:110px}
+.pg-sep-first{height:0;margin:0}
 .pg-item{display:block;position:relative;aspect-ratio:4/3;overflow:hidden;border-radius:5px;background:#eee;cursor:zoom-in}
 .pg-item img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .4s ease}
 .pg-item::after{content:"";position:absolute;right:10px;bottom:10px;width:34px;height:34px;background:url("/assets/63223ff0bf8d50f29f5b337a_expand.svg") center/contain no-repeat;opacity:0;transform:translateY(10px);transition:opacity .3s,transform .3s}
 .pg-item:hover img,.pg-item:focus-visible img{transform:scale(1.04)}
 .pg-item:hover::after,.pg-item:focus-visible::after{opacity:1;transform:none}
 .pg-item:focus-visible{outline:3px solid #a20e15;outline-offset:2px}
-.pg-more{display:block;margin:24px auto 0;padding:10px 22px;background:#fff;border:1px solid #212121;border-radius:4px;color:#212121;font:inherit;font-size:15px;cursor:pointer;transition:background-color .2s,color .2s}
-.pg-more:hover,.pg-more:focus-visible{background:#212121;color:#fff}
-.pg-wrap .gallery-cta{padding-top:50px}
-@media (max-width:991px){.pg-grid{grid-template-columns:repeat(3,1fr)}.pg-grid.is-collapsed .pg-item:nth-child(n+7){display:none}}
-@media (max-width:767px){.pg-grid{grid-template-columns:repeat(2,1fr);gap:10px}.pg-project{padding-top:34px}.pg-project-head h2{font-size:26px;line-height:32px}}
+@media (max-width:991px){.pg-grid{grid-template-columns:repeat(3,1fr)}}
+@media (max-width:767px){.pg-grid{grid-template-columns:repeat(2,1fr);gap:10px}.pg-sep{margin:8px 0}}
 @media (prefers-reduced-motion:reduce){.pg-item img,.pg-item::after{transition:none}}
-/* Commercial page: projects come first (clear the fixed nav), client logos sit below them. */
-.sr-only + .pg-wrap{padding-top:110px}
-.pg-wrap ~ .logos-title-small{padding-top:20px!important;padding-bottom:0!important;border-bottom:0}
+/* Commercial page: client logos sit below the photos. */
+.pg-wrap ~ .logos-title-small{padding-top:10px!important;padding-bottom:0!important;border-bottom:0}
 .pg-wrap ~ .logos-title-small + .footer-subscribe{padding-top:0}
 .pg-wrap ~ .logos-title-small .grid-logos{padding-top:0;padding-bottom:0}
-.pg-wrap:has(~ .logos-title-small) .gallery-cta{padding-bottom:30px}
-@media (max-width:767px){.sr-only + .pg-wrap{padding-top:80px}}
-/* Residential page: tighter intro, one divider line before the project list. */
-.hero-stack-2:has(+ .pg-wrap){padding:130px 30px 10px!important;border-bottom:0}
-.hero-stack-2:has(+ .pg-wrap) .margin-bottom-24px-2{margin-bottom:0}
-@media (max-width:767px){.hero-stack-2:has(+ .pg-wrap){padding:100px 20px 10px!important}}
+
+/* Contact button pinned to the bottom right (About, Residential, Commercial). */
+.contact-fab{position:fixed;right:20px;bottom:20px;z-index:900;display:inline-block;padding:13px 24px;border-radius:999px;background:#212121;color:#fff;text-decoration:none;font-size:15px;line-height:20px;letter-spacing:.02em;box-shadow:0 6px 20px rgba(0,0,0,.2);transition:background-color .2s,transform .2s}
+.contact-fab:hover,.contact-fab:focus-visible{background:#a20e15;color:#fff;transform:translateY(-2px)}
+.contact-fab:focus-visible{outline:2px solid #fff;outline-offset:-5px}
+@media (max-width:767px){.contact-fab{right:16px;bottom:16px;padding:12px 20px}}
+/* It fades away once the footer scrolls into view, so it never covers the footer text. */
+.contact-fab{transition:background-color .2s,transform .3s ease,opacity .3s ease}
+.contact-fab.is-away{opacity:0;transform:translateY(12px);pointer-events:none}
+@media (prefers-reduced-motion:reduce){.contact-fab{transition:none}}
 
 /* Spacing pass: less dead space between sections on every page. */
 .footer-subscribe{padding-top:20px!important;padding-bottom:24px!important;min-height:0!important;height:auto!important}
@@ -148,5 +142,28 @@ h1:where(.as-h2){font-size:32px;line-height:36px}
 .section-7 .w-input,.section-7 .w-select{margin-bottom:8px}
 .section-7 .field-label{margin-bottom:3px}
 .section-7 .submit-button{margin-top:8px}
-@media (max-width:767px){.hero-without-image{padding-top:90px!important}.section-7 .form-wrapper{padding-top:90px!important}}
+@media (max-width:767px){.section-7 .form-wrapper{padding-top:110px!important}}
 .hero-stack .hero-wrapper-two > :first-child,.hero-without-image .hero-wrapper-two > :first-child,.hero-without-image-2 .hero-wrapper-two-2 > :first-child{margin-top:0}
+
+
+/* Type scale, the same on every page: Droid Sans throughout, one size for
+   page headings and one for body text. */
+body,button,input,select,textarea{font-family:'Droid Sans',sans-serif}
+body :is(h1,h2.as-h1){font-size:38px;line-height:44px;font-weight:700}
+body :is(h3){font-size:22px;line-height:28px}
+body :is(.paragraph-3,.margin-bottom-24px,.margin-bottom-24px-2,.margin-bottom-24px-3,.pg-head p,.list-2 li,.about-andrew p){font-size:16px;line-height:26px;font-weight:400}
+@media (max-width:767px){body :is(h1,h2.as-h1){font-size:30px;line-height:36px}}
+
+/* About: core values block stays inside the screen, with even spacing. */
+.hero-stack .hero-wrapper-two{max-width:760px;padding:0 20px;box-sizing:border-box}
+.hero-stack h2.as-h1{margin:0 0 20px}
+.hero-stack .margin-bottom-24px.center-align{min-width:0;width:auto;max-width:100%;margin:0 0 24px;text-align:center}
+.hero-stack .container-2{width:100%;max-width:100%;margin:0 0 40px;padding:0}
+.hero-stack .list-2{margin:0;padding-left:20px;text-align:left}
+.hero-stack .list-2 li{max-width:none;margin:0 0 14px}
+.hero-stack .list-2 li:last-child{margin-bottom:0}
+.about-andrew{margin:0;width:100%}
+.about-andrew-img{display:block;width:100%;height:auto;border-radius:6px}
+.about-andrew figcaption{margin-top:24px;text-align:center}
+.about-andrew h3{margin:0 0 8px}
+.about-andrew p{margin:0}

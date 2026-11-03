@@ -23,12 +23,12 @@ Images and the original Webflow stylesheet live in `assets/`. The site no longer
 
 ## Project galleries
 
-The Commercial and Residential pages each show every project as its own section (a "Projects" jump list at the top, 8 photos per project with a "Show all" button, and a lightbox that pages through that project only). The old category pages under `/images-commercial/` and `/images-residential/` redirect to these sections (`_redirects`).
+The Commercial and Residential pages each show a heading, a short intro, and one grid of every photo (4 across on desktop), with a thin line between projects. The lightbox pages through every photo on the page. Each project line keeps its id, so the old category pages under `/images-commercial/` and `/images-residential/` still redirect to the right spot (`_redirects`).
 
 To add a project:
 
 1. `python3 scripts/add_project_photos.py "<folder of photos>" <project-slug>` makes `assets/<slug>-NN.webp` and `-thumb.webp` files.
-2. Add the project (id, name, type, photos) to `scripts/galleries.json`, in the order it should appear. The first 8 photos are the ones shown before "Show all".
+2. Add the project (id, name, type, photos) to `scripts/galleries.json`, in the order it should appear. The page heading and intro text live in the same file.
 3. `python3 scripts/build_galleries.py` rewrites the galleries on both pages.
 
 ## Adding other photos
