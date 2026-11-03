@@ -7,14 +7,8 @@ Static copy of makeachangehomes.ca, mirrored from the old Webflow site and hoste
 | URL | File |
 | --- | --- |
 | `/` | `index.html` |
-| `/home-showcase` (Residential) | `home-showcase.html` |
-| `/images-residential/rebuilt-homes` | `images-residential/rebuilt-homes.html` |
-| `/images-residential/basements` | `images-residential/basements.html` |
-| `/commercial-showcase` (Commercial) | `commercial-showcase.html` |
-| `/images-commercial/office` | `images-commercial/office.html` |
-| `/images-commercial/restaurants` | `images-commercial/restaurants.html` |
-| `/images-commercial/healthcare` | `images-commercial/healthcare.html` |
-| `/images-commercial/education` | `images-commercial/education.html` |
+| `/home-showcase` (Residential, all residential projects) | `home-showcase.html` |
+| `/commercial-showcase` (Commercial, all commercial projects) | `commercial-showcase.html` |
 | `/about-us` | `about-us.html` |
 | `/contact-us` | `contact-us.html` |
 | 404 | `404.html` |
@@ -27,7 +21,17 @@ Images and the original Webflow stylesheet live in `assets/`. The site no longer
 - `_headers`: tells Cloudflare to let browsers cache `assets/` and `fonts/` for a year.
 - `sitemap.xml` and `robots.txt`: for search engines. Add any new page to `sitemap.xml`.
 
-## Adding photos
+## Project galleries
+
+The Commercial and Residential pages each show every project as its own section (a "Projects" jump list at the top, 8 photos per project with a "Show all" button, and a lightbox that pages through that project only). The old category pages under `/images-commercial/` and `/images-residential/` redirect to these sections (`_redirects`).
+
+To add a project:
+
+1. `python3 scripts/add_project_photos.py "<folder of photos>" <project-slug>` makes `assets/<slug>-NN.webp` and `-thumb.webp` files.
+2. Add the project (id, name, type, photos) to `scripts/galleries.json`, in the order it should appear. The first 8 photos are the ones shown before "Show all".
+3. `python3 scripts/build_galleries.py` rewrites the galleries on both pages.
+
+## Adding other photos
 
 Put the JPG/PNG in `assets/`, reference it from the page, then run `python3 scripts/optimize_images.py`. It makes a WebP copy (and a small `-thumb.webp` for gallery tiles) and points the pages at it. Because assets are cached for a year, give a changed photo a new file name rather than overwriting an old one.
 
