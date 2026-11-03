@@ -6,7 +6,7 @@ WEB3FORMS_KEY = "YOUR_WEB3FORMS_ACCESS_KEY"
 
 FOOTER_OLD = re.compile(r'(<div class="footer-copyright">)© 2024 Make A Change Homes\. All rights reserved\. Proudly created by dmtechnology\.ca\s*(</div>)')
 FOOTER_NEW = (r'\1© <span class="js-year">2026</span> Make A Change Homes. All rights reserved. '
-              r'Made with <span role="img" aria-label="love">🧡</span> by '
+              r'Made with <span role="img" aria-label="love">🤍</span> by '
               r'<a href="https://daedalus.productions" target="_blank" rel="noopener" class="footer-credit">daedalus</a>\2')
 
 HEAD_EXTRA = """<style>
