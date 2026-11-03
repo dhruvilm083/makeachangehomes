@@ -116,8 +116,10 @@
       img.src = set[index].getAttribute('href');
       img.alt = altOf(set[index]);
       count.textContent = (label ? label + ' \u00b7 ' : '') + (index + 1) + ' of ' + set.length;
-      var next = new Image();
-      next.src = set[(index + 1) % set.length].getAttribute('href');
+      // Fetch the photos either side so swiping feels instant.
+      [1, -1, 2].forEach(function (d) {
+        new Image().src = set[(index + d + set.length) % set.length].getAttribute('href');
+      });
     };
     var onKey = function (e) {
       if (e.key === 'Escape') close();
@@ -160,6 +162,43 @@
         });
       }
       t.addEventListener('click', function (e) { e.preventDefault(); open(t); });
+    });
+  }
+
+  // ---- Faster photos --------------------------------------------------
+  // Skip the extra downloads when the visitor asked to save data or is on a very slow line.
+  var conn = navigator.connection || {};
+  var roomy = !conn.saveData && !/(^|-)2g$/.test(conn.effectiveType || '');
+  var whenIdle = function (fn) {
+    window.addEventListener('load', function () {
+      (window.requestIdleCallback || function (f) { setTimeout(f, 300); })(fn);
+    });
+  };
+  // Gallery pages: once the first rows are in, keep loading the rest a few at a
+  // time in page order, so photos are already there when you scroll to them.
+  var lazy = [].slice.call(document.querySelectorAll('.pg-item img[loading="lazy"]'));
+  if (lazy.length && roomy) {
+    whenIdle(function () {
+      var next = function () {
+        var im = lazy.shift();
+        if (!im) return;
+        if (im.complete) return next();
+        im.addEventListener('load', next, { once: true });
+        im.addEventListener('error', next, { once: true });
+        im.loading = 'eager';
+      };
+      for (var n = 0; n < 4; n++) next();
+    });
+  }
+  // Home page: warm up both gallery pages and their first photos in the background.
+  if (document.querySelector('.homepage-logo') && roomy && window.fetch) {
+    whenIdle(function () {
+      ['/home-showcase', '/commercial-showcase'].forEach(function (url) {
+        fetch(url, { credentials: 'same-origin' }).then(function (r) { return r.text(); }).then(function (html) {
+          var re = /<img src="(\/assets\/[^"]+-thumb\.webp)"/g, m, n = 0;
+          while ((m = re.exec(html)) && n++ < 16) new Image().src = m[1];
+        }).catch(function () {});
+      });
     });
   }
 

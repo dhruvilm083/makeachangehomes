@@ -40,6 +40,9 @@ body>.footer-subscribe{margin-top:auto}
 .homepage-logo img{animation:mach-rise 1.5s ease-out both,mach-fade 1.5s ease-out .5s both}
 /* The logo comes to rest in the middle of the space between the header and the footer. */
 .section:has(> .homepage-logo){flex:1 0 auto;display:flex;flex-direction:column;justify-content:center;align-items:stretch;margin:0;padding:100px 20px 0;box-sizing:border-box}
+/* Both logo images are absolutely positioned, so give the box the logo's own shape:
+   that keeps it full width and lets the section centre it vertically. */
+.section > .homepage-logo{width:100%;box-sizing:border-box;aspect-ratio:352.84/76.02}
 @media (prefers-reduced-motion:reduce){.homepage-logo img{animation:none;opacity:1!important;transform:none!important}}
 
 /* Showcase tiles: on desktop the label slides in on hover (was a Webflow interaction). */
