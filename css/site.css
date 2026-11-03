@@ -10,8 +10,8 @@
 
 /* Footer */
 .footer-credit{color:inherit;text-decoration:underline}
-.footer-copyright{width:100%;flex:1 1 auto;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px 24px}
-.footer-made{margin-left:auto}
+.footer-copyright{width:100%;flex:1 1 auto;display:flex;flex-direction:column;align-items:center;text-align:center;gap:6px}
+.footer-made{margin:0}
 
 /* Navigation: hides while scrolling down, comes back when scrolling up. */
 .navbar-logo-left-container.shadow-three{transition:transform .5s ease-in-out}
@@ -131,7 +131,7 @@ h1:where(.as-h2){font-size:32px;line-height:36px}
 @media (max-width:767px){.hero-stack-2:has(+ .pg-wrap){padding:100px 20px 10px!important}}
 
 /* Spacing pass: less dead space between sections on every page. */
-.footer-subscribe{padding-top:20px!important;padding-bottom:24px!important}
+.footer-subscribe{padding-top:20px!important;padding-bottom:24px!important;min-height:0!important;height:auto!important}
 .footer-subscribe .footer-divider-two{margin:0 0 20px}
 .hero-without-image{margin-top:0!important;padding-top:110px!important;padding-bottom:40px!important}
 .hero-stack,.hero-without-image-2,.testimonial-slider-large{padding-top:50px!important;padding-bottom:50px!important}
