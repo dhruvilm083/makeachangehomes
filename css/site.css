@@ -118,3 +118,7 @@ h1:where(.as-h2){font-size:32px;line-height:36px}
 @media (max-width:991px){.pg-grid{grid-template-columns:repeat(3,1fr)}.pg-grid.is-collapsed .pg-item:nth-child(n+7){display:none}}
 @media (max-width:767px){.pg-grid{grid-template-columns:repeat(2,1fr);gap:10px}.pg-project{padding-top:34px}.pg-project-head h2{font-size:26px;line-height:32px}}
 @media (prefers-reduced-motion:reduce){.pg-item img,.pg-item::after{transition:none}}
+/* Commercial page: projects come first (clear the fixed nav), client logos sit below them. */
+.sr-only + .pg-wrap{padding-top:110px}
+.pg-wrap ~ .logos-title-small{padding-top:10px!important;border-bottom:0}
+@media (max-width:767px){.sr-only + .pg-wrap{padding-top:80px}}

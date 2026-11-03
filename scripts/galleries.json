@@ -97,8 +97,8 @@
    ]
   },
   {
-   "id": "office",
-   "name": "Office Build-Out",
+   "id": "kad-consulting",
+   "name": "KAD Consulting Services",
    "type": "Offices",
    "photos": [
     {"thumb": "63e0798e1693d14ef312e5b6_IMG_1923-thumb.webp", "full": "63e0798e1693d14ef312e5b6_IMG_1923.webp"},
@@ -162,8 +162,8 @@
    ]
   },
   {
-   "id": "restaurant",
-   "name": "Restaurant",
+   "id": "barcelos",
+   "name": "Barcelos Flame Grilled Chicken",
    "type": "Restaurant",
    "photos": [
     {"thumb": "63e07abaa0956f437a92ad9d_IMG_1603-thumb.webp", "full": "63e07abaa0956f437a92ad9d_IMG_1603.webp"},
@@ -177,8 +177,8 @@
    ]
   },
   {
-   "id": "nova-clinic",
-   "name": "Nova",
+   "id": "nova-naturopathic",
+   "name": "Nova Naturopathic",
    "type": "Clinic",
    "photos": [
     {"thumb": "nova-clinic-02-thumb.webp", "full": "nova-clinic-02.webp"},
@@ -192,8 +192,8 @@
    ]
   },
   {
-   "id": "healthcare",
-   "name": "Healthcare Clinic",
+   "id": "taralake-medical-clinic",
+   "name": "Taralake Medical Clinic",
    "type": "Clinic",
    "photos": [
     {"thumb": "63e07918c6567ad37358b35b_IMG_1897-thumb.webp", "full": "63e07918c6567ad37358b35b_IMG_1897.webp"},
@@ -233,24 +233,8 @@
    ]
   },
   {
-   "id": "daycare-centre",
-   "name": "Daycare Centre",
-   "type": "Daycare",
-   "photos": [
-    {"thumb": "daycare-centre-02-thumb.webp", "full": "daycare-centre-02.webp"},
-    {"thumb": "daycare-centre-05-thumb.webp", "full": "daycare-centre-05.webp"},
-    {"thumb": "daycare-centre-08-thumb.webp", "full": "daycare-centre-08.webp"},
-    {"thumb": "daycare-centre-03-thumb.webp", "full": "daycare-centre-03.webp"},
-    {"thumb": "daycare-centre-04-thumb.webp", "full": "daycare-centre-04.webp"},
-    {"thumb": "daycare-centre-09-thumb.webp", "full": "daycare-centre-09.webp"},
-    {"thumb": "daycare-centre-01-thumb.webp", "full": "daycare-centre-01.webp"},
-    {"thumb": "daycare-centre-06-thumb.webp", "full": "daycare-centre-06.webp"},
-    {"thumb": "daycare-centre-07-thumb.webp", "full": "daycare-centre-07.webp"}
-   ]
-  },
-  {
-   "id": "daycare-education",
-   "name": "Daycare & Education",
+   "id": "kidzpen",
+   "name": "KidzPen",
    "type": "Daycare",
    "photos": [
     {"thumb": "63e07809cc6c48788657002f_IMG_2077-thumb.webp", "full": "63e07809cc6c48788657002f_IMG_2077.webp"},
@@ -268,7 +252,16 @@
     {"thumb": "63e078af11b873555dbdadb5_IMG_2124-thumb.webp", "full": "63e078af11b873555dbdadb5_IMG_2124.webp"},
     {"thumb": "63e07d8e6bf1b15ae689af4b_IMG_2125-thumb.webp", "full": "63e07d8e6bf1b15ae689af4b_IMG_2125.webp"},
     {"thumb": "63e078bc6bf1b1df7e89493d_IMG_2127-thumb.webp", "full": "63e078bc6bf1b1df7e89493d_IMG_2127.webp"},
-    {"thumb": "63e078c8678a1729c331ca3a_IMG_2129-thumb.webp", "full": "63e078c8678a1729c331ca3a_IMG_2129.webp"}
+    {"thumb": "63e078c8678a1729c331ca3a_IMG_2129-thumb.webp", "full": "63e078c8678a1729c331ca3a_IMG_2129.webp"},
+    {"thumb": "daycare-centre-02-thumb.webp", "full": "daycare-centre-02.webp"},
+    {"thumb": "daycare-centre-05-thumb.webp", "full": "daycare-centre-05.webp"},
+    {"thumb": "daycare-centre-08-thumb.webp", "full": "daycare-centre-08.webp"},
+    {"thumb": "daycare-centre-03-thumb.webp", "full": "daycare-centre-03.webp"},
+    {"thumb": "daycare-centre-04-thumb.webp", "full": "daycare-centre-04.webp"},
+    {"thumb": "daycare-centre-09-thumb.webp", "full": "daycare-centre-09.webp"},
+    {"thumb": "daycare-centre-01-thumb.webp", "full": "daycare-centre-01.webp"},
+    {"thumb": "daycare-centre-06-thumb.webp", "full": "daycare-centre-06.webp"},
+    {"thumb": "daycare-centre-07-thumb.webp", "full": "daycare-centre-07.webp"}
    ]
   }
  ],
