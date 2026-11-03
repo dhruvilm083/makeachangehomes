@@ -23,7 +23,7 @@ Images, CSS and Webflow's runtime JS live in `assets/`. `js/site.js` keeps the f
 
 ## Contact form
 
-The form posts to [Web3Forms](https://web3forms.com) (free). Replace `YOUR_WEB3FORMS_ACCESS_KEY` in `contact-us.html` with the access key for andrew@makeachangehomes.ca. The key is meant to be public.
+The form posts to [Web3Forms](https://web3forms.com) (free). The access key in `contact-us.html` belongs to the Web3Forms account for the business email; it is meant to be public.
 
 ## Deploying
 
