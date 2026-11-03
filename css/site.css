@@ -98,15 +98,15 @@ h1:where(.as-h2){font-size:32px;line-height:36px}
 
 /* Project galleries on the Commercial and Residential pages (built by scripts/build_galleries.py). */
 .pg-wrap{width:100%;max-width:1200px;margin:0 auto;padding:10px 20px 0;box-sizing:border-box}
-.pg-jump{border-bottom:1px solid #e4e4e4;padding:8px 0 20px;margin:0}
+.pg-jump{border-bottom:1px solid #e4e4e4;padding:10px 0 20px;margin:0}
 .pg-jump-title{font-size:14px;line-height:20px;letter-spacing:.08em;text-transform:uppercase;color:#777;margin:0 0 10px}
 .pg-jump ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px}
 .pg-jump li{margin:0}
 .pg-jump a{display:inline-block;padding:7px 14px;border:1px solid #d6d6d6;border-radius:999px;color:#212121;text-decoration:none;font-size:15px;line-height:20px;transition:border-color .2s,color .2s,background-color .2s}
 .pg-jump a:hover,.pg-jump a:focus-visible{border-color:#a20e15;color:#a20e15}
-.pg-project{padding:36px 0 24px;scroll-margin-top:24px}
+.pg-project{padding:24px 0;scroll-margin-top:100px}
 .pg-project + .pg-project{border-top:1px solid #eee}
-.pg-project-head{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:4px 16px;margin:0 0 18px}
+.pg-project-head{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:4px 16px;margin:0 0 24px}
 .pg-project-head h2{margin:0;font-size:30px;line-height:36px}
 .pg-meta{margin:0;color:#777;font-size:15px;line-height:20px}
 .pg-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
@@ -121,7 +121,7 @@ h1:where(.as-h2){font-size:32px;line-height:36px}
 .pg-more:hover,.pg-more:focus-visible{background:#212121;color:#fff}
 .pg-wrap .gallery-cta{padding-top:50px}
 @media (max-width:991px){.pg-grid{grid-template-columns:repeat(3,1fr)}.pg-grid.is-collapsed .pg-item:nth-child(n+7){display:none}}
-@media (max-width:767px){.pg-grid{grid-template-columns:repeat(2,1fr);gap:10px}.pg-project{padding-top:34px}.pg-project-head h2{font-size:26px;line-height:32px}}
+@media (max-width:767px){.pg-grid{grid-template-columns:repeat(2,1fr);gap:10px}.pg-project-head h2{font-size:26px;line-height:32px}}
 @media (prefers-reduced-motion:reduce){.pg-item img,.pg-item::after{transition:none}}
 /* Commercial page: projects come first (clear the fixed nav), client logos sit below them. */
 .sr-only + .pg-wrap{padding-top:110px}
@@ -129,7 +129,7 @@ h1:where(.as-h2){font-size:32px;line-height:36px}
 .pg-wrap ~ .logos-title-small + .footer-subscribe{padding-top:0}
 .pg-wrap ~ .logos-title-small .grid-logos{padding-top:0;padding-bottom:0}
 .pg-wrap:has(~ .logos-title-small) .gallery-cta{padding-bottom:30px}
-@media (max-width:767px){.sr-only + .pg-wrap{padding-top:80px}}
+
 /* Residential page: tighter intro, one divider line before the project list. */
 .hero-stack-2:has(+ .pg-wrap){padding:130px 30px 10px!important;border-bottom:0}
 .hero-stack-2:has(+ .pg-wrap) .margin-bottom-24px-2{margin-bottom:0}
