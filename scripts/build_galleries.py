@@ -1,9 +1,9 @@
-"""Write the project galleries into the Commercial and Residential pages.
+"""Write the photo galleries into the Commercial and Residential pages.
 
-The list of projects and their photos lives in scripts/galleries.json. Each
-project becomes its own section on the page, with a "jump to project" list at
-the top. Edit the JSON (add, rename, reorder projects or photos), then run
-from the repo root:
+Everything lives in scripts/galleries.json: each page has a title, a short
+intro, and its projects in order. The page shows one grid of every photo,
+with a thin line between projects. Edit the JSON (add, rename, reorder
+projects or photos), then run from the repo root:
 
     python3 scripts/build_galleries.py
 
@@ -13,46 +13,34 @@ Only the part of each page between <!-- projects:start --> and
 import html, json, re
 
 PAGES = {'commercial': 'commercial-showcase.html', 'residential': 'home-showcase.html'}
-SHOWN = 8  # photos visible before "Show all"
 
 def esc(s):
     return html.escape(s, quote=True)
 
-def section(p):
-    n = len(p['photos'])
-    items = []
-    for i, ph in enumerate(p['photos'], 1):
-        alt = f"{p['name']}, photo {i} of {n}"
-        items.append(
-            f'<a class="pg-item" href="/assets/{esc(ph["full"])}">'
-            f'<img src="/assets/{esc(ph["thumb"])}" loading="lazy" decoding="async" alt="{esc(alt)}"/></a>')
-    more = ''
-    if n > SHOWN:
-        more = (f'<button type="button" class="pg-more" aria-expanded="false" '
-                f'data-more="Show all {n} photos" data-less="Show fewer photos">Show all {n} photos</button>')
-    return (
-        f'<section class="pg-project" id="{esc(p["id"])}" data-gallery="{esc(p["name"])}">'
-        f'<div class="pg-project-head"><h2>{esc(p["name"])}</h2>'
-        f'<p class="pg-meta">{esc(p["type"])} &middot; {n} photo{"s" if n != 1 else ""}</p></div>'
-        f'<div class="pg-grid{" is-collapsed" if n > SHOWN else ""}">{"".join(items)}</div>{more}</section>')
-
-def block(projects):
-    jump = ''.join(
-        f'<li><a href="#{esc(p["id"])}">{esc(p["name"])}</a></li>' for p in projects)
+def block(page):
+    parts = []
+    for i, p in enumerate(page['projects']):
+        # A line between projects. Its id keeps old links like #kidzpen working.
+        parts.append(f'<div class="pg-sep{" pg-sep-first" if i == 0 else ""}" id="{esc(p["id"])}" role="presentation"></div>')
+        n = len(p['photos'])
+        for j, ph in enumerate(p['photos'], 1):
+            alt = f"{p['name']}, photo {j} of {n}"
+            parts.append(
+                f'<a class="pg-item" href="/assets/{esc(ph["full"])}">'
+                f'<img src="/assets/{esc(ph["thumb"])}" loading="lazy" decoding="async" alt="{esc(alt)}"/></a>')
     return (
         '<div class="pg-wrap">'
-        f'<nav class="pg-jump" aria-label="Projects on this page"><h2 class="pg-jump-title">Projects</h2><ul>{jump}</ul></nav>'
-        + ''.join(section(p) for p in projects)
-        + '<div class="gallery-cta"><p>Like what you see? Let&#x27;s talk about your project.</p>'
-          '<a href="/contact-us" class="button-primary-2 w-button">Contact us</a></div>'
+        f'<header class="pg-head"><h1>{esc(page["title"])}</h1><p>{esc(page["intro"])}</p></header>'
+        f'<div class="pg-grid">{"".join(parts)}</div>'
         '</div>')
 
 data = json.load(open('scripts/galleries.json'))
-for key, page in PAGES.items():
-    s = open(page).read()
+for key, file in PAGES.items():
+    s = open(file).read()
     s, n = re.subn(r'<!-- projects:start -->.*?<!-- projects:end -->',
                    lambda m: '<!-- projects:start -->' + block(data[key]) + '<!-- projects:end -->',
                    s, flags=re.S)
-    assert n == 1, page + ' is missing the projects markers'
-    open(page, 'w').write(s)
-    print(page, len(data[key]), 'projects,', sum(len(p['photos']) for p in data[key]), 'photos')
+    assert n == 1, file + ' is missing the projects markers'
+    open(file, 'w').write(s)
+    ps = data[key]['projects']
+    print(file, len(ps), 'projects,', sum(len(p['photos']) for p in ps), 'photos')
