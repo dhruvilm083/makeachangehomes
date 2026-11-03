@@ -1,0 +1,11 @@
+# Cloudflare Pages response headers.
+# Photos, fonts and the Webflow stylesheet never change in place (new files get new names),
+# so browsers can keep them for a year. HTML, /css and /js keep the default (always revalidate).
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin

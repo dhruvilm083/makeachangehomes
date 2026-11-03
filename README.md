@@ -19,7 +19,17 @@ Static copy of makeachangehomes.ca, mirrored from the old Webflow site and hoste
 | `/contact-us` | `contact-us.html` |
 | 404 | `404.html` |
 
-Images, CSS and Webflow's runtime JS live in `assets/`. `js/site.js` keeps the footer year current and sends the contact form.
+Images and the original Webflow stylesheet live in `assets/`. The site no longer loads Webflow's runtime, jQuery or any third-party scripts:
+
+- `css/site.css`: everything added on top of the Webflow stylesheet (self-hosted fonts, phone menu, hover effects, lightbox, gallery headings, contact layout).
+- `js/site.js`: phone menu, hide-on-scroll navigation, photo lightbox, testimonial slider, footer year, and the contact form.
+- `fonts/`: Droid Sans and Oswald, self-hosted.
+- `_headers`: tells Cloudflare to let browsers cache `assets/` and `fonts/` for a year.
+- `sitemap.xml` and `robots.txt`: for search engines. Add any new page to `sitemap.xml`.
+
+## Adding photos
+
+Put the JPG/PNG in `assets/`, reference it from the page, then run `python3 scripts/optimize_images.py`. It makes a WebP copy (and a small `-thumb.webp` for gallery tiles) and points the pages at it. Because assets are cached for a year, give a changed photo a new file name rather than overwriting an old one.
 
 ## Contact form
 
