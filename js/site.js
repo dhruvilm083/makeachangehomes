@@ -62,9 +62,12 @@
   }
 
   // ---- Photo lightbox ---------------------------------------------------
-  var thumbs = Array.prototype.slice.call(document.querySelectorAll('.skate-img[href]'));
-  if (thumbs.length) {
-    var box, img, count, index = 0, lastFocus = null, touchX = null;
+  // Tiles are .pg-item links (project galleries) or older .skate-img[href]
+  // images. Arrows and swipes stay inside the tile's project
+  // (the nearest [data-gallery]); the caption names the project.
+  var tiles = Array.prototype.slice.call(document.querySelectorAll('a.pg-item, .skate-img[href]'));
+  if (tiles.length) {
+    var box, img, count, set = [], label = '', index = 0, lastFocus = null, touchX = null;
 
     var build = function () {
       box = document.createElement('div');
@@ -94,13 +97,17 @@
       });
       document.body.appendChild(box);
     };
+    var altOf = function (t) {
+      var i = t.tagName === 'IMG' ? t : t.querySelector('img');
+      return (i && i.getAttribute('alt')) || '';
+    };
     var show = function (i) {
-      index = (i + thumbs.length) % thumbs.length;
-      img.src = thumbs[index].getAttribute('href');
-      img.alt = thumbs[index].getAttribute('alt') || '';
-      count.textContent = (index + 1) + ' of ' + thumbs.length;
+      index = (i + set.length) % set.length;
+      img.src = set[index].getAttribute('href');
+      img.alt = altOf(set[index]);
+      count.textContent = (label ? label + ' \u00b7 ' : '') + (index + 1) + ' of ' + set.length;
       var next = new Image();
-      next.src = thumbs[(index + 1) % thumbs.length].getAttribute('href');
+      next.src = set[(index + 1) % set.length].getAttribute('href');
     };
     var onKey = function (e) {
       if (e.key === 'Escape') close();
@@ -113,10 +120,13 @@
         else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
       }
     };
-    var open = function (i) {
+    var open = function (t) {
       if (!box) build();
+      var group = t.closest('[data-gallery]');
+      set = group ? tiles.filter(function (x) { return group.contains(x); }) : tiles;
+      label = group ? group.getAttribute('data-gallery') : '';
       lastFocus = document.activeElement;
-      show(i);
+      show(set.indexOf(t));
       box.style.display = 'flex';
       requestAnimationFrame(function () { box.classList.add('is-open'); });
       document.body.classList.add('no-scroll');
@@ -131,15 +141,29 @@
       if (lastFocus) lastFocus.focus();
     }
 
-    thumbs.forEach(function (t, i) {
-      t.setAttribute('role', 'button');
-      t.setAttribute('tabindex', '0');
-      t.addEventListener('click', function (e) { e.preventDefault(); open(i); });
-      t.addEventListener('keydown', function (e) {
-        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(i); }
-      });
+    tiles.forEach(function (t) {
+      if (t.tagName === 'IMG') {
+        t.setAttribute('role', 'button');
+        t.setAttribute('tabindex', '0');
+        t.addEventListener('keydown', function (e) {
+          if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(t); }
+        });
+      }
+      t.addEventListener('click', function (e) { e.preventDefault(); open(t); });
     });
   }
+
+  // ---- Project galleries: "Show all photos" -----------------------------
+  document.querySelectorAll('.pg-more').forEach(function (b) {
+    var grid = b.previousElementSibling;
+    b.addEventListener('click', function () {
+      var opening = grid.classList.contains('is-collapsed');
+      grid.classList.toggle('is-collapsed', !opening);
+      b.setAttribute('aria-expanded', opening ? 'true' : 'false');
+      b.textContent = b.getAttribute(opening ? 'data-less' : 'data-more');
+      if (!opening) b.closest('.pg-project').scrollIntoView({ block: 'start' });
+    });
+  });
 
   // ---- Testimonial slider -----------------------------------------------
   document.querySelectorAll('.w-slider').forEach(function (slider) {
