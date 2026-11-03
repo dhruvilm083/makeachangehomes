@@ -38,6 +38,8 @@ body>.footer-subscribe{margin-top:auto}
 @keyframes mach-rise{from{transform:translate3d(0,100px,0)}to{transform:none}}
 @keyframes mach-fade{from{opacity:0}to{opacity:1}}
 .homepage-logo img{animation:mach-rise 1.5s ease-out both,mach-fade 1.5s ease-out .5s both}
+/* The logo comes to rest in the middle of the space between the header and the footer. */
+.section:has(> .homepage-logo){flex:1 0 auto;display:flex;flex-direction:column;justify-content:center;align-items:stretch;margin:0;padding:100px 20px 0;box-sizing:border-box}
 @media (prefers-reduced-motion:reduce){.homepage-logo img{animation:none;opacity:1!important;transform:none!important}}
 
 /* Showcase tiles: on desktop the label slides in on hover (was a Webflow interaction). */
@@ -81,7 +83,7 @@ body>.footer-subscribe{margin-top:auto}
 .form-wrapper{margin:0 0 15px}
 .contact-layout{display:flex;gap:56px;align-items:flex-start}
 .contact-layout .form-wrapper{flex:1 1 60%;min-width:0}
-.contact-details{flex:0 0 320px;padding:28px;border:1px solid #e4e4e4;border-radius:6px;margin-top:118px}
+.contact-details{flex:0 0 320px;padding:28px;border:1px solid #e4e4e4;border-radius:6px;margin-top:110px}
 .contact-details h2{font-size:22px;line-height:28px;margin:0 0 16px}
 .contact-details .list{list-style:none;padding:0;margin:0 0 16px}
 .contact-details .list li{list-style:none;text-align:left;margin:0 0 10px;font-size:16px;line-height:26px}
@@ -137,7 +139,7 @@ h1:where(.as-h2){font-size:32px;line-height:36px}
 .hero-stack .hero-wrapper-two,.hero-without-image .hero-wrapper-two{margin-bottom:0}
 /* Contact: the whole form fits on a laptop screen. */
 .section-7{padding-top:0!important;padding-bottom:10px!important}
-.section-7 .form-wrapper{padding-top:100px!important;padding-bottom:10px!important}
+.section-7 .form-wrapper{padding-top:110px!important;padding-bottom:10px!important}
 .section-7 .heading-17{margin:0 0 10px}
 .section-7 .w-input,.section-7 .w-select{margin-bottom:8px}
 .section-7 .field-label{margin-bottom:3px}
@@ -167,3 +169,16 @@ body :is(.paragraph-3,.margin-bottom-24px,.margin-bottom-24px-2,.margin-bottom-2
 .about-andrew figcaption{margin-top:24px;text-align:center}
 .about-andrew h3{margin:0 0 8px}
 .about-andrew p{margin:0}
+
+/* Temporary photo-order editor (?edit). Remove with js/gallery-editor.js. */
+.pg-editing .pg-item{cursor:grab}
+.pg-editing .pg-item img{pointer-events:none;-webkit-user-drag:none}
+.pg-editing .pg-sep{height:10px;margin:4px 0;background:repeating-linear-gradient(90deg,#a20e15 0 8px,transparent 8px 14px);cursor:grab}
+.pg-editing .pg-sep-first{height:10px}
+.pg-editing .is-dragging{opacity:.35}
+.pg-bin{position:absolute;top:8px;right:8px;z-index:2;width:34px;height:34px;border:0;border-radius:50%;background:rgba(255,255,255,.92);color:#a20e15;display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.25)}
+.pg-bin:hover{background:#a20e15;color:#fff}
+.pg-editbar{position:fixed;left:16px;bottom:16px;z-index:950;display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;max-width:calc(100vw - 32px);padding:10px 14px;background:#212121;color:#fff;border-radius:10px;font-size:14px;box-shadow:0 6px 20px rgba(0,0,0,.25)}
+.pg-editbar button{background:#fff;color:#212121;border:0;border-radius:6px;padding:6px 10px;font:inherit;cursor:pointer}
+.pg-editbar button:disabled{opacity:.4;cursor:default}
+.pg-editing .contact-fab{display:none}

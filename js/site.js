@@ -163,6 +163,13 @@
     });
   }
 
+  // ---- Temporary photo-order editor: only with ?edit in the address ----
+  if (/[?&]edit\b/.test(location.search) && document.querySelector('.pg-grid')) {
+    var ed = document.createElement('script');
+    ed.src = '/js/gallery-editor.js';
+    document.body.appendChild(ed);
+  }
+
   // ---- Pinned contact button: steps aside while the footer is on screen --
   var fab = document.querySelector('.contact-fab');
   var foot = document.querySelector('.footer-subscribe');
