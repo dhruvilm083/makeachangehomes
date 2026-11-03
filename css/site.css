@@ -99,7 +99,7 @@ h1:where(.as-h2){font-size:32px;line-height:36px}
 .pg-jump li{margin:0}
 .pg-jump a{display:inline-block;padding:7px 14px;border:1px solid #d6d6d6;border-radius:999px;color:#212121;text-decoration:none;font-size:15px;line-height:20px;transition:border-color .2s,color .2s,background-color .2s}
 .pg-jump a:hover,.pg-jump a:focus-visible{border-color:#a20e15;color:#a20e15}
-.pg-project{padding:44px 0 6px;scroll-margin-top:24px}
+.pg-project{padding:44px 0 24px;scroll-margin-top:24px}
 .pg-project + .pg-project{border-top:1px solid #eee}
 .pg-project-head{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:4px 16px;margin:0 0 18px}
 .pg-project-head h2{margin:0;font-size:30px;line-height:36px}
@@ -112,7 +112,7 @@ h1:where(.as-h2){font-size:32px;line-height:36px}
 .pg-item:hover img,.pg-item:focus-visible img{transform:scale(1.04)}
 .pg-item:hover::after,.pg-item:focus-visible::after{opacity:1;transform:none}
 .pg-item:focus-visible{outline:3px solid #a20e15;outline-offset:2px}
-.pg-more{display:block;margin:18px auto 0;padding:10px 22px;background:#fff;border:1px solid #212121;border-radius:4px;color:#212121;font:inherit;font-size:15px;cursor:pointer;transition:background-color .2s,color .2s}
+.pg-more{display:block;margin:24px auto 0;padding:10px 22px;background:#fff;border:1px solid #212121;border-radius:4px;color:#212121;font:inherit;font-size:15px;cursor:pointer;transition:background-color .2s,color .2s}
 .pg-more:hover,.pg-more:focus-visible{background:#212121;color:#fff}
 .pg-wrap .gallery-cta{padding-top:50px}
 @media (max-width:991px){.pg-grid{grid-template-columns:repeat(3,1fr)}.pg-grid.is-collapsed .pg-item:nth-child(n+7){display:none}}
