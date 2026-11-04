@@ -113,61 +113,6 @@
         ]
       },
       {
-        "id": "kad-consulting",
-        "name": "KAD Consulting Services",
-        "type": "Offices",
-        "photos": [
-          {
-            "thumb": "63e079d56af00b6e0b62cccf_IMG_1955-thumb.webp",
-            "full": "63e079d56af00b6e0b62cccf_IMG_1955.webp"
-          },
-          {
-            "thumb": "63e07a5611b8730a57bdcd61_IMG_2021-Edit-thumb.webp",
-            "full": "63e07a5611b8730a57bdcd61_IMG_2021-Edit.webp"
-          },
-          {
-            "thumb": "63e07a3fd2a0eb12fc01f9f5_IMG_2014-thumb.webp",
-            "full": "63e07a3fd2a0eb12fc01f9f5_IMG_2014.webp"
-          },
-          {
-            "thumb": "63e079e23f86125fe3839676_IMG_1972-thumb.webp",
-            "full": "63e079e23f86125fe3839676_IMG_1972.webp"
-          },
-          {
-            "thumb": "63e07a343f86125c2083a106_IMG_2002-thumb.webp",
-            "full": "63e07a343f86125c2083a106_IMG_2002.webp"
-          },
-          {
-            "thumb": "63e0798e1693d14ef312e5b6_IMG_1923-thumb.webp",
-            "full": "63e0798e1693d14ef312e5b6_IMG_1923.webp"
-          },
-          {
-            "thumb": "63e07a0a3f8612c5e9839961_IMG_1981-thumb.webp",
-            "full": "63e07a0a3f8612c5e9839961_IMG_1981.webp"
-          },
-          {
-            "thumb": "63e079ef4cfa8b2e5e20b642_IMG_1980-thumb.webp",
-            "full": "63e079ef4cfa8b2e5e20b642_IMG_1980.webp"
-          },
-          {
-            "thumb": "63e07a1347ab58eabdb96509_IMG_1983-thumb.webp",
-            "full": "63e07a1347ab58eabdb96509_IMG_1983.webp"
-          },
-          {
-            "thumb": "63e079a810d0b9852c61bb80_IMG_1932-thumb.webp",
-            "full": "63e079a810d0b9852c61bb80_IMG_1932.webp"
-          },
-          {
-            "thumb": "63e079b3ae719f5503c4bf6d_IMG_1934-thumb.webp",
-            "full": "63e079b3ae719f5503c4bf6d_IMG_1934.webp"
-          },
-          {
-            "thumb": "63e079bd3700f05c85da73a0_IMG_1943-thumb.webp",
-            "full": "63e079bd3700f05c85da73a0_IMG_1943.webp"
-          }
-        ]
-      },
-      {
         "id": "3twelve-beauty-lounge",
         "name": "3Twelve Beauty Lounge",
         "type": "Beauty lounge",
@@ -251,6 +196,61 @@
           {
             "full": "3twelve-beauty-lounge-v3-24.webp",
             "thumb": "3twelve-beauty-lounge-v3-24-thumb.webp"
+          }
+        ]
+      },
+      {
+        "id": "kad-consulting",
+        "name": "KAD Consulting Services",
+        "type": "Offices",
+        "photos": [
+          {
+            "thumb": "63e079d56af00b6e0b62cccf_IMG_1955-thumb.webp",
+            "full": "63e079d56af00b6e0b62cccf_IMG_1955.webp"
+          },
+          {
+            "thumb": "63e07a5611b8730a57bdcd61_IMG_2021-Edit-thumb.webp",
+            "full": "63e07a5611b8730a57bdcd61_IMG_2021-Edit.webp"
+          },
+          {
+            "thumb": "63e07a3fd2a0eb12fc01f9f5_IMG_2014-thumb.webp",
+            "full": "63e07a3fd2a0eb12fc01f9f5_IMG_2014.webp"
+          },
+          {
+            "thumb": "63e079e23f86125fe3839676_IMG_1972-thumb.webp",
+            "full": "63e079e23f86125fe3839676_IMG_1972.webp"
+          },
+          {
+            "thumb": "63e07a343f86125c2083a106_IMG_2002-thumb.webp",
+            "full": "63e07a343f86125c2083a106_IMG_2002.webp"
+          },
+          {
+            "thumb": "63e0798e1693d14ef312e5b6_IMG_1923-thumb.webp",
+            "full": "63e0798e1693d14ef312e5b6_IMG_1923.webp"
+          },
+          {
+            "thumb": "63e07a0a3f8612c5e9839961_IMG_1981-thumb.webp",
+            "full": "63e07a0a3f8612c5e9839961_IMG_1981.webp"
+          },
+          {
+            "thumb": "63e079ef4cfa8b2e5e20b642_IMG_1980-thumb.webp",
+            "full": "63e079ef4cfa8b2e5e20b642_IMG_1980.webp"
+          },
+          {
+            "thumb": "63e07a1347ab58eabdb96509_IMG_1983-thumb.webp",
+            "full": "63e07a1347ab58eabdb96509_IMG_1983.webp"
+          },
+          {
+            "thumb": "63e079a810d0b9852c61bb80_IMG_1932-thumb.webp",
+            "full": "63e079a810d0b9852c61bb80_IMG_1932.webp"
+          },
+          {
+            "thumb": "63e079b3ae719f5503c4bf6d_IMG_1934-thumb.webp",
+            "full": "63e079b3ae719f5503c4bf6d_IMG_1934.webp"
+          },
+          {
+            "thumb": "63e079bd3700f05c85da73a0_IMG_1943-thumb.webp",
+            "full": "63e079bd3700f05c85da73a0_IMG_1943.webp"
           }
         ]
       },
