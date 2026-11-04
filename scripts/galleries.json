@@ -91,139 +91,6 @@
         ]
       },
       {
-        "id": "beltline-nails",
-        "name": "Beltline Nails",
-        "type": "Nail salon",
-        "photos": [
-          {
-            "full": "beltline-nails-v3-20.webp",
-            "thumb": "beltline-nails-v3-20-thumb.webp"
-          },
-          {
-            "full": "beltline-nails-v3-02.webp",
-            "thumb": "beltline-nails-v3-02-thumb.webp"
-          },
-          {
-            "full": "beltline-nails-v3-11.webp",
-            "thumb": "beltline-nails-v3-11-thumb.webp"
-          },
-          {
-            "full": "beltline-nails-v3-10.webp",
-            "thumb": "beltline-nails-v3-10-thumb.webp"
-          },
-          {
-            "full": "beltline-nails-v3-05.webp",
-            "thumb": "beltline-nails-v3-05-thumb.webp"
-          },
-          {
-            "full": "beltline-nails-v3-09.webp",
-            "thumb": "beltline-nails-v3-09-thumb.webp"
-          },
-          {
-            "full": "beltline-nails-v3-01.webp",
-            "thumb": "beltline-nails-v3-01-thumb.webp"
-          },
-          {
-            "full": "beltline-nails-v3-12.webp",
-            "thumb": "beltline-nails-v3-12-thumb.webp"
-          },
-          {
-            "full": "beltline-nails-v3-16.webp",
-            "thumb": "beltline-nails-v3-16-thumb.webp"
-          },
-          {
-            "full": "beltline-nails-v3-06.webp",
-            "thumb": "beltline-nails-v3-06-thumb.webp"
-          },
-          {
-            "full": "beltline-nails-v3-08.webp",
-            "thumb": "beltline-nails-v3-08-thumb.webp"
-          },
-          {
-            "full": "beltline-nails-v3-14.webp",
-            "thumb": "beltline-nails-v3-14-thumb.webp"
-          }
-        ]
-      },
-      {
-        "id": "ozy-nails",
-        "name": "Ozy Nails",
-        "type": "Nail salon",
-        "photos": [
-          {
-            "full": "ozy-nails-v3-01.webp",
-            "thumb": "ozy-nails-v3-01-thumb.webp"
-          },
-          {
-            "full": "ozy-nails-v3-04.webp",
-            "thumb": "ozy-nails-v3-04-thumb.webp"
-          },
-          {
-            "full": "ozy-nails-v3-05.webp",
-            "thumb": "ozy-nails-v3-05-thumb.webp"
-          },
-          {
-            "full": "ozy-nails-v3-15.webp",
-            "thumb": "ozy-nails-v3-15-thumb.webp"
-          },
-          {
-            "full": "ozy-nails-v3-10.webp",
-            "thumb": "ozy-nails-v3-10-thumb.webp"
-          },
-          {
-            "full": "ozy-nails-v3-06.webp",
-            "thumb": "ozy-nails-v3-06-thumb.webp"
-          },
-          {
-            "full": "ozy-nails-v3-07.webp",
-            "thumb": "ozy-nails-v3-07-thumb.webp"
-          },
-          {
-            "full": "ozy-nails-v3-11.webp",
-            "thumb": "ozy-nails-v3-11-thumb.webp"
-          }
-        ]
-      },
-      {
-        "id": "niwe-academy",
-        "name": "NIWE Academy",
-        "type": "Training academy",
-        "photos": [
-          {
-            "full": "niwe-academy-v3-07.webp",
-            "thumb": "niwe-academy-v3-07-thumb.webp"
-          },
-          {
-            "full": "niwe-academy-v3-01.webp",
-            "thumb": "niwe-academy-v3-01-thumb.webp"
-          },
-          {
-            "full": "niwe-academy-v3-09.webp",
-            "thumb": "niwe-academy-v3-09-thumb.webp"
-          },
-          {
-            "full": "niwe-academy-v3-11.webp",
-            "thumb": "niwe-academy-v3-11-thumb.webp"
-          },
-          {
-            "full": "niwe-academy-v3-08.webp",
-            "thumb": "niwe-academy-v3-08-thumb.webp"
-          },
-          {
-            "full": "niwe-academy-v3-03.webp",
-            "thumb": "niwe-academy-v3-03-thumb.webp"
-          },
-          {
-            "full": "niwe-academy-v3-05.webp",
-            "thumb": "niwe-academy-v3-05-thumb.webp"
-          },
-          {
-            "full": "niwe-academy-v3-06.webp",
-            "thumb": "niwe-academy-v3-06-thumb.webp"
-          }
-        ]
-      },
-      {
         "id": "rehab-lounge",
         "name": "Rehab Lounge",
         "type": "Lounge",
@@ -311,95 +178,6 @@
         ]
       },
       {
-        "id": "hello-nori",
-        "name": "Hello Nori",
-        "type": "Restaurant",
-        "photos": [
-          {
-            "full": "hello-nori-v3-02.webp",
-            "thumb": "hello-nori-v3-02-thumb.webp"
-          },
-          {
-            "full": "hello-nori-v3-03.webp",
-            "thumb": "hello-nori-v3-03-thumb.webp"
-          }
-        ]
-      },
-      {
-        "id": "nova-naturopathic",
-        "name": "Nova Naturopathic",
-        "type": "Clinic",
-        "photos": [
-          {
-            "full": "nova-naturopathic-v3-02.webp",
-            "thumb": "nova-naturopathic-v3-02-thumb.webp"
-          },
-          {
-            "full": "nova-naturopathic-v3-06.webp",
-            "thumb": "nova-naturopathic-v3-06-thumb.webp"
-          },
-          {
-            "full": "nova-naturopathic-v3-01.webp",
-            "thumb": "nova-naturopathic-v3-01-thumb.webp"
-          },
-          {
-            "full": "nova-naturopathic-v3-03.webp",
-            "thumb": "nova-naturopathic-v3-03-thumb.webp"
-          },
-          {
-            "full": "nova-naturopathic-v3-04.webp",
-            "thumb": "nova-naturopathic-v3-04-thumb.webp"
-          },
-          {
-            "full": "nova-naturopathic-v3-05.webp",
-            "thumb": "nova-naturopathic-v3-05-thumb.webp"
-          },
-          {
-            "full": "nova-naturopathic-v3-08.webp",
-            "thumb": "nova-naturopathic-v3-08-thumb.webp"
-          }
-        ]
-      },
-      {
-        "id": "law-office",
-        "name": "Law Office",
-        "type": "Office",
-        "photos": [
-          {
-            "full": "law-office-v3-06.webp",
-            "thumb": "law-office-v3-06-thumb.webp"
-          },
-          {
-            "full": "law-office-v3-07.webp",
-            "thumb": "law-office-v3-07-thumb.webp"
-          },
-          {
-            "full": "law-office-v3-05.webp",
-            "thumb": "law-office-v3-05-thumb.webp"
-          },
-          {
-            "full": "law-office-v3-01.webp",
-            "thumb": "law-office-v3-01-thumb.webp"
-          },
-          {
-            "full": "law-office-v3-08.webp",
-            "thumb": "law-office-v3-08-thumb.webp"
-          },
-          {
-            "full": "law-office-v3-03.webp",
-            "thumb": "law-office-v3-03-thumb.webp"
-          },
-          {
-            "full": "law-office-v3-04.webp",
-            "thumb": "law-office-v3-04-thumb.webp"
-          },
-          {
-            "full": "law-office-v3-02.webp",
-            "thumb": "law-office-v3-02-thumb.webp"
-          }
-        ]
-      },
-      {
         "id": "kidzpen",
         "name": "KidzPen",
         "type": "Daycare",
@@ -471,6 +249,61 @@
         ]
       },
       {
+        "id": "beltline-nails",
+        "name": "Beltline Nails",
+        "type": "Nail salon",
+        "photos": [
+          {
+            "full": "beltline-nails-v3-20.webp",
+            "thumb": "beltline-nails-v3-20-thumb.webp"
+          },
+          {
+            "full": "beltline-nails-v3-02.webp",
+            "thumb": "beltline-nails-v3-02-thumb.webp"
+          },
+          {
+            "full": "beltline-nails-v3-11.webp",
+            "thumb": "beltline-nails-v3-11-thumb.webp"
+          },
+          {
+            "full": "beltline-nails-v3-10.webp",
+            "thumb": "beltline-nails-v3-10-thumb.webp"
+          },
+          {
+            "full": "beltline-nails-v3-05.webp",
+            "thumb": "beltline-nails-v3-05-thumb.webp"
+          },
+          {
+            "full": "beltline-nails-v3-09.webp",
+            "thumb": "beltline-nails-v3-09-thumb.webp"
+          },
+          {
+            "full": "beltline-nails-v3-01.webp",
+            "thumb": "beltline-nails-v3-01-thumb.webp"
+          },
+          {
+            "full": "beltline-nails-v3-12.webp",
+            "thumb": "beltline-nails-v3-12-thumb.webp"
+          },
+          {
+            "full": "beltline-nails-v3-16.webp",
+            "thumb": "beltline-nails-v3-16-thumb.webp"
+          },
+          {
+            "full": "beltline-nails-v3-06.webp",
+            "thumb": "beltline-nails-v3-06-thumb.webp"
+          },
+          {
+            "full": "beltline-nails-v3-08.webp",
+            "thumb": "beltline-nails-v3-08-thumb.webp"
+          },
+          {
+            "full": "beltline-nails-v3-14.webp",
+            "thumb": "beltline-nails-v3-14-thumb.webp"
+          }
+        ]
+      },
+      {
         "id": "kad-consulting",
         "name": "KAD Consulting Services",
         "type": "Offices",
@@ -522,6 +355,123 @@
           {
             "thumb": "63e079bd3700f05c85da73a0_IMG_1943-thumb.webp",
             "full": "63e079bd3700f05c85da73a0_IMG_1943.webp"
+          }
+        ]
+      },
+      {
+        "id": "ozy-nails",
+        "name": "Ozy Nails",
+        "type": "Nail salon",
+        "photos": [
+          {
+            "full": "ozy-nails-v3-01.webp",
+            "thumb": "ozy-nails-v3-01-thumb.webp"
+          },
+          {
+            "full": "ozy-nails-v3-04.webp",
+            "thumb": "ozy-nails-v3-04-thumb.webp"
+          },
+          {
+            "full": "ozy-nails-v3-05.webp",
+            "thumb": "ozy-nails-v3-05-thumb.webp"
+          },
+          {
+            "full": "ozy-nails-v3-15.webp",
+            "thumb": "ozy-nails-v3-15-thumb.webp"
+          },
+          {
+            "full": "ozy-nails-v3-10.webp",
+            "thumb": "ozy-nails-v3-10-thumb.webp"
+          },
+          {
+            "full": "ozy-nails-v3-06.webp",
+            "thumb": "ozy-nails-v3-06-thumb.webp"
+          },
+          {
+            "full": "ozy-nails-v3-07.webp",
+            "thumb": "ozy-nails-v3-07-thumb.webp"
+          },
+          {
+            "full": "ozy-nails-v3-11.webp",
+            "thumb": "ozy-nails-v3-11-thumb.webp"
+          }
+        ]
+      },
+      {
+        "id": "niwe-academy",
+        "name": "NIWE Academy",
+        "type": "Training academy",
+        "photos": [
+          {
+            "full": "niwe-academy-v3-07.webp",
+            "thumb": "niwe-academy-v3-07-thumb.webp"
+          },
+          {
+            "full": "niwe-academy-v3-01.webp",
+            "thumb": "niwe-academy-v3-01-thumb.webp"
+          },
+          {
+            "full": "niwe-academy-v3-09.webp",
+            "thumb": "niwe-academy-v3-09-thumb.webp"
+          },
+          {
+            "full": "niwe-academy-v3-11.webp",
+            "thumb": "niwe-academy-v3-11-thumb.webp"
+          },
+          {
+            "full": "niwe-academy-v3-08.webp",
+            "thumb": "niwe-academy-v3-08-thumb.webp"
+          },
+          {
+            "full": "niwe-academy-v3-03.webp",
+            "thumb": "niwe-academy-v3-03-thumb.webp"
+          },
+          {
+            "full": "niwe-academy-v3-05.webp",
+            "thumb": "niwe-academy-v3-05-thumb.webp"
+          },
+          {
+            "full": "niwe-academy-v3-06.webp",
+            "thumb": "niwe-academy-v3-06-thumb.webp"
+          }
+        ]
+      },
+      {
+        "id": "law-office",
+        "name": "Law Office",
+        "type": "Office",
+        "photos": [
+          {
+            "full": "law-office-v3-06.webp",
+            "thumb": "law-office-v3-06-thumb.webp"
+          },
+          {
+            "full": "law-office-v3-07.webp",
+            "thumb": "law-office-v3-07-thumb.webp"
+          },
+          {
+            "full": "law-office-v3-05.webp",
+            "thumb": "law-office-v3-05-thumb.webp"
+          },
+          {
+            "full": "law-office-v3-01.webp",
+            "thumb": "law-office-v3-01-thumb.webp"
+          },
+          {
+            "full": "law-office-v3-08.webp",
+            "thumb": "law-office-v3-08-thumb.webp"
+          },
+          {
+            "full": "law-office-v3-03.webp",
+            "thumb": "law-office-v3-03-thumb.webp"
+          },
+          {
+            "full": "law-office-v3-04.webp",
+            "thumb": "law-office-v3-04-thumb.webp"
+          },
+          {
+            "full": "law-office-v3-02.webp",
+            "thumb": "law-office-v3-02-thumb.webp"
           }
         ]
       },
@@ -602,6 +552,56 @@
             "full": "63e0795f1693d1ccea12e27d_IMG_1920-Edit.webp"
           }
         ]
+      },
+      {
+        "id": "nova-naturopathic",
+        "name": "Nova Naturopathic",
+        "type": "Clinic",
+        "photos": [
+          {
+            "full": "nova-naturopathic-v3-02.webp",
+            "thumb": "nova-naturopathic-v3-02-thumb.webp"
+          },
+          {
+            "full": "nova-naturopathic-v3-06.webp",
+            "thumb": "nova-naturopathic-v3-06-thumb.webp"
+          },
+          {
+            "full": "nova-naturopathic-v3-01.webp",
+            "thumb": "nova-naturopathic-v3-01-thumb.webp"
+          },
+          {
+            "full": "nova-naturopathic-v3-03.webp",
+            "thumb": "nova-naturopathic-v3-03-thumb.webp"
+          },
+          {
+            "full": "nova-naturopathic-v3-04.webp",
+            "thumb": "nova-naturopathic-v3-04-thumb.webp"
+          },
+          {
+            "full": "nova-naturopathic-v3-05.webp",
+            "thumb": "nova-naturopathic-v3-05-thumb.webp"
+          },
+          {
+            "full": "nova-naturopathic-v3-08.webp",
+            "thumb": "nova-naturopathic-v3-08-thumb.webp"
+          }
+        ]
+      },
+      {
+        "id": "hello-nori",
+        "name": "Hello Nori",
+        "type": "Restaurant",
+        "photos": [
+          {
+            "full": "hello-nori-v3-02.webp",
+            "thumb": "hello-nori-v3-02-thumb.webp"
+          },
+          {
+            "full": "hello-nori-v3-03.webp",
+            "thumb": "hello-nori-v3-03-thumb.webp"
+          }
+        ]
       }
     ]
   },
@@ -609,122 +609,6 @@
     "title": "Homes built around the way you live",
     "intro": "From full rebuilds to finished basements, Make A Change Homes builds and renovates homes across Calgary. Every project is shaped to your taste and guided by our core values, so you get quality work, fair pricing and a home you are proud to live in.",
     "projects": [
-      {
-        "id": "basement-development",
-        "name": "Basement Development",
-        "type": "Basement development",
-        "photos": [
-          {
-            "full": "basement-development-v3-19.webp",
-            "thumb": "basement-development-v3-19-thumb.webp"
-          },
-          {
-            "full": "basement-development-v3-20.webp",
-            "thumb": "basement-development-v3-20-thumb.webp"
-          },
-          {
-            "full": "basement-development-v3-17.webp",
-            "thumb": "basement-development-v3-17-thumb.webp"
-          },
-          {
-            "full": "basement-development-v3-13.webp",
-            "thumb": "basement-development-v3-13-thumb.webp"
-          },
-          {
-            "full": "basement-development-v3-12.webp",
-            "thumb": "basement-development-v3-12-thumb.webp"
-          },
-          {
-            "full": "basement-development-v3-11.webp",
-            "thumb": "basement-development-v3-11-thumb.webp"
-          },
-          {
-            "full": "basement-development-v3-05.webp",
-            "thumb": "basement-development-v3-05-thumb.webp"
-          },
-          {
-            "full": "basement-development-v3-01.webp",
-            "thumb": "basement-development-v3-01-thumb.webp"
-          },
-          {
-            "full": "basement-development-v3-03.webp",
-            "thumb": "basement-development-v3-03-thumb.webp"
-          },
-          {
-            "full": "basement-development-v3-06.webp",
-            "thumb": "basement-development-v3-06-thumb.webp"
-          },
-          {
-            "full": "basement-development-v3-09.webp",
-            "thumb": "basement-development-v3-09-thumb.webp"
-          },
-          {
-            "full": "basement-development-v3-08.webp",
-            "thumb": "basement-development-v3-08-thumb.webp"
-          }
-        ]
-      },
-      {
-        "id": "custom-home",
-        "name": "Custom Home",
-        "type": "Home build",
-        "photos": [
-          {
-            "full": "custom-home-v3-01.webp",
-            "thumb": "custom-home-v3-01-thumb.webp"
-          },
-          {
-            "full": "custom-home-v3-02.webp",
-            "thumb": "custom-home-v3-02-thumb.webp"
-          },
-          {
-            "full": "custom-home-v3-03.webp",
-            "thumb": "custom-home-v3-03-thumb.webp"
-          },
-          {
-            "full": "custom-home-v3-04.webp",
-            "thumb": "custom-home-v3-04-thumb.webp"
-          }
-        ]
-      },
-      {
-        "id": "home-renovation",
-        "name": "Home Renovation",
-        "type": "Renovation",
-        "photos": [
-          {
-            "full": "home-renovation-v3-01.webp",
-            "thumb": "home-renovation-v3-01-thumb.webp"
-          },
-          {
-            "full": "home-renovation-v3-02.webp",
-            "thumb": "home-renovation-v3-02-thumb.webp"
-          },
-          {
-            "full": "home-renovation-v3-03.webp",
-            "thumb": "home-renovation-v3-03-thumb.webp"
-          }
-        ]
-      },
-      {
-        "id": "home-update",
-        "name": "Home Update",
-        "type": "Renovation",
-        "photos": [
-          {
-            "full": "home-update-v3-01.webp",
-            "thumb": "home-update-v3-01-thumb.webp"
-          },
-          {
-            "full": "home-update-v3-02.webp",
-            "thumb": "home-update-v3-02-thumb.webp"
-          },
-          {
-            "full": "home-update-v3-03.webp",
-            "thumb": "home-update-v3-03-thumb.webp"
-          }
-        ]
-      },
       {
         "id": "rebuilt-home",
         "name": "Rebuilt Home",
@@ -797,6 +681,61 @@
         ]
       },
       {
+        "id": "basement-development",
+        "name": "Basement Development",
+        "type": "Basement development",
+        "photos": [
+          {
+            "full": "basement-development-v3-19.webp",
+            "thumb": "basement-development-v3-19-thumb.webp"
+          },
+          {
+            "full": "basement-development-v3-20.webp",
+            "thumb": "basement-development-v3-20-thumb.webp"
+          },
+          {
+            "full": "basement-development-v3-17.webp",
+            "thumb": "basement-development-v3-17-thumb.webp"
+          },
+          {
+            "full": "basement-development-v3-13.webp",
+            "thumb": "basement-development-v3-13-thumb.webp"
+          },
+          {
+            "full": "basement-development-v3-12.webp",
+            "thumb": "basement-development-v3-12-thumb.webp"
+          },
+          {
+            "full": "basement-development-v3-11.webp",
+            "thumb": "basement-development-v3-11-thumb.webp"
+          },
+          {
+            "full": "basement-development-v3-05.webp",
+            "thumb": "basement-development-v3-05-thumb.webp"
+          },
+          {
+            "full": "basement-development-v3-01.webp",
+            "thumb": "basement-development-v3-01-thumb.webp"
+          },
+          {
+            "full": "basement-development-v3-03.webp",
+            "thumb": "basement-development-v3-03-thumb.webp"
+          },
+          {
+            "full": "basement-development-v3-06.webp",
+            "thumb": "basement-development-v3-06-thumb.webp"
+          },
+          {
+            "full": "basement-development-v3-09.webp",
+            "thumb": "basement-development-v3-09-thumb.webp"
+          },
+          {
+            "full": "basement-development-v3-08.webp",
+            "thumb": "basement-development-v3-08-thumb.webp"
+          }
+        ]
+      },
+      {
         "id": "basements",
         "name": "Basements",
         "type": "Basement development",
@@ -832,6 +771,67 @@
           {
             "thumb": "63dfe7ace4e25f677c0b5ed9_IMG_2072-thumb.webp",
             "full": "63dfe7ace4e25f677c0b5ed9_IMG_2072.webp"
+          }
+        ]
+      },
+      {
+        "id": "custom-home",
+        "name": "Custom Home",
+        "type": "Home build",
+        "photos": [
+          {
+            "full": "custom-home-v3-01.webp",
+            "thumb": "custom-home-v3-01-thumb.webp"
+          },
+          {
+            "full": "custom-home-v3-02.webp",
+            "thumb": "custom-home-v3-02-thumb.webp"
+          },
+          {
+            "full": "custom-home-v3-03.webp",
+            "thumb": "custom-home-v3-03-thumb.webp"
+          },
+          {
+            "full": "custom-home-v3-04.webp",
+            "thumb": "custom-home-v3-04-thumb.webp"
+          }
+        ]
+      },
+      {
+        "id": "home-renovation",
+        "name": "Home Renovation",
+        "type": "Renovation",
+        "photos": [
+          {
+            "full": "home-renovation-v3-01.webp",
+            "thumb": "home-renovation-v3-01-thumb.webp"
+          },
+          {
+            "full": "home-renovation-v3-02.webp",
+            "thumb": "home-renovation-v3-02-thumb.webp"
+          },
+          {
+            "full": "home-renovation-v3-03.webp",
+            "thumb": "home-renovation-v3-03-thumb.webp"
+          }
+        ]
+      },
+      {
+        "id": "home-update",
+        "name": "Home Update",
+        "type": "Renovation",
+        "photos": [
+          {
+            "full": "home-update-v3-01.webp",
+            "thumb": "home-update-v3-01-thumb.webp"
+          },
+          {
+            "full": "home-update-v3-02.webp",
+            "thumb": "home-update-v3-02-thumb.webp"
+          },
+          {
+            "full": "home-update-v3-03.webp",
+            "thumb": "home-update-v3-03-thumb.webp"
           }
         ]
       }
