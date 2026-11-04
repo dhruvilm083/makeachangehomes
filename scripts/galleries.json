@@ -611,7 +611,7 @@
     "projects": [
       {
         "id": "rebuilt-home",
-        "name": "Rebuilt Home",
+        "name": "Complete Home Renovation",
         "type": "Full home rebuild",
         "photos": [
           {
@@ -682,7 +682,7 @@
       },
       {
         "id": "basement-development",
-        "name": "Basement Development",
+        "name": "Basement Renovation",
         "type": "Basement development",
         "photos": [
           {
@@ -737,7 +737,7 @@
       },
       {
         "id": "basements",
-        "name": "Basements",
+        "name": "Basement Buildout",
         "type": "Basement development",
         "photos": [
           {
@@ -776,7 +776,7 @@
       },
       {
         "id": "custom-home",
-        "name": "Custom Home",
+        "name": "Andrew's Home",
         "type": "Home build",
         "photos": [
           {
@@ -799,7 +799,7 @@
       },
       {
         "id": "home-renovation",
-        "name": "Home Renovation",
+        "name": "Sectional Renovation",
         "type": "Renovation",
         "photos": [
           {
@@ -818,7 +818,7 @@
       },
       {
         "id": "home-update",
-        "name": "Home Update",
+        "name": "Bathroom Renovation",
         "type": "Renovation",
         "photos": [
           {
