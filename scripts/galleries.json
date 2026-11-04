@@ -1,1083 +1,1031 @@
 {
-  "commercial": {
-    "title": "Commercial projects",
-    "intro": "Salons, restaurants, offices, clinics and daycares across Calgary. We take each build-out from first plans to final finish, built to last and ready for business.",
-    "projects": [
-      {
-        "id": "3twelve-beauty-lounge",
-        "name": "3Twelve Beauty Lounge",
-        "type": "Beauty lounge",
-        "photos": [
-          {
-            "full": "3twelve-beauty-lounge-v3-01.webp",
-            "thumb": "3twelve-beauty-lounge-v3-01-thumb.webp"
-          },
-          {
-            "full": "3twelve-beauty-lounge-v3-02.webp",
-            "thumb": "3twelve-beauty-lounge-v3-02-thumb.webp"
-          },
-          {
-            "full": "3twelve-beauty-lounge-v3-03.webp",
-            "thumb": "3twelve-beauty-lounge-v3-03-thumb.webp"
-          },
-          {
-            "full": "3twelve-beauty-lounge-v3-04.webp",
-            "thumb": "3twelve-beauty-lounge-v3-04-thumb.webp"
-          },
-          {
-            "full": "3twelve-beauty-lounge-v3-05.webp",
-            "thumb": "3twelve-beauty-lounge-v3-05-thumb.webp"
-          },
-          {
-            "full": "3twelve-beauty-lounge-v3-06.webp",
-            "thumb": "3twelve-beauty-lounge-v3-06-thumb.webp"
-          },
-          {
-            "full": "3twelve-beauty-lounge-v3-07.webp",
-            "thumb": "3twelve-beauty-lounge-v3-07-thumb.webp"
-          },
-          {
-            "full": "3twelve-beauty-lounge-v3-08.webp",
-            "thumb": "3twelve-beauty-lounge-v3-08-thumb.webp"
-          },
-          {
-            "full": "3twelve-beauty-lounge-v3-09.webp",
-            "thumb": "3twelve-beauty-lounge-v3-09-thumb.webp"
-          },
-          {
-            "full": "3twelve-beauty-lounge-v3-10.webp",
-            "thumb": "3twelve-beauty-lounge-v3-10-thumb.webp"
-          },
-          {
-            "full": "3twelve-beauty-lounge-v3-11.webp",
-            "thumb": "3twelve-beauty-lounge-v3-11-thumb.webp"
-          },
-          {
-            "full": "3twelve-beauty-lounge-v3-12.webp",
-            "thumb": "3twelve-beauty-lounge-v3-12-thumb.webp"
-          },
-          {
-            "full": "3twelve-beauty-lounge-v3-13.webp",
-            "thumb": "3twelve-beauty-lounge-v3-13-thumb.webp"
-          },
-          {
-            "full": "3twelve-beauty-lounge-v3-14.webp",
-            "thumb": "3twelve-beauty-lounge-v3-14-thumb.webp"
-          },
-          {
-            "full": "3twelve-beauty-lounge-v3-15.webp",
-            "thumb": "3twelve-beauty-lounge-v3-15-thumb.webp"
-          },
-          {
-            "full": "3twelve-beauty-lounge-v3-16.webp",
-            "thumb": "3twelve-beauty-lounge-v3-16-thumb.webp"
-          },
-          {
-            "full": "3twelve-beauty-lounge-v3-17.webp",
-            "thumb": "3twelve-beauty-lounge-v3-17-thumb.webp"
-          },
-          {
-            "full": "3twelve-beauty-lounge-v3-18.webp",
-            "thumb": "3twelve-beauty-lounge-v3-18-thumb.webp"
-          },
-          {
-            "full": "3twelve-beauty-lounge-v3-19.webp",
-            "thumb": "3twelve-beauty-lounge-v3-19-thumb.webp"
-          },
-          {
-            "full": "3twelve-beauty-lounge-v3-20.webp",
-            "thumb": "3twelve-beauty-lounge-v3-20-thumb.webp"
-          },
-          {
-            "full": "3twelve-beauty-lounge-v3-21.webp",
-            "thumb": "3twelve-beauty-lounge-v3-21-thumb.webp"
-          },
-          {
-            "full": "3twelve-beauty-lounge-v3-22.webp",
-            "thumb": "3twelve-beauty-lounge-v3-22-thumb.webp"
-          },
-          {
-            "full": "3twelve-beauty-lounge-v3-23.webp",
-            "thumb": "3twelve-beauty-lounge-v3-23-thumb.webp"
-          },
-          {
-            "full": "3twelve-beauty-lounge-v3-24.webp",
-            "thumb": "3twelve-beauty-lounge-v3-24-thumb.webp"
-          },
-          {
-            "full": "3twelve-beauty-lounge-v3-25.webp",
-            "thumb": "3twelve-beauty-lounge-v3-25-thumb.webp"
-          }
-        ]
-      },
-      {
-        "id": "beltline-nails",
-        "name": "Beltline Nails",
-        "type": "Nail salon",
-        "photos": [
-          {
-            "full": "beltline-nails-v3-01.webp",
-            "thumb": "beltline-nails-v3-01-thumb.webp"
-          },
-          {
-            "full": "beltline-nails-v3-02.webp",
-            "thumb": "beltline-nails-v3-02-thumb.webp"
-          },
-          {
-            "full": "beltline-nails-v3-03.webp",
-            "thumb": "beltline-nails-v3-03-thumb.webp"
-          },
-          {
-            "full": "beltline-nails-v3-04.webp",
-            "thumb": "beltline-nails-v3-04-thumb.webp"
-          },
-          {
-            "full": "beltline-nails-v3-05.webp",
-            "thumb": "beltline-nails-v3-05-thumb.webp"
-          },
-          {
-            "full": "beltline-nails-v3-06.webp",
-            "thumb": "beltline-nails-v3-06-thumb.webp"
-          },
-          {
-            "full": "beltline-nails-v3-07.webp",
-            "thumb": "beltline-nails-v3-07-thumb.webp"
-          },
-          {
-            "full": "beltline-nails-v3-08.webp",
-            "thumb": "beltline-nails-v3-08-thumb.webp"
-          },
-          {
-            "full": "beltline-nails-v3-09.webp",
-            "thumb": "beltline-nails-v3-09-thumb.webp"
-          },
-          {
-            "full": "beltline-nails-v3-10.webp",
-            "thumb": "beltline-nails-v3-10-thumb.webp"
-          },
-          {
-            "full": "beltline-nails-v3-11.webp",
-            "thumb": "beltline-nails-v3-11-thumb.webp"
-          },
-          {
-            "full": "beltline-nails-v3-12.webp",
-            "thumb": "beltline-nails-v3-12-thumb.webp"
-          },
-          {
-            "full": "beltline-nails-v3-13.webp",
-            "thumb": "beltline-nails-v3-13-thumb.webp"
-          },
-          {
-            "full": "beltline-nails-v3-14.webp",
-            "thumb": "beltline-nails-v3-14-thumb.webp"
-          },
-          {
-            "full": "beltline-nails-v3-15.webp",
-            "thumb": "beltline-nails-v3-15-thumb.webp"
-          },
-          {
-            "full": "beltline-nails-v3-16.webp",
-            "thumb": "beltline-nails-v3-16-thumb.webp"
-          },
-          {
-            "full": "beltline-nails-v3-17.webp",
-            "thumb": "beltline-nails-v3-17-thumb.webp"
-          },
-          {
-            "full": "beltline-nails-v3-18.webp",
-            "thumb": "beltline-nails-v3-18-thumb.webp"
-          },
-          {
-            "full": "beltline-nails-v3-19.webp",
-            "thumb": "beltline-nails-v3-19-thumb.webp"
-          },
-          {
-            "full": "beltline-nails-v3-20.webp",
-            "thumb": "beltline-nails-v3-20-thumb.webp"
-          },
-          {
-            "full": "beltline-nails-v3-21.webp",
-            "thumb": "beltline-nails-v3-21-thumb.webp"
-          }
-        ]
-      },
-      {
-        "id": "ozy-nails",
-        "name": "Ozy Nails",
-        "type": "Nail salon",
-        "photos": [
-          {
-            "full": "ozy-nails-v3-01.webp",
-            "thumb": "ozy-nails-v3-01-thumb.webp"
-          },
-          {
-            "full": "ozy-nails-v3-02.webp",
-            "thumb": "ozy-nails-v3-02-thumb.webp"
-          },
-          {
-            "full": "ozy-nails-v3-03.webp",
-            "thumb": "ozy-nails-v3-03-thumb.webp"
-          },
-          {
-            "full": "ozy-nails-v3-04.webp",
-            "thumb": "ozy-nails-v3-04-thumb.webp"
-          },
-          {
-            "full": "ozy-nails-v3-05.webp",
-            "thumb": "ozy-nails-v3-05-thumb.webp"
-          },
-          {
-            "full": "ozy-nails-v3-06.webp",
-            "thumb": "ozy-nails-v3-06-thumb.webp"
-          },
-          {
-            "full": "ozy-nails-v3-07.webp",
-            "thumb": "ozy-nails-v3-07-thumb.webp"
-          },
-          {
-            "full": "ozy-nails-v3-08.webp",
-            "thumb": "ozy-nails-v3-08-thumb.webp"
-          },
-          {
-            "full": "ozy-nails-v3-09.webp",
-            "thumb": "ozy-nails-v3-09-thumb.webp"
-          },
-          {
-            "full": "ozy-nails-v3-10.webp",
-            "thumb": "ozy-nails-v3-10-thumb.webp"
-          },
-          {
-            "full": "ozy-nails-v3-11.webp",
-            "thumb": "ozy-nails-v3-11-thumb.webp"
-          },
-          {
-            "full": "ozy-nails-v3-12.webp",
-            "thumb": "ozy-nails-v3-12-thumb.webp"
-          },
-          {
-            "full": "ozy-nails-v3-13.webp",
-            "thumb": "ozy-nails-v3-13-thumb.webp"
-          },
-          {
-            "full": "ozy-nails-v3-14.webp",
-            "thumb": "ozy-nails-v3-14-thumb.webp"
-          },
-          {
-            "full": "ozy-nails-v3-15.webp",
-            "thumb": "ozy-nails-v3-15-thumb.webp"
-          }
-        ]
-      },
-      {
-        "id": "niwe-academy",
-        "name": "NIWE Academy",
-        "type": "Training academy",
-        "photos": [
-          {
-            "full": "niwe-academy-v3-01.webp",
-            "thumb": "niwe-academy-v3-01-thumb.webp"
-          },
-          {
-            "full": "niwe-academy-v3-02.webp",
-            "thumb": "niwe-academy-v3-02-thumb.webp"
-          },
-          {
-            "full": "niwe-academy-v3-03.webp",
-            "thumb": "niwe-academy-v3-03-thumb.webp"
-          },
-          {
-            "full": "niwe-academy-v3-04.webp",
-            "thumb": "niwe-academy-v3-04-thumb.webp"
-          },
-          {
-            "full": "niwe-academy-v3-05.webp",
-            "thumb": "niwe-academy-v3-05-thumb.webp"
-          },
-          {
-            "full": "niwe-academy-v3-06.webp",
-            "thumb": "niwe-academy-v3-06-thumb.webp"
-          },
-          {
-            "full": "niwe-academy-v3-07.webp",
-            "thumb": "niwe-academy-v3-07-thumb.webp"
-          },
-          {
-            "full": "niwe-academy-v3-08.webp",
-            "thumb": "niwe-academy-v3-08-thumb.webp"
-          },
-          {
-            "full": "niwe-academy-v3-09.webp",
-            "thumb": "niwe-academy-v3-09-thumb.webp"
-          },
-          {
-            "full": "niwe-academy-v3-10.webp",
-            "thumb": "niwe-academy-v3-10-thumb.webp"
-          },
-          {
-            "full": "niwe-academy-v3-11.webp",
-            "thumb": "niwe-academy-v3-11-thumb.webp"
-          }
-        ]
-      },
-      {
-        "id": "rehab-lounge",
-        "name": "Rehab Lounge",
-        "type": "Lounge",
-        "photos": [
-          {
-            "full": "rehab-lounge-v3-01.webp",
-            "thumb": "rehab-lounge-v3-01-thumb.webp"
-          },
-          {
-            "full": "rehab-lounge-v3-02.webp",
-            "thumb": "rehab-lounge-v3-02-thumb.webp"
-          },
-          {
-            "full": "rehab-lounge-v3-03.webp",
-            "thumb": "rehab-lounge-v3-03-thumb.webp"
-          },
-          {
-            "full": "rehab-lounge-v3-04.webp",
-            "thumb": "rehab-lounge-v3-04-thumb.webp"
-          },
-          {
-            "full": "rehab-lounge-v3-05.webp",
-            "thumb": "rehab-lounge-v3-05-thumb.webp"
-          },
-          {
-            "full": "rehab-lounge-v3-06.webp",
-            "thumb": "rehab-lounge-v3-06-thumb.webp"
-          },
-          {
-            "full": "rehab-lounge-v3-07.webp",
-            "thumb": "rehab-lounge-v3-07-thumb.webp"
-          },
-          {
-            "full": "rehab-lounge-v3-08.webp",
-            "thumb": "rehab-lounge-v3-08-thumb.webp"
-          },
-          {
-            "full": "rehab-lounge-v3-09.webp",
-            "thumb": "rehab-lounge-v3-09-thumb.webp"
-          },
-          {
-            "full": "rehab-lounge-v3-10.webp",
-            "thumb": "rehab-lounge-v3-10-thumb.webp"
-          },
-          {
-            "full": "rehab-lounge-v3-11.webp",
-            "thumb": "rehab-lounge-v3-11-thumb.webp"
-          },
-          {
-            "full": "rehab-lounge-v3-12.webp",
-            "thumb": "rehab-lounge-v3-12-thumb.webp"
-          },
-          {
-            "full": "rehab-lounge-v3-13.webp",
-            "thumb": "rehab-lounge-v3-13-thumb.webp"
-          },
-          {
-            "full": "rehab-lounge-v3-14.webp",
-            "thumb": "rehab-lounge-v3-14-thumb.webp"
-          },
-          {
-            "full": "rehab-lounge-v3-15.webp",
-            "thumb": "rehab-lounge-v3-15-thumb.webp"
-          },
-          {
-            "full": "rehab-lounge-v3-16.webp",
-            "thumb": "rehab-lounge-v3-16-thumb.webp"
-          },
-          {
-            "full": "rehab-lounge-v3-17.webp",
-            "thumb": "rehab-lounge-v3-17-thumb.webp"
-          },
-          {
-            "full": "rehab-lounge-v3-18.webp",
-            "thumb": "rehab-lounge-v3-18-thumb.webp"
-          },
-          {
-            "full": "rehab-lounge-v3-19.webp",
-            "thumb": "rehab-lounge-v3-19-thumb.webp"
-          },
-          {
-            "full": "rehab-lounge-v3-20.webp",
-            "thumb": "rehab-lounge-v3-20-thumb.webp"
-          },
-          {
-            "full": "rehab-lounge-v3-21.webp",
-            "thumb": "rehab-lounge-v3-21-thumb.webp"
-          },
-          {
-            "full": "rehab-lounge-v3-22.webp",
-            "thumb": "rehab-lounge-v3-22-thumb.webp"
-          },
-          {
-            "full": "rehab-lounge-v3-23.webp",
-            "thumb": "rehab-lounge-v3-23-thumb.webp"
-          },
-          {
-            "full": "rehab-lounge-v3-24.webp",
-            "thumb": "rehab-lounge-v3-24-thumb.webp"
-          },
-          {
-            "full": "rehab-lounge-v3-25.webp",
-            "thumb": "rehab-lounge-v3-25-thumb.webp"
-          },
-          {
-            "full": "rehab-lounge-v3-26.webp",
-            "thumb": "rehab-lounge-v3-26-thumb.webp"
-          },
-          {
-            "full": "rehab-lounge-v3-27.webp",
-            "thumb": "rehab-lounge-v3-27-thumb.webp"
-          }
-        ]
-      },
-      {
-        "id": "hello-nori",
-        "name": "Hello Nori",
-        "type": "Restaurant",
-        "photos": [
-          {
-            "full": "hello-nori-v3-01.webp",
-            "thumb": "hello-nori-v3-01-thumb.webp"
-          },
-          {
-            "full": "hello-nori-v3-02.webp",
-            "thumb": "hello-nori-v3-02-thumb.webp"
-          },
-          {
-            "full": "hello-nori-v3-03.webp",
-            "thumb": "hello-nori-v3-03-thumb.webp"
-          }
-        ]
-      },
-      {
-        "id": "nova-naturopathic",
-        "name": "Nova Naturopathic",
-        "type": "Clinic",
-        "photos": [
-          {
-            "full": "nova-naturopathic-v3-01.webp",
-            "thumb": "nova-naturopathic-v3-01-thumb.webp"
-          },
-          {
-            "full": "nova-naturopathic-v3-02.webp",
-            "thumb": "nova-naturopathic-v3-02-thumb.webp"
-          },
-          {
-            "full": "nova-naturopathic-v3-03.webp",
-            "thumb": "nova-naturopathic-v3-03-thumb.webp"
-          },
-          {
-            "full": "nova-naturopathic-v3-04.webp",
-            "thumb": "nova-naturopathic-v3-04-thumb.webp"
-          },
-          {
-            "full": "nova-naturopathic-v3-05.webp",
-            "thumb": "nova-naturopathic-v3-05-thumb.webp"
-          },
-          {
-            "full": "nova-naturopathic-v3-06.webp",
-            "thumb": "nova-naturopathic-v3-06-thumb.webp"
-          },
-          {
-            "full": "nova-naturopathic-v3-07.webp",
-            "thumb": "nova-naturopathic-v3-07-thumb.webp"
-          },
-          {
-            "full": "nova-naturopathic-v3-08.webp",
-            "thumb": "nova-naturopathic-v3-08-thumb.webp"
-          }
-        ]
-      },
-      {
-        "id": "law-office",
-        "name": "Law Office",
-        "type": "Office",
-        "photos": [
-          {
-            "full": "law-office-v3-01.webp",
-            "thumb": "law-office-v3-01-thumb.webp"
-          },
-          {
-            "full": "law-office-v3-02.webp",
-            "thumb": "law-office-v3-02-thumb.webp"
-          },
-          {
-            "full": "law-office-v3-03.webp",
-            "thumb": "law-office-v3-03-thumb.webp"
-          },
-          {
-            "full": "law-office-v3-04.webp",
-            "thumb": "law-office-v3-04-thumb.webp"
-          },
-          {
-            "full": "law-office-v3-05.webp",
-            "thumb": "law-office-v3-05-thumb.webp"
-          },
-          {
-            "full": "law-office-v3-06.webp",
-            "thumb": "law-office-v3-06-thumb.webp"
-          },
-          {
-            "full": "law-office-v3-07.webp",
-            "thumb": "law-office-v3-07-thumb.webp"
-          },
-          {
-            "full": "law-office-v3-08.webp",
-            "thumb": "law-office-v3-08-thumb.webp"
-          }
-        ]
-      },
-      {
-        "id": "kidzpen",
-        "name": "KidzPen",
-        "type": "Daycare",
-        "photos": [
-          {
-            "full": "kidzpen-v3-01.webp",
-            "thumb": "kidzpen-v3-01-thumb.webp"
-          },
-          {
-            "full": "kidzpen-v3-02.webp",
-            "thumb": "kidzpen-v3-02-thumb.webp"
-          },
-          {
-            "full": "kidzpen-v3-03.webp",
-            "thumb": "kidzpen-v3-03-thumb.webp"
-          },
-          {
-            "full": "kidzpen-v3-04.webp",
-            "thumb": "kidzpen-v3-04-thumb.webp"
-          },
-          {
-            "full": "kidzpen-v3-05.webp",
-            "thumb": "kidzpen-v3-05-thumb.webp"
-          },
-          {
-            "full": "kidzpen-v3-06.webp",
-            "thumb": "kidzpen-v3-06-thumb.webp"
-          },
-          {
-            "full": "kidzpen-v3-07.webp",
-            "thumb": "kidzpen-v3-07-thumb.webp"
-          },
-          {
-            "full": "kidzpen-v3-08.webp",
-            "thumb": "kidzpen-v3-08-thumb.webp"
-          },
-          {
-            "full": "kidzpen-v3-09.webp",
-            "thumb": "kidzpen-v3-09-thumb.webp"
-          }
-        ]
-      },
-      {
-        "id": "kad-consulting",
-        "name": "KAD Consulting Services",
-        "type": "Offices",
-        "photos": [
-          {
-            "thumb": "63e0798e1693d14ef312e5b6_IMG_1923-thumb.webp",
-            "full": "63e0798e1693d14ef312e5b6_IMG_1923.webp"
-          },
-          {
-            "thumb": "63e0799c4fd49b6e84a705c3_IMG_1926-thumb.webp",
-            "full": "63e0799c4fd49b6e84a705c3_IMG_1926.webp"
-          },
-          {
-            "thumb": "63e079a810d0b9852c61bb80_IMG_1932-thumb.webp",
-            "full": "63e079a810d0b9852c61bb80_IMG_1932.webp"
-          },
-          {
-            "thumb": "63e079b3ae719f5503c4bf6d_IMG_1934-thumb.webp",
-            "full": "63e079b3ae719f5503c4bf6d_IMG_1934.webp"
-          },
-          {
-            "thumb": "63e079bd3700f05c85da73a0_IMG_1943-thumb.webp",
-            "full": "63e079bd3700f05c85da73a0_IMG_1943.webp"
-          },
-          {
-            "thumb": "63e079ca8b609644ea4dd510_IMG_1954-thumb.webp",
-            "full": "63e079ca8b609644ea4dd510_IMG_1954.webp"
-          },
-          {
-            "thumb": "63e079d56af00b6e0b62cccf_IMG_1955-thumb.webp",
-            "full": "63e079d56af00b6e0b62cccf_IMG_1955.webp"
-          },
-          {
-            "thumb": "63e079e23f86125fe3839676_IMG_1972-thumb.webp",
-            "full": "63e079e23f86125fe3839676_IMG_1972.webp"
-          },
-          {
-            "thumb": "63e079ef4cfa8b2e5e20b642_IMG_1980-thumb.webp",
-            "full": "63e079ef4cfa8b2e5e20b642_IMG_1980.webp"
-          },
-          {
-            "thumb": "63e07a0a3f8612c5e9839961_IMG_1981-thumb.webp",
-            "full": "63e07a0a3f8612c5e9839961_IMG_1981.webp"
-          },
-          {
-            "thumb": "63e07a1347ab58eabdb96509_IMG_1983-thumb.webp",
-            "full": "63e07a1347ab58eabdb96509_IMG_1983.webp"
-          },
-          {
-            "thumb": "63e07a1fcc6c4856ea572589_IMG_1986-thumb.webp",
-            "full": "63e07a1fcc6c4856ea572589_IMG_1986.webp"
-          },
-          {
-            "thumb": "63e07a343f86125c2083a106_IMG_2002-thumb.webp",
-            "full": "63e07a343f86125c2083a106_IMG_2002.webp"
-          },
-          {
-            "thumb": "63e07a3fd2a0eb12fc01f9f5_IMG_2014-thumb.webp",
-            "full": "63e07a3fd2a0eb12fc01f9f5_IMG_2014.webp"
-          },
-          {
-            "thumb": "63e07a4c4fd49bf402a712f7_IMG_2015-thumb.webp",
-            "full": "63e07a4c4fd49bf402a712f7_IMG_2015.webp"
-          },
-          {
-            "thumb": "63e07a5611b8730a57bdcd61_IMG_2021-Edit-thumb.webp",
-            "full": "63e07a5611b8730a57bdcd61_IMG_2021-Edit.webp"
-          }
-        ]
-      },
-      {
-        "id": "barcelos",
-        "name": "Barcelos Flame Grilled Chicken",
-        "type": "Restaurant",
-        "photos": [
-          {
-            "thumb": "63e07abaa0956f437a92ad9d_IMG_1603-thumb.webp",
-            "full": "63e07abaa0956f437a92ad9d_IMG_1603.webp"
-          },
-          {
-            "thumb": "63e07ac68b609617874de22f_IMG_1604-Edit-thumb.webp",
-            "full": "63e07ac68b609617874de22f_IMG_1604-Edit.webp"
-          },
-          {
-            "thumb": "63e07ad33700f05551da7efb_IMG_1620-thumb.webp",
-            "full": "63e07ad33700f05551da7efb_IMG_1620.webp"
-          },
-          {
-            "thumb": "63e07adca0956f126f92b1ea_IMG_1622-thumb.webp",
-            "full": "63e07adca0956f126f92b1ea_IMG_1622.webp"
-          },
-          {
-            "thumb": "63e07ae56bf1b140ec897936_IMG_1638-thumb.webp",
-            "full": "63e07ae56bf1b140ec897936_IMG_1638.webp"
-          },
-          {
-            "thumb": "63e07af18b609673f24de402_IMG_1640-thumb.webp",
-            "full": "63e07af18b609673f24de402_IMG_1640.webp"
-          },
-          {
-            "thumb": "63e07b15dd1066e1b03fcac3_IMG_1652-thumb.webp",
-            "full": "63e07b15dd1066e1b03fcac3_IMG_1652.webp"
-          },
-          {
-            "thumb": "63e07b216bf1b1dd71897c13_IMG_1658-thumb.webp",
-            "full": "63e07b216bf1b1dd71897c13_IMG_1658.webp"
-          }
-        ]
-      },
-      {
-        "id": "taralake-medical-clinic",
-        "name": "Taralake Medical Clinic",
-        "type": "Clinic",
-        "photos": [
-          {
-            "thumb": "63e07918c6567ad37358b35b_IMG_1897-thumb.webp",
-            "full": "63e07918c6567ad37358b35b_IMG_1897.webp"
-          },
-          {
-            "thumb": "63e07922d88ab869055e8abc_IMG_1904-thumb.webp",
-            "full": "63e07922d88ab869055e8abc_IMG_1904.webp"
-          },
-          {
-            "thumb": "63e0792dd2a0eb5dfb01e7c4_IMG_1907-thumb.webp",
-            "full": "63e0792dd2a0eb5dfb01e7c4_IMG_1907.webp"
-          },
-          {
-            "thumb": "63e07940d3e9be7b1b907878_IMG_1912-thumb.webp",
-            "full": "63e07940d3e9be7b1b907878_IMG_1912.webp"
-          },
-          {
-            "thumb": "63e0793711b873e017bdbbf2_IMG_1909-thumb.webp",
-            "full": "63e0793711b873e017bdbbf2_IMG_1909.webp"
-          },
-          {
-            "thumb": "63e0794b6bf1b143cd895be2_IMG_1915-thumb.webp",
-            "full": "63e0794b6bf1b143cd895be2_IMG_1915.webp"
-          },
-          {
-            "thumb": "63e07956ae719ffd70c4b915_IMG_1919-Edit-thumb.webp",
-            "full": "63e07956ae719ffd70c4b915_IMG_1919-Edit.webp"
-          },
-          {
-            "thumb": "63e0795f1693d1ccea12e27d_IMG_1920-Edit-thumb.webp",
-            "full": "63e0795f1693d1ccea12e27d_IMG_1920-Edit.webp"
-          }
-        ]
-      },
-      {
-        "id": "kidzpen-original",
-        "name": "KidzPen",
-        "type": "Daycare",
-        "photos": [
-          {
-            "thumb": "63e07809cc6c48788657002f_IMG_2077-thumb.webp",
-            "full": "63e07809cc6c48788657002f_IMG_2077.webp"
-          },
-          {
-            "thumb": "63e0781210d0b9bbe761a77d_IMG_2083-thumb.webp",
-            "full": "63e0781210d0b9bbe761a77d_IMG_2083.webp"
-          },
-          {
-            "thumb": "63e07892dd10661e873f8d12_IMG_2118-thumb.webp",
-            "full": "63e07892dd10661e873f8d12_IMG_2118.webp"
-          },
-          {
-            "thumb": "63e078292ae9b00b99e7f648_IMG_2087-thumb.webp",
-            "full": "63e078292ae9b00b99e7f648_IMG_2087.webp"
-          },
-          {
-            "thumb": "63e07836c6567af5e75895fc_IMG_2088-thumb.webp",
-            "full": "63e07836c6567af5e75895fc_IMG_2088.webp"
-          },
-          {
-            "thumb": "63e07840d88ab85d825e83ff_IMG_2094-thumb.webp",
-            "full": "63e07840d88ab85d825e83ff_IMG_2094.webp"
-          },
-          {
-            "thumb": "63e0784ae4e25fe755179189_IMG_2095-thumb.webp",
-            "full": "63e0784ae4e25fe755179189_IMG_2095.webp"
-          },
-          {
-            "thumb": "63e0785510d0b9f19661a93a_IMG_2102-thumb.webp",
-            "full": "63e0785510d0b9f19661a93a_IMG_2102.webp"
-          },
-          {
-            "thumb": "63e07861d2a0eb9bd401d452_IMG_2103-thumb.webp",
-            "full": "63e07861d2a0eb9bd401d452_IMG_2103.webp"
-          },
-          {
-            "thumb": "63e07870c6567a4d57589edc_IMG_2107-thumb.webp",
-            "full": "63e07870c6567a4d57589edc_IMG_2107.webp"
-          },
-          {
-            "thumb": "63e078823f8612b069837cc8_IMG_2108-thumb.webp",
-            "full": "63e078823f8612b069837cc8_IMG_2108.webp"
-          },
-          {
-            "thumb": "63e078af11b873555dbdadb5_IMG_2124-thumb.webp",
-            "full": "63e078af11b873555dbdadb5_IMG_2124.webp"
-          },
-          {
-            "thumb": "63e07d8e6bf1b15ae689af4b_IMG_2125-thumb.webp",
-            "full": "63e07d8e6bf1b15ae689af4b_IMG_2125.webp"
-          },
-          {
-            "thumb": "63e078bc6bf1b1df7e89493d_IMG_2127-thumb.webp",
-            "full": "63e078bc6bf1b1df7e89493d_IMG_2127.webp"
-          },
-          {
-            "thumb": "63e078c8678a1729c331ca3a_IMG_2129-thumb.webp",
-            "full": "63e078c8678a1729c331ca3a_IMG_2129.webp"
-          },
-          {
-            "full": "63e078a33f86128360837e82_IMG_2121.webp",
-            "thumb": "63e078a33f86128360837e82_IMG_2121-thumb.webp"
-          }
-        ]
-      }
+ "commercial": {
+  "title": "Commercial projects",
+  "intro": "Salons, restaurants, offices, clinics and daycares across Calgary. We take each build-out from first plans to final finish, built to last and ready for business.",
+  "projects": [
+   {
+    "id": "3twelve-beauty-lounge",
+    "name": "3Twelve Beauty Lounge",
+    "type": "Beauty lounge",
+    "photos": [
+     {
+      "full": "3twelve-beauty-lounge-v3-01.webp",
+      "thumb": "3twelve-beauty-lounge-v3-01-thumb.webp"
+     },
+     {
+      "full": "3twelve-beauty-lounge-v3-02.webp",
+      "thumb": "3twelve-beauty-lounge-v3-02-thumb.webp"
+     },
+     {
+      "full": "3twelve-beauty-lounge-v3-03.webp",
+      "thumb": "3twelve-beauty-lounge-v3-03-thumb.webp"
+     },
+     {
+      "full": "3twelve-beauty-lounge-v3-04.webp",
+      "thumb": "3twelve-beauty-lounge-v3-04-thumb.webp"
+     },
+     {
+      "full": "3twelve-beauty-lounge-v3-05.webp",
+      "thumb": "3twelve-beauty-lounge-v3-05-thumb.webp"
+     },
+     {
+      "full": "3twelve-beauty-lounge-v3-06.webp",
+      "thumb": "3twelve-beauty-lounge-v3-06-thumb.webp"
+     },
+     {
+      "full": "3twelve-beauty-lounge-v3-07.webp",
+      "thumb": "3twelve-beauty-lounge-v3-07-thumb.webp"
+     },
+     {
+      "full": "3twelve-beauty-lounge-v3-08.webp",
+      "thumb": "3twelve-beauty-lounge-v3-08-thumb.webp"
+     },
+     {
+      "full": "3twelve-beauty-lounge-v3-09.webp",
+      "thumb": "3twelve-beauty-lounge-v3-09-thumb.webp"
+     },
+     {
+      "full": "3twelve-beauty-lounge-v3-10.webp",
+      "thumb": "3twelve-beauty-lounge-v3-10-thumb.webp"
+     },
+     {
+      "full": "3twelve-beauty-lounge-v3-11.webp",
+      "thumb": "3twelve-beauty-lounge-v3-11-thumb.webp"
+     },
+     {
+      "full": "3twelve-beauty-lounge-v3-12.webp",
+      "thumb": "3twelve-beauty-lounge-v3-12-thumb.webp"
+     },
+     {
+      "full": "3twelve-beauty-lounge-v3-13.webp",
+      "thumb": "3twelve-beauty-lounge-v3-13-thumb.webp"
+     },
+     {
+      "full": "3twelve-beauty-lounge-v3-14.webp",
+      "thumb": "3twelve-beauty-lounge-v3-14-thumb.webp"
+     },
+     {
+      "full": "3twelve-beauty-lounge-v3-15.webp",
+      "thumb": "3twelve-beauty-lounge-v3-15-thumb.webp"
+     },
+     {
+      "full": "3twelve-beauty-lounge-v3-16.webp",
+      "thumb": "3twelve-beauty-lounge-v3-16-thumb.webp"
+     },
+     {
+      "full": "3twelve-beauty-lounge-v3-17.webp",
+      "thumb": "3twelve-beauty-lounge-v3-17-thumb.webp"
+     },
+     {
+      "full": "3twelve-beauty-lounge-v3-18.webp",
+      "thumb": "3twelve-beauty-lounge-v3-18-thumb.webp"
+     },
+     {
+      "full": "3twelve-beauty-lounge-v3-19.webp",
+      "thumb": "3twelve-beauty-lounge-v3-19-thumb.webp"
+     },
+     {
+      "full": "3twelve-beauty-lounge-v3-20.webp",
+      "thumb": "3twelve-beauty-lounge-v3-20-thumb.webp"
+     },
+     {
+      "full": "3twelve-beauty-lounge-v3-21.webp",
+      "thumb": "3twelve-beauty-lounge-v3-21-thumb.webp"
+     },
+     {
+      "full": "3twelve-beauty-lounge-v3-22.webp",
+      "thumb": "3twelve-beauty-lounge-v3-22-thumb.webp"
+     },
+     {
+      "full": "3twelve-beauty-lounge-v3-23.webp",
+      "thumb": "3twelve-beauty-lounge-v3-23-thumb.webp"
+     },
+     {
+      "full": "3twelve-beauty-lounge-v3-24.webp",
+      "thumb": "3twelve-beauty-lounge-v3-24-thumb.webp"
+     },
+     {
+      "full": "3twelve-beauty-lounge-v3-25.webp",
+      "thumb": "3twelve-beauty-lounge-v3-25-thumb.webp"
+     }
     ]
-  },
-  "residential": {
-    "title": "Homes built around the way you live",
-    "intro": "From full rebuilds to finished basements, Make A Change Homes builds and renovates homes across Calgary. Every project is shaped to your taste and guided by our core values, so you get quality work, fair pricing and a home you are proud to live in.",
-    "projects": [
-      {
-        "id": "basement-development",
-        "name": "Basement Development",
-        "type": "Basement development",
-        "photos": [
-          {
-            "full": "basement-development-v3-01.webp",
-            "thumb": "basement-development-v3-01-thumb.webp"
-          },
-          {
-            "full": "basement-development-v3-02.webp",
-            "thumb": "basement-development-v3-02-thumb.webp"
-          },
-          {
-            "full": "basement-development-v3-03.webp",
-            "thumb": "basement-development-v3-03-thumb.webp"
-          },
-          {
-            "full": "basement-development-v3-04.webp",
-            "thumb": "basement-development-v3-04-thumb.webp"
-          },
-          {
-            "full": "basement-development-v3-05.webp",
-            "thumb": "basement-development-v3-05-thumb.webp"
-          },
-          {
-            "full": "basement-development-v3-06.webp",
-            "thumb": "basement-development-v3-06-thumb.webp"
-          },
-          {
-            "full": "basement-development-v3-07.webp",
-            "thumb": "basement-development-v3-07-thumb.webp"
-          },
-          {
-            "full": "basement-development-v3-08.webp",
-            "thumb": "basement-development-v3-08-thumb.webp"
-          },
-          {
-            "full": "basement-development-v3-09.webp",
-            "thumb": "basement-development-v3-09-thumb.webp"
-          },
-          {
-            "full": "basement-development-v3-10.webp",
-            "thumb": "basement-development-v3-10-thumb.webp"
-          },
-          {
-            "full": "basement-development-v3-11.webp",
-            "thumb": "basement-development-v3-11-thumb.webp"
-          },
-          {
-            "full": "basement-development-v3-12.webp",
-            "thumb": "basement-development-v3-12-thumb.webp"
-          },
-          {
-            "full": "basement-development-v3-13.webp",
-            "thumb": "basement-development-v3-13-thumb.webp"
-          },
-          {
-            "full": "basement-development-v3-14.webp",
-            "thumb": "basement-development-v3-14-thumb.webp"
-          },
-          {
-            "full": "basement-development-v3-15.webp",
-            "thumb": "basement-development-v3-15-thumb.webp"
-          },
-          {
-            "full": "basement-development-v3-16.webp",
-            "thumb": "basement-development-v3-16-thumb.webp"
-          },
-          {
-            "full": "basement-development-v3-17.webp",
-            "thumb": "basement-development-v3-17-thumb.webp"
-          },
-          {
-            "full": "basement-development-v3-18.webp",
-            "thumb": "basement-development-v3-18-thumb.webp"
-          },
-          {
-            "full": "basement-development-v3-19.webp",
-            "thumb": "basement-development-v3-19-thumb.webp"
-          },
-          {
-            "full": "basement-development-v3-20.webp",
-            "thumb": "basement-development-v3-20-thumb.webp"
-          }
-        ]
-      },
-      {
-        "id": "custom-home",
-        "name": "Custom Home",
-        "type": "Home build",
-        "photos": [
-          {
-            "full": "custom-home-v3-01.webp",
-            "thumb": "custom-home-v3-01-thumb.webp"
-          },
-          {
-            "full": "custom-home-v3-02.webp",
-            "thumb": "custom-home-v3-02-thumb.webp"
-          },
-          {
-            "full": "custom-home-v3-03.webp",
-            "thumb": "custom-home-v3-03-thumb.webp"
-          },
-          {
-            "full": "custom-home-v3-04.webp",
-            "thumb": "custom-home-v3-04-thumb.webp"
-          }
-        ]
-      },
-      {
-        "id": "home-renovation",
-        "name": "Home Renovation",
-        "type": "Renovation",
-        "photos": [
-          {
-            "full": "home-renovation-v3-01.webp",
-            "thumb": "home-renovation-v3-01-thumb.webp"
-          },
-          {
-            "full": "home-renovation-v3-02.webp",
-            "thumb": "home-renovation-v3-02-thumb.webp"
-          },
-          {
-            "full": "home-renovation-v3-03.webp",
-            "thumb": "home-renovation-v3-03-thumb.webp"
-          }
-        ]
-      },
-      {
-        "id": "home-update",
-        "name": "Home Update",
-        "type": "Renovation",
-        "photos": [
-          {
-            "full": "home-update-v3-01.webp",
-            "thumb": "home-update-v3-01-thumb.webp"
-          },
-          {
-            "full": "home-update-v3-02.webp",
-            "thumb": "home-update-v3-02-thumb.webp"
-          },
-          {
-            "full": "home-update-v3-03.webp",
-            "thumb": "home-update-v3-03-thumb.webp"
-          }
-        ]
-      },
-      {
-        "id": "rebuilt-home",
-        "name": "Rebuilt Home",
-        "type": "Full home rebuild",
-        "photos": [
-          {
-            "thumb": "63e0041410d0b96cf5586c3c_611-84-Ave-SW2-thumb.webp",
-            "full": "63e0041410d0b96cf5586c3c_611-84-Ave-SW2.webp"
-          },
-          {
-            "thumb": "63e00422678a172c2e28041e_611-84-Ave-SW6-thumb.webp",
-            "full": "63e00422678a172c2e28041e_611-84-Ave-SW6.webp"
-          },
-          {
-            "thumb": "63e0042fd3e9be745186dae9_611-84-Ave-SW9-thumb.webp",
-            "full": "63e0042fd3e9be745186dae9_611-84-Ave-SW9.webp"
-          },
-          {
-            "thumb": "63e0043acc6c4816d24dd01b_611-84-Ave-SW11-thumb.webp",
-            "full": "63e0043acc6c4816d24dd01b_611-84-Ave-SW11.webp"
-          },
-          {
-            "thumb": "63e004494fd49b01819dd74b_611-84-Ave-SW14-thumb.webp",
-            "full": "63e004494fd49b01819dd74b_611-84-Ave-SW14.webp"
-          },
-          {
-            "thumb": "63e00457a0956f0a43891422_611-84-Ave-SW19-thumb.webp",
-            "full": "63e00457a0956f0a43891422_611-84-Ave-SW19.webp"
-          },
-          {
-            "thumb": "63e004654fd49bf1189dd839_611-84-Ave-SW25-thumb.webp",
-            "full": "63e004654fd49bf1189dd839_611-84-Ave-SW25.webp"
-          },
-          {
-            "thumb": "63e00475a0956fcf4489152b_611-84-Ave-SW28-thumb.webp",
-            "full": "63e00475a0956fcf4489152b_611-84-Ave-SW28.webp"
-          },
-          {
-            "thumb": "63e004cddd1066f22a3674a1_611-84-Ave-SW29-thumb.webp",
-            "full": "63e004cddd1066f22a3674a1_611-84-Ave-SW29.webp"
-          },
-          {
-            "thumb": "63e004df2ae9b0481fde776e_611-84-Ave-SW32-thumb.webp",
-            "full": "63e004df2ae9b0481fde776e_611-84-Ave-SW32.webp"
-          },
-          {
-            "thumb": "63e004ee678a17018d2816ba_611-84-Ave-SW35-thumb.webp",
-            "full": "63e004ee678a17018d2816ba_611-84-Ave-SW35.webp"
-          },
-          {
-            "thumb": "63e00500f46ebf485e9fd406_611-84-Ave-SW37-thumb.webp",
-            "full": "63e00500f46ebf485e9fd406_611-84-Ave-SW37.webp"
-          },
-          {
-            "thumb": "63e0050fdd106663bc368099_611-84-Ave-SW39-thumb.webp",
-            "full": "63e0050fdd106663bc368099_611-84-Ave-SW39.webp"
-          },
-          {
-            "thumb": "63e0051fd2a0ebb564f7df36_611-84-Ave-SW42-thumb.webp",
-            "full": "63e0051fd2a0ebb564f7df36_611-84-Ave-SW42.webp"
-          },
-          {
-            "thumb": "63e0053901f036f582dc1cbd_611-84-Ave-SW46-thumb.webp",
-            "full": "63e0053901f036f582dc1cbd_611-84-Ave-SW46.webp"
-          },
-          {
-            "thumb": "63e0054711b873cd16b4a06b_611-84-Ave-SW51-thumb.webp",
-            "full": "63e0054711b873cd16b4a06b_611-84-Ave-SW51.webp"
-          },
-          {
-            "full": "634bd6828246d8ed042885ef_Rebuilt-home-min.webp",
-            "thumb": "634bd6828246d8ed042885ef_Rebuilt-home-min-thumb.webp"
-          }
-        ]
-      },
-      {
-        "id": "basements",
-        "name": "Basements",
-        "type": "Basement development",
-        "photos": [
-          {
-            "thumb": "63dfe6b23700f0d42ccea835_IMG_2030-thumb.webp",
-            "full": "63dfe6b23700f0d42ccea835_IMG_2030.webp"
-          },
-          {
-            "thumb": "63dfe6de3f8612cef876e9cd_IMG_2034-thumb.webp",
-            "full": "63dfe6de3f8612cef876e9cd_IMG_2034.webp"
-          },
-          {
-            "thumb": "63dfe6ed4cfa8b3000144898_IMG_2035-thumb.webp",
-            "full": "63dfe6ed4cfa8b3000144898_IMG_2035.webp"
-          },
-          {
-            "thumb": "63dfe7142ae9b0ee0edbe7b6_IMG_2041-thumb.webp",
-            "full": "63dfe7142ae9b0ee0edbe7b6_IMG_2041.webp"
-          },
-          {
-            "full": "63dfe72f3f8612463076f0a7_IMG_2042.webp",
-            "thumb": "63dfe72f3f8612463076f0a7_IMG_2042-thumb.webp"
-          },
-          {
-            "full": "63dfe7413700f0148acebb4d_IMG_2045.webp",
-            "thumb": "63dfe7413700f0148acebb4d_IMG_2045-thumb.webp"
-          },
-          {
-            "full": "63dfe74fd3e9beabbc844071_IMG_2051.webp",
-            "thumb": "63dfe74fd3e9beabbc844071_IMG_2051-thumb.webp"
-          },
-          {
-            "thumb": "63dfe761c6567a1a844c5613_IMG_2052-thumb.webp",
-            "full": "63dfe761c6567a1a844c5613_IMG_2052.webp"
-          },
-          {
-            "thumb": "63dfe7820c95fc31a425ffbc_IMG_2053-thumb.webp",
-            "full": "63dfe7820c95fc31a425ffbc_IMG_2053.webp"
-          },
-          {
-            "thumb": "63dfe79a1693d1fb5206b056_IMG_2059-thumb.webp",
-            "full": "63dfe79a1693d1fb5206b056_IMG_2059.webp"
-          },
-          {
-            "thumb": "63dfe7ace4e25f677c0b5ed9_IMG_2072-thumb.webp",
-            "full": "63dfe7ace4e25f677c0b5ed9_IMG_2072.webp"
-          },
-          {
-            "full": "63dfe7c03f8612556b770712_IMG_2073.webp",
-            "thumb": "63dfe7c03f8612556b770712_IMG_2073-thumb.webp"
-          }
-        ]
-      }
+   },
+   {
+    "id": "beltline-nails",
+    "name": "Beltline Nails",
+    "type": "Nail salon",
+    "photos": [
+     {
+      "full": "beltline-nails-v3-01.webp",
+      "thumb": "beltline-nails-v3-01-thumb.webp"
+     },
+     {
+      "full": "beltline-nails-v3-02.webp",
+      "thumb": "beltline-nails-v3-02-thumb.webp"
+     },
+     {
+      "full": "beltline-nails-v3-03.webp",
+      "thumb": "beltline-nails-v3-03-thumb.webp"
+     },
+     {
+      "full": "beltline-nails-v3-04.webp",
+      "thumb": "beltline-nails-v3-04-thumb.webp"
+     },
+     {
+      "full": "beltline-nails-v3-05.webp",
+      "thumb": "beltline-nails-v3-05-thumb.webp"
+     },
+     {
+      "full": "beltline-nails-v3-06.webp",
+      "thumb": "beltline-nails-v3-06-thumb.webp"
+     },
+     {
+      "full": "beltline-nails-v3-07.webp",
+      "thumb": "beltline-nails-v3-07-thumb.webp"
+     },
+     {
+      "full": "beltline-nails-v3-08.webp",
+      "thumb": "beltline-nails-v3-08-thumb.webp"
+     },
+     {
+      "full": "beltline-nails-v3-09.webp",
+      "thumb": "beltline-nails-v3-09-thumb.webp"
+     },
+     {
+      "full": "beltline-nails-v3-10.webp",
+      "thumb": "beltline-nails-v3-10-thumb.webp"
+     },
+     {
+      "full": "beltline-nails-v3-11.webp",
+      "thumb": "beltline-nails-v3-11-thumb.webp"
+     },
+     {
+      "full": "beltline-nails-v3-12.webp",
+      "thumb": "beltline-nails-v3-12-thumb.webp"
+     },
+     {
+      "full": "beltline-nails-v3-13.webp",
+      "thumb": "beltline-nails-v3-13-thumb.webp"
+     },
+     {
+      "full": "beltline-nails-v3-14.webp",
+      "thumb": "beltline-nails-v3-14-thumb.webp"
+     },
+     {
+      "full": "beltline-nails-v3-15.webp",
+      "thumb": "beltline-nails-v3-15-thumb.webp"
+     },
+     {
+      "full": "beltline-nails-v3-16.webp",
+      "thumb": "beltline-nails-v3-16-thumb.webp"
+     },
+     {
+      "full": "beltline-nails-v3-17.webp",
+      "thumb": "beltline-nails-v3-17-thumb.webp"
+     },
+     {
+      "full": "beltline-nails-v3-18.webp",
+      "thumb": "beltline-nails-v3-18-thumb.webp"
+     },
+     {
+      "full": "beltline-nails-v3-19.webp",
+      "thumb": "beltline-nails-v3-19-thumb.webp"
+     },
+     {
+      "full": "beltline-nails-v3-20.webp",
+      "thumb": "beltline-nails-v3-20-thumb.webp"
+     },
+     {
+      "full": "beltline-nails-v3-21.webp",
+      "thumb": "beltline-nails-v3-21-thumb.webp"
+     }
     ]
-  }
+   },
+   {
+    "id": "ozy-nails",
+    "name": "Ozy Nails",
+    "type": "Nail salon",
+    "photos": [
+     {
+      "full": "ozy-nails-v3-01.webp",
+      "thumb": "ozy-nails-v3-01-thumb.webp"
+     },
+     {
+      "full": "ozy-nails-v3-02.webp",
+      "thumb": "ozy-nails-v3-02-thumb.webp"
+     },
+     {
+      "full": "ozy-nails-v3-03.webp",
+      "thumb": "ozy-nails-v3-03-thumb.webp"
+     },
+     {
+      "full": "ozy-nails-v3-04.webp",
+      "thumb": "ozy-nails-v3-04-thumb.webp"
+     },
+     {
+      "full": "ozy-nails-v3-05.webp",
+      "thumb": "ozy-nails-v3-05-thumb.webp"
+     },
+     {
+      "full": "ozy-nails-v3-06.webp",
+      "thumb": "ozy-nails-v3-06-thumb.webp"
+     },
+     {
+      "full": "ozy-nails-v3-07.webp",
+      "thumb": "ozy-nails-v3-07-thumb.webp"
+     },
+     {
+      "full": "ozy-nails-v3-08.webp",
+      "thumb": "ozy-nails-v3-08-thumb.webp"
+     },
+     {
+      "full": "ozy-nails-v3-09.webp",
+      "thumb": "ozy-nails-v3-09-thumb.webp"
+     },
+     {
+      "full": "ozy-nails-v3-10.webp",
+      "thumb": "ozy-nails-v3-10-thumb.webp"
+     },
+     {
+      "full": "ozy-nails-v3-11.webp",
+      "thumb": "ozy-nails-v3-11-thumb.webp"
+     },
+     {
+      "full": "ozy-nails-v3-12.webp",
+      "thumb": "ozy-nails-v3-12-thumb.webp"
+     },
+     {
+      "full": "ozy-nails-v3-13.webp",
+      "thumb": "ozy-nails-v3-13-thumb.webp"
+     },
+     {
+      "full": "ozy-nails-v3-14.webp",
+      "thumb": "ozy-nails-v3-14-thumb.webp"
+     },
+     {
+      "full": "ozy-nails-v3-15.webp",
+      "thumb": "ozy-nails-v3-15-thumb.webp"
+     }
+    ]
+   },
+   {
+    "id": "niwe-academy",
+    "name": "NIWE Academy",
+    "type": "Training academy",
+    "photos": [
+     {
+      "full": "niwe-academy-v3-01.webp",
+      "thumb": "niwe-academy-v3-01-thumb.webp"
+     },
+     {
+      "full": "niwe-academy-v3-02.webp",
+      "thumb": "niwe-academy-v3-02-thumb.webp"
+     },
+     {
+      "full": "niwe-academy-v3-03.webp",
+      "thumb": "niwe-academy-v3-03-thumb.webp"
+     },
+     {
+      "full": "niwe-academy-v3-04.webp",
+      "thumb": "niwe-academy-v3-04-thumb.webp"
+     },
+     {
+      "full": "niwe-academy-v3-05.webp",
+      "thumb": "niwe-academy-v3-05-thumb.webp"
+     },
+     {
+      "full": "niwe-academy-v3-06.webp",
+      "thumb": "niwe-academy-v3-06-thumb.webp"
+     },
+     {
+      "full": "niwe-academy-v3-07.webp",
+      "thumb": "niwe-academy-v3-07-thumb.webp"
+     },
+     {
+      "full": "niwe-academy-v3-08.webp",
+      "thumb": "niwe-academy-v3-08-thumb.webp"
+     },
+     {
+      "full": "niwe-academy-v3-09.webp",
+      "thumb": "niwe-academy-v3-09-thumb.webp"
+     },
+     {
+      "full": "niwe-academy-v3-10.webp",
+      "thumb": "niwe-academy-v3-10-thumb.webp"
+     },
+     {
+      "full": "niwe-academy-v3-11.webp",
+      "thumb": "niwe-academy-v3-11-thumb.webp"
+     }
+    ]
+   },
+   {
+    "id": "rehab-lounge",
+    "name": "Rehab Lounge",
+    "type": "Lounge",
+    "photos": [
+     {
+      "full": "rehab-lounge-v3-01.webp",
+      "thumb": "rehab-lounge-v3-01-thumb.webp"
+     },
+     {
+      "full": "rehab-lounge-v3-02.webp",
+      "thumb": "rehab-lounge-v3-02-thumb.webp"
+     },
+     {
+      "full": "rehab-lounge-v3-03.webp",
+      "thumb": "rehab-lounge-v3-03-thumb.webp"
+     },
+     {
+      "full": "rehab-lounge-v3-04.webp",
+      "thumb": "rehab-lounge-v3-04-thumb.webp"
+     },
+     {
+      "full": "rehab-lounge-v3-05.webp",
+      "thumb": "rehab-lounge-v3-05-thumb.webp"
+     },
+     {
+      "full": "rehab-lounge-v3-06.webp",
+      "thumb": "rehab-lounge-v3-06-thumb.webp"
+     },
+     {
+      "full": "rehab-lounge-v3-07.webp",
+      "thumb": "rehab-lounge-v3-07-thumb.webp"
+     },
+     {
+      "full": "rehab-lounge-v3-08.webp",
+      "thumb": "rehab-lounge-v3-08-thumb.webp"
+     },
+     {
+      "full": "rehab-lounge-v3-09.webp",
+      "thumb": "rehab-lounge-v3-09-thumb.webp"
+     },
+     {
+      "full": "rehab-lounge-v3-10.webp",
+      "thumb": "rehab-lounge-v3-10-thumb.webp"
+     },
+     {
+      "full": "rehab-lounge-v3-11.webp",
+      "thumb": "rehab-lounge-v3-11-thumb.webp"
+     },
+     {
+      "full": "rehab-lounge-v3-12.webp",
+      "thumb": "rehab-lounge-v3-12-thumb.webp"
+     },
+     {
+      "full": "rehab-lounge-v3-13.webp",
+      "thumb": "rehab-lounge-v3-13-thumb.webp"
+     },
+     {
+      "full": "rehab-lounge-v3-14.webp",
+      "thumb": "rehab-lounge-v3-14-thumb.webp"
+     },
+     {
+      "full": "rehab-lounge-v3-15.webp",
+      "thumb": "rehab-lounge-v3-15-thumb.webp"
+     },
+     {
+      "full": "rehab-lounge-v3-16.webp",
+      "thumb": "rehab-lounge-v3-16-thumb.webp"
+     },
+     {
+      "full": "rehab-lounge-v3-17.webp",
+      "thumb": "rehab-lounge-v3-17-thumb.webp"
+     },
+     {
+      "full": "rehab-lounge-v3-18.webp",
+      "thumb": "rehab-lounge-v3-18-thumb.webp"
+     },
+     {
+      "full": "rehab-lounge-v3-19.webp",
+      "thumb": "rehab-lounge-v3-19-thumb.webp"
+     },
+     {
+      "full": "rehab-lounge-v3-20.webp",
+      "thumb": "rehab-lounge-v3-20-thumb.webp"
+     },
+     {
+      "full": "rehab-lounge-v3-21.webp",
+      "thumb": "rehab-lounge-v3-21-thumb.webp"
+     },
+     {
+      "full": "rehab-lounge-v3-22.webp",
+      "thumb": "rehab-lounge-v3-22-thumb.webp"
+     },
+     {
+      "full": "rehab-lounge-v3-23.webp",
+      "thumb": "rehab-lounge-v3-23-thumb.webp"
+     },
+     {
+      "full": "rehab-lounge-v3-24.webp",
+      "thumb": "rehab-lounge-v3-24-thumb.webp"
+     },
+     {
+      "full": "rehab-lounge-v3-25.webp",
+      "thumb": "rehab-lounge-v3-25-thumb.webp"
+     },
+     {
+      "full": "rehab-lounge-v3-26.webp",
+      "thumb": "rehab-lounge-v3-26-thumb.webp"
+     },
+     {
+      "full": "rehab-lounge-v3-27.webp",
+      "thumb": "rehab-lounge-v3-27-thumb.webp"
+     }
+    ]
+   },
+   {
+    "id": "hello-nori",
+    "name": "Hello Nori",
+    "type": "Restaurant",
+    "photos": [
+     {
+      "full": "hello-nori-v3-01.webp",
+      "thumb": "hello-nori-v3-01-thumb.webp"
+     },
+     {
+      "full": "hello-nori-v3-02.webp",
+      "thumb": "hello-nori-v3-02-thumb.webp"
+     },
+     {
+      "full": "hello-nori-v3-03.webp",
+      "thumb": "hello-nori-v3-03-thumb.webp"
+     }
+    ]
+   },
+   {
+    "id": "nova-naturopathic",
+    "name": "Nova Naturopathic",
+    "type": "Clinic",
+    "photos": [
+     {
+      "full": "nova-naturopathic-v3-01.webp",
+      "thumb": "nova-naturopathic-v3-01-thumb.webp"
+     },
+     {
+      "full": "nova-naturopathic-v3-02.webp",
+      "thumb": "nova-naturopathic-v3-02-thumb.webp"
+     },
+     {
+      "full": "nova-naturopathic-v3-03.webp",
+      "thumb": "nova-naturopathic-v3-03-thumb.webp"
+     },
+     {
+      "full": "nova-naturopathic-v3-04.webp",
+      "thumb": "nova-naturopathic-v3-04-thumb.webp"
+     },
+     {
+      "full": "nova-naturopathic-v3-05.webp",
+      "thumb": "nova-naturopathic-v3-05-thumb.webp"
+     },
+     {
+      "full": "nova-naturopathic-v3-06.webp",
+      "thumb": "nova-naturopathic-v3-06-thumb.webp"
+     },
+     {
+      "full": "nova-naturopathic-v3-07.webp",
+      "thumb": "nova-naturopathic-v3-07-thumb.webp"
+     },
+     {
+      "full": "nova-naturopathic-v3-08.webp",
+      "thumb": "nova-naturopathic-v3-08-thumb.webp"
+     }
+    ]
+   },
+   {
+    "id": "law-office",
+    "name": "Law Office",
+    "type": "Office",
+    "photos": [
+     {
+      "full": "law-office-v3-01.webp",
+      "thumb": "law-office-v3-01-thumb.webp"
+     },
+     {
+      "full": "law-office-v3-02.webp",
+      "thumb": "law-office-v3-02-thumb.webp"
+     },
+     {
+      "full": "law-office-v3-03.webp",
+      "thumb": "law-office-v3-03-thumb.webp"
+     },
+     {
+      "full": "law-office-v3-04.webp",
+      "thumb": "law-office-v3-04-thumb.webp"
+     },
+     {
+      "full": "law-office-v3-05.webp",
+      "thumb": "law-office-v3-05-thumb.webp"
+     },
+     {
+      "full": "law-office-v3-06.webp",
+      "thumb": "law-office-v3-06-thumb.webp"
+     },
+     {
+      "full": "law-office-v3-07.webp",
+      "thumb": "law-office-v3-07-thumb.webp"
+     },
+     {
+      "full": "law-office-v3-08.webp",
+      "thumb": "law-office-v3-08-thumb.webp"
+     }
+    ]
+   },
+   {
+    "id": "kidzpen",
+    "name": "KidzPen",
+    "type": "Daycare",
+    "photos": [
+     {
+      "full": "kidzpen-v3-01.webp",
+      "thumb": "kidzpen-v3-01-thumb.webp"
+     },
+     {
+      "full": "kidzpen-v3-02.webp",
+      "thumb": "kidzpen-v3-02-thumb.webp"
+     },
+     {
+      "full": "kidzpen-v3-03.webp",
+      "thumb": "kidzpen-v3-03-thumb.webp"
+     },
+     {
+      "full": "kidzpen-v3-04.webp",
+      "thumb": "kidzpen-v3-04-thumb.webp"
+     },
+     {
+      "full": "kidzpen-v3-05.webp",
+      "thumb": "kidzpen-v3-05-thumb.webp"
+     },
+     {
+      "full": "kidzpen-v3-06.webp",
+      "thumb": "kidzpen-v3-06-thumb.webp"
+     },
+     {
+      "full": "kidzpen-v3-07.webp",
+      "thumb": "kidzpen-v3-07-thumb.webp"
+     },
+     {
+      "full": "kidzpen-v3-08.webp",
+      "thumb": "kidzpen-v3-08-thumb.webp"
+     },
+     {
+      "full": "kidzpen-v3-09.webp",
+      "thumb": "kidzpen-v3-09-thumb.webp"
+     }
+    ]
+   },
+   {
+    "id": "kad-consulting",
+    "name": "KAD Consulting Services",
+    "type": "Offices",
+    "photos": [
+     {
+      "thumb": "63e0798e1693d14ef312e5b6_IMG_1923-thumb.webp",
+      "full": "63e0798e1693d14ef312e5b6_IMG_1923.webp"
+     },
+     {
+      "thumb": "63e0799c4fd49b6e84a705c3_IMG_1926-thumb.webp",
+      "full": "63e0799c4fd49b6e84a705c3_IMG_1926.webp"
+     },
+     {
+      "thumb": "63e079a810d0b9852c61bb80_IMG_1932-thumb.webp",
+      "full": "63e079a810d0b9852c61bb80_IMG_1932.webp"
+     },
+     {
+      "thumb": "63e079b3ae719f5503c4bf6d_IMG_1934-thumb.webp",
+      "full": "63e079b3ae719f5503c4bf6d_IMG_1934.webp"
+     },
+     {
+      "thumb": "63e079bd3700f05c85da73a0_IMG_1943-thumb.webp",
+      "full": "63e079bd3700f05c85da73a0_IMG_1943.webp"
+     },
+     {
+      "thumb": "63e079ca8b609644ea4dd510_IMG_1954-thumb.webp",
+      "full": "63e079ca8b609644ea4dd510_IMG_1954.webp"
+     },
+     {
+      "thumb": "63e079d56af00b6e0b62cccf_IMG_1955-thumb.webp",
+      "full": "63e079d56af00b6e0b62cccf_IMG_1955.webp"
+     },
+     {
+      "thumb": "63e079e23f86125fe3839676_IMG_1972-thumb.webp",
+      "full": "63e079e23f86125fe3839676_IMG_1972.webp"
+     },
+     {
+      "thumb": "63e079ef4cfa8b2e5e20b642_IMG_1980-thumb.webp",
+      "full": "63e079ef4cfa8b2e5e20b642_IMG_1980.webp"
+     },
+     {
+      "thumb": "63e07a0a3f8612c5e9839961_IMG_1981-thumb.webp",
+      "full": "63e07a0a3f8612c5e9839961_IMG_1981.webp"
+     },
+     {
+      "thumb": "63e07a1347ab58eabdb96509_IMG_1983-thumb.webp",
+      "full": "63e07a1347ab58eabdb96509_IMG_1983.webp"
+     },
+     {
+      "thumb": "63e07a1fcc6c4856ea572589_IMG_1986-thumb.webp",
+      "full": "63e07a1fcc6c4856ea572589_IMG_1986.webp"
+     },
+     {
+      "thumb": "63e07a343f86125c2083a106_IMG_2002-thumb.webp",
+      "full": "63e07a343f86125c2083a106_IMG_2002.webp"
+     },
+     {
+      "thumb": "63e07a3fd2a0eb12fc01f9f5_IMG_2014-thumb.webp",
+      "full": "63e07a3fd2a0eb12fc01f9f5_IMG_2014.webp"
+     },
+     {
+      "thumb": "63e07a4c4fd49bf402a712f7_IMG_2015-thumb.webp",
+      "full": "63e07a4c4fd49bf402a712f7_IMG_2015.webp"
+     },
+     {
+      "thumb": "63e07a5611b8730a57bdcd61_IMG_2021-Edit-thumb.webp",
+      "full": "63e07a5611b8730a57bdcd61_IMG_2021-Edit.webp"
+     }
+    ]
+   },
+   {
+    "id": "barcelos",
+    "name": "Barcelos Flame Grilled Chicken",
+    "type": "Restaurant",
+    "photos": [
+     {
+      "thumb": "63e07abaa0956f437a92ad9d_IMG_1603-thumb.webp",
+      "full": "63e07abaa0956f437a92ad9d_IMG_1603.webp"
+     },
+     {
+      "thumb": "63e07ac68b609617874de22f_IMG_1604-Edit-thumb.webp",
+      "full": "63e07ac68b609617874de22f_IMG_1604-Edit.webp"
+     },
+     {
+      "thumb": "63e07ad33700f05551da7efb_IMG_1620-thumb.webp",
+      "full": "63e07ad33700f05551da7efb_IMG_1620.webp"
+     },
+     {
+      "thumb": "63e07adca0956f126f92b1ea_IMG_1622-thumb.webp",
+      "full": "63e07adca0956f126f92b1ea_IMG_1622.webp"
+     },
+     {
+      "thumb": "63e07ae56bf1b140ec897936_IMG_1638-thumb.webp",
+      "full": "63e07ae56bf1b140ec897936_IMG_1638.webp"
+     },
+     {
+      "thumb": "63e07af18b609673f24de402_IMG_1640-thumb.webp",
+      "full": "63e07af18b609673f24de402_IMG_1640.webp"
+     },
+     {
+      "thumb": "63e07b15dd1066e1b03fcac3_IMG_1652-thumb.webp",
+      "full": "63e07b15dd1066e1b03fcac3_IMG_1652.webp"
+     },
+     {
+      "thumb": "63e07b216bf1b1dd71897c13_IMG_1658-thumb.webp",
+      "full": "63e07b216bf1b1dd71897c13_IMG_1658.webp"
+     }
+    ]
+   },
+   {
+    "id": "taralake-medical-clinic",
+    "name": "Taralake Medical Clinic",
+    "type": "Clinic",
+    "photos": [
+     {
+      "thumb": "63e07918c6567ad37358b35b_IMG_1897-thumb.webp",
+      "full": "63e07918c6567ad37358b35b_IMG_1897.webp"
+     },
+     {
+      "thumb": "63e07922d88ab869055e8abc_IMG_1904-thumb.webp",
+      "full": "63e07922d88ab869055e8abc_IMG_1904.webp"
+     },
+     {
+      "thumb": "63e0792dd2a0eb5dfb01e7c4_IMG_1907-thumb.webp",
+      "full": "63e0792dd2a0eb5dfb01e7c4_IMG_1907.webp"
+     },
+     {
+      "thumb": "63e07940d3e9be7b1b907878_IMG_1912-thumb.webp",
+      "full": "63e07940d3e9be7b1b907878_IMG_1912.webp"
+     },
+     {
+      "thumb": "63e0793711b873e017bdbbf2_IMG_1909-thumb.webp",
+      "full": "63e0793711b873e017bdbbf2_IMG_1909.webp"
+     },
+     {
+      "thumb": "63e0794b6bf1b143cd895be2_IMG_1915-thumb.webp",
+      "full": "63e0794b6bf1b143cd895be2_IMG_1915.webp"
+     },
+     {
+      "thumb": "63e07956ae719ffd70c4b915_IMG_1919-Edit-thumb.webp",
+      "full": "63e07956ae719ffd70c4b915_IMG_1919-Edit.webp"
+     },
+     {
+      "thumb": "63e0795f1693d1ccea12e27d_IMG_1920-Edit-thumb.webp",
+      "full": "63e0795f1693d1ccea12e27d_IMG_1920-Edit.webp"
+     }
+    ]
+   },
+   {
+    "id": "kidzpen-original",
+    "name": "KidzPen",
+    "type": "Daycare",
+    "photos": [
+     {
+      "thumb": "63e07809cc6c48788657002f_IMG_2077-thumb.webp",
+      "full": "63e07809cc6c48788657002f_IMG_2077.webp"
+     },
+     {
+      "thumb": "63e0781210d0b9bbe761a77d_IMG_2083-thumb.webp",
+      "full": "63e0781210d0b9bbe761a77d_IMG_2083.webp"
+     },
+     {
+      "thumb": "63e07892dd10661e873f8d12_IMG_2118-thumb.webp",
+      "full": "63e07892dd10661e873f8d12_IMG_2118.webp"
+     },
+     {
+      "thumb": "63e078292ae9b00b99e7f648_IMG_2087-thumb.webp",
+      "full": "63e078292ae9b00b99e7f648_IMG_2087.webp"
+     },
+     {
+      "thumb": "63e07836c6567af5e75895fc_IMG_2088-thumb.webp",
+      "full": "63e07836c6567af5e75895fc_IMG_2088.webp"
+     },
+     {
+      "thumb": "63e07840d88ab85d825e83ff_IMG_2094-thumb.webp",
+      "full": "63e07840d88ab85d825e83ff_IMG_2094.webp"
+     },
+     {
+      "thumb": "63e0784ae4e25fe755179189_IMG_2095-thumb.webp",
+      "full": "63e0784ae4e25fe755179189_IMG_2095.webp"
+     },
+     {
+      "thumb": "63e0785510d0b9f19661a93a_IMG_2102-thumb.webp",
+      "full": "63e0785510d0b9f19661a93a_IMG_2102.webp"
+     },
+     {
+      "thumb": "63e07861d2a0eb9bd401d452_IMG_2103-thumb.webp",
+      "full": "63e07861d2a0eb9bd401d452_IMG_2103.webp"
+     },
+     {
+      "thumb": "63e07870c6567a4d57589edc_IMG_2107-thumb.webp",
+      "full": "63e07870c6567a4d57589edc_IMG_2107.webp"
+     },
+     {
+      "thumb": "63e078823f8612b069837cc8_IMG_2108-thumb.webp",
+      "full": "63e078823f8612b069837cc8_IMG_2108.webp"
+     },
+     {
+      "thumb": "63e078af11b873555dbdadb5_IMG_2124-thumb.webp",
+      "full": "63e078af11b873555dbdadb5_IMG_2124.webp"
+     },
+     {
+      "thumb": "63e07d8e6bf1b15ae689af4b_IMG_2125-thumb.webp",
+      "full": "63e07d8e6bf1b15ae689af4b_IMG_2125.webp"
+     },
+     {
+      "thumb": "63e078bc6bf1b1df7e89493d_IMG_2127-thumb.webp",
+      "full": "63e078bc6bf1b1df7e89493d_IMG_2127.webp"
+     },
+     {
+      "thumb": "63e078c8678a1729c331ca3a_IMG_2129-thumb.webp",
+      "full": "63e078c8678a1729c331ca3a_IMG_2129.webp"
+     },
+     {
+      "full": "63e078a33f86128360837e82_IMG_2121.webp",
+      "thumb": "63e078a33f86128360837e82_IMG_2121-thumb.webp"
+     }
+    ]
+   }
+  ]
+ },
+ "residential": {
+  "title": "Homes built around the way you live",
+  "intro": "From full rebuilds to finished basements, Make A Change Homes builds and renovates homes across Calgary. Every project is shaped to your taste and guided by our core values, so you get quality work, fair pricing and a home you are proud to live in.",
+  "projects": [
+   {
+    "id": "basement-development",
+    "name": "Basement Development",
+    "type": "Basement development",
+    "photos": [
+     {
+      "full": "basement-development-v3-19.webp",
+      "thumb": "basement-development-v3-19-thumb.webp"
+     },
+     {
+      "full": "basement-development-v3-20.webp",
+      "thumb": "basement-development-v3-20-thumb.webp"
+     },
+     {
+      "full": "basement-development-v3-17.webp",
+      "thumb": "basement-development-v3-17-thumb.webp"
+     },
+     {
+      "full": "basement-development-v3-13.webp",
+      "thumb": "basement-development-v3-13-thumb.webp"
+     },
+     {
+      "full": "basement-development-v3-12.webp",
+      "thumb": "basement-development-v3-12-thumb.webp"
+     },
+     {
+      "full": "basement-development-v3-11.webp",
+      "thumb": "basement-development-v3-11-thumb.webp"
+     },
+     {
+      "full": "basement-development-v3-05.webp",
+      "thumb": "basement-development-v3-05-thumb.webp"
+     },
+     {
+      "full": "basement-development-v3-01.webp",
+      "thumb": "basement-development-v3-01-thumb.webp"
+     },
+     {
+      "full": "basement-development-v3-03.webp",
+      "thumb": "basement-development-v3-03-thumb.webp"
+     },
+     {
+      "full": "basement-development-v3-06.webp",
+      "thumb": "basement-development-v3-06-thumb.webp"
+     },
+     {
+      "full": "basement-development-v3-09.webp",
+      "thumb": "basement-development-v3-09-thumb.webp"
+     },
+     {
+      "full": "basement-development-v3-08.webp",
+      "thumb": "basement-development-v3-08-thumb.webp"
+     }
+    ]
+   },
+   {
+    "id": "custom-home",
+    "name": "Custom Home",
+    "type": "Home build",
+    "photos": [
+     {
+      "full": "custom-home-v3-01.webp",
+      "thumb": "custom-home-v3-01-thumb.webp"
+     },
+     {
+      "full": "custom-home-v3-02.webp",
+      "thumb": "custom-home-v3-02-thumb.webp"
+     },
+     {
+      "full": "custom-home-v3-03.webp",
+      "thumb": "custom-home-v3-03-thumb.webp"
+     },
+     {
+      "full": "custom-home-v3-04.webp",
+      "thumb": "custom-home-v3-04-thumb.webp"
+     }
+    ]
+   },
+   {
+    "id": "home-renovation",
+    "name": "Home Renovation",
+    "type": "Renovation",
+    "photos": [
+     {
+      "full": "home-renovation-v3-01.webp",
+      "thumb": "home-renovation-v3-01-thumb.webp"
+     },
+     {
+      "full": "home-renovation-v3-02.webp",
+      "thumb": "home-renovation-v3-02-thumb.webp"
+     },
+     {
+      "full": "home-renovation-v3-03.webp",
+      "thumb": "home-renovation-v3-03-thumb.webp"
+     }
+    ]
+   },
+   {
+    "id": "home-update",
+    "name": "Home Update",
+    "type": "Renovation",
+    "photos": [
+     {
+      "full": "home-update-v3-01.webp",
+      "thumb": "home-update-v3-01-thumb.webp"
+     },
+     {
+      "full": "home-update-v3-02.webp",
+      "thumb": "home-update-v3-02-thumb.webp"
+     },
+     {
+      "full": "home-update-v3-03.webp",
+      "thumb": "home-update-v3-03-thumb.webp"
+     }
+    ]
+   },
+   {
+    "id": "rebuilt-home",
+    "name": "Rebuilt Home",
+    "type": "Full home rebuild",
+    "photos": [
+     {
+      "thumb": "63e0041410d0b96cf5586c3c_611-84-Ave-SW2-thumb.webp",
+      "full": "63e0041410d0b96cf5586c3c_611-84-Ave-SW2.webp"
+     },
+     {
+      "thumb": "63e00422678a172c2e28041e_611-84-Ave-SW6-thumb.webp",
+      "full": "63e00422678a172c2e28041e_611-84-Ave-SW6.webp"
+     },
+     {
+      "thumb": "63e0042fd3e9be745186dae9_611-84-Ave-SW9-thumb.webp",
+      "full": "63e0042fd3e9be745186dae9_611-84-Ave-SW9.webp"
+     },
+     {
+      "thumb": "63e0043acc6c4816d24dd01b_611-84-Ave-SW11-thumb.webp",
+      "full": "63e0043acc6c4816d24dd01b_611-84-Ave-SW11.webp"
+     },
+     {
+      "thumb": "63e004494fd49b01819dd74b_611-84-Ave-SW14-thumb.webp",
+      "full": "63e004494fd49b01819dd74b_611-84-Ave-SW14.webp"
+     },
+     {
+      "thumb": "63e00457a0956f0a43891422_611-84-Ave-SW19-thumb.webp",
+      "full": "63e00457a0956f0a43891422_611-84-Ave-SW19.webp"
+     },
+     {
+      "thumb": "63e004654fd49bf1189dd839_611-84-Ave-SW25-thumb.webp",
+      "full": "63e004654fd49bf1189dd839_611-84-Ave-SW25.webp"
+     },
+     {
+      "thumb": "63e00475a0956fcf4489152b_611-84-Ave-SW28-thumb.webp",
+      "full": "63e00475a0956fcf4489152b_611-84-Ave-SW28.webp"
+     },
+     {
+      "thumb": "63e004cddd1066f22a3674a1_611-84-Ave-SW29-thumb.webp",
+      "full": "63e004cddd1066f22a3674a1_611-84-Ave-SW29.webp"
+     },
+     {
+      "thumb": "63e004df2ae9b0481fde776e_611-84-Ave-SW32-thumb.webp",
+      "full": "63e004df2ae9b0481fde776e_611-84-Ave-SW32.webp"
+     },
+     {
+      "thumb": "63e004ee678a17018d2816ba_611-84-Ave-SW35-thumb.webp",
+      "full": "63e004ee678a17018d2816ba_611-84-Ave-SW35.webp"
+     },
+     {
+      "thumb": "63e00500f46ebf485e9fd406_611-84-Ave-SW37-thumb.webp",
+      "full": "63e00500f46ebf485e9fd406_611-84-Ave-SW37.webp"
+     },
+     {
+      "thumb": "63e0050fdd106663bc368099_611-84-Ave-SW39-thumb.webp",
+      "full": "63e0050fdd106663bc368099_611-84-Ave-SW39.webp"
+     },
+     {
+      "thumb": "63e0051fd2a0ebb564f7df36_611-84-Ave-SW42-thumb.webp",
+      "full": "63e0051fd2a0ebb564f7df36_611-84-Ave-SW42.webp"
+     },
+     {
+      "thumb": "63e0053901f036f582dc1cbd_611-84-Ave-SW46-thumb.webp",
+      "full": "63e0053901f036f582dc1cbd_611-84-Ave-SW46.webp"
+     },
+     {
+      "thumb": "63e0054711b873cd16b4a06b_611-84-Ave-SW51-thumb.webp",
+      "full": "63e0054711b873cd16b4a06b_611-84-Ave-SW51.webp"
+     }
+    ]
+   },
+   {
+    "id": "basements",
+    "name": "Basements",
+    "type": "Basement development",
+    "photos": [
+     {
+      "thumb": "63dfe6b23700f0d42ccea835_IMG_2030-thumb.webp",
+      "full": "63dfe6b23700f0d42ccea835_IMG_2030.webp"
+     },
+     {
+      "thumb": "63dfe6de3f8612cef876e9cd_IMG_2034-thumb.webp",
+      "full": "63dfe6de3f8612cef876e9cd_IMG_2034.webp"
+     },
+     {
+      "thumb": "63dfe6ed4cfa8b3000144898_IMG_2035-thumb.webp",
+      "full": "63dfe6ed4cfa8b3000144898_IMG_2035.webp"
+     },
+     {
+      "full": "63dfe7413700f0148acebb4d_IMG_2045.webp",
+      "thumb": "63dfe7413700f0148acebb4d_IMG_2045-thumb.webp"
+     },
+     {
+      "thumb": "63dfe761c6567a1a844c5613_IMG_2052-thumb.webp",
+      "full": "63dfe761c6567a1a844c5613_IMG_2052.webp"
+     },
+     {
+      "thumb": "63dfe7820c95fc31a425ffbc_IMG_2053-thumb.webp",
+      "full": "63dfe7820c95fc31a425ffbc_IMG_2053.webp"
+     },
+     {
+      "thumb": "63dfe79a1693d1fb5206b056_IMG_2059-thumb.webp",
+      "full": "63dfe79a1693d1fb5206b056_IMG_2059.webp"
+     },
+     {
+      "thumb": "63dfe7ace4e25f677c0b5ed9_IMG_2072-thumb.webp",
+      "full": "63dfe7ace4e25f677c0b5ed9_IMG_2072.webp"
+     }
+    ]
+   }
+  ]
+ }
 }
