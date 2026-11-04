@@ -1,7 +1,7 @@
 {
   "commercial": {
-    "title": "Commercial projects",
-    "intro": "Salons, restaurants, offices, clinics and daycares across Calgary. We take each build-out from first plans to final finish, built to last and ready for business.",
+    "title": "Spaces built around your business",
+    "intro": "From salons and restaurants to offices, clinics and daycares, we build commercial spaces across Calgary, planned around how you work and ready to open.",
     "projects": [
       {
         "id": "hello-nori",
@@ -607,7 +607,7 @@
   },
   "residential": {
     "title": "Homes built around the way you live",
-    "intro": "From full rebuilds to finished basements, Make A Change Homes builds and renovates homes across Calgary. Every project is shaped to your taste and guided by our core values, so you get quality work, fair pricing and a home you are proud to live in.",
+    "intro": "From full rebuilds to finished basements, we build and renovate homes across Calgary, shaped to your taste and built to last.",
     "projects": [
       {
         "id": "custom-home",
