@@ -23,9 +23,13 @@
   // Restore a saved order from this browser.
   try {
     var saved = JSON.parse(localStorage.getItem(KEY) || 'null');
+    var byName = {};
+    items().forEach(function (el) { byName[nameOf(el)] = el; });
+    // A save made before the photos were swapped out names files that are gone;
+    // using it would pile the dividers up at the top, so start fresh instead.
+    var stale = saved && saved.order && saved.order.concat(saved.removed || []).some(function (n) { return !byName[n]; });
+    if (stale) { localStorage.removeItem(KEY); saved = null; }
     if (saved && saved.order) {
-      var byName = {};
-      items().forEach(function (el) { byName[nameOf(el)] = el; });
       saved.order.forEach(function (n) { if (byName[n]) { grid.appendChild(byName[n]); delete byName[n]; } });
       (saved.removed || []).forEach(function (n) { if (byName[n]) { byName[n].remove(); removed.push(byName[n]); delete byName[n]; } });
       Object.keys(byName).forEach(function (n) { grid.appendChild(byName[n]); });
