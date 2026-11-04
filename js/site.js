@@ -115,7 +115,11 @@
       index = (i + set.length) % set.length;
       img.src = set[index].getAttribute('href');
       img.alt = altOf(set[index]);
-      count.textContent = (label ? label + ' \u00b7 ' : '') + (index + 1) + ' of ' + set.length;
+      // Gallery photos carry "Project, photo 3 of 12" in their alt text:
+      // show the place within that project, e.g. "3 of 12 | 3Twelve Beauty Lounge".
+      var m = /^(.*), photo (\d+) of (\d+)$/.exec(img.alt);
+      count.textContent = m ? m[2] + ' of ' + m[3] + ' | ' + m[1]
+        : (label ? label + ' \u00b7 ' : '') + (index + 1) + ' of ' + set.length;
       // Fetch the photos either side so swiping feels instant.
       [1, -1, 2].forEach(function (d) {
         new Image().src = set[(index + d + set.length) % set.length].getAttribute('href');
