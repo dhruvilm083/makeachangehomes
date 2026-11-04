@@ -4,6 +4,170 @@
     "intro": "Salons, restaurants, offices, clinics and daycares across Calgary. We take each build-out from first plans to final finish, built to last and ready for business.",
     "projects": [
       {
+        "id": "hello-nori",
+        "name": "Hello Nori",
+        "type": "Restaurant",
+        "photos": [
+          {
+            "full": "hello-nori-v3-02.webp",
+            "thumb": "hello-nori-v3-02-thumb.webp"
+          },
+          {
+            "full": "hello-nori-v3-03.webp",
+            "thumb": "hello-nori-v3-03-thumb.webp"
+          }
+        ]
+      },
+      {
+        "id": "beltline-nails",
+        "name": "Beltline Nails",
+        "type": "Nail salon",
+        "photos": [
+          {
+            "full": "beltline-nails-v3-20.webp",
+            "thumb": "beltline-nails-v3-20-thumb.webp"
+          },
+          {
+            "full": "beltline-nails-v3-02.webp",
+            "thumb": "beltline-nails-v3-02-thumb.webp"
+          },
+          {
+            "full": "beltline-nails-v3-11.webp",
+            "thumb": "beltline-nails-v3-11-thumb.webp"
+          },
+          {
+            "full": "beltline-nails-v3-10.webp",
+            "thumb": "beltline-nails-v3-10-thumb.webp"
+          },
+          {
+            "full": "beltline-nails-v3-05.webp",
+            "thumb": "beltline-nails-v3-05-thumb.webp"
+          },
+          {
+            "full": "beltline-nails-v3-09.webp",
+            "thumb": "beltline-nails-v3-09-thumb.webp"
+          },
+          {
+            "full": "beltline-nails-v3-01.webp",
+            "thumb": "beltline-nails-v3-01-thumb.webp"
+          },
+          {
+            "full": "beltline-nails-v3-12.webp",
+            "thumb": "beltline-nails-v3-12-thumb.webp"
+          },
+          {
+            "full": "beltline-nails-v3-16.webp",
+            "thumb": "beltline-nails-v3-16-thumb.webp"
+          },
+          {
+            "full": "beltline-nails-v3-06.webp",
+            "thumb": "beltline-nails-v3-06-thumb.webp"
+          },
+          {
+            "full": "beltline-nails-v3-08.webp",
+            "thumb": "beltline-nails-v3-08-thumb.webp"
+          },
+          {
+            "full": "beltline-nails-v3-14.webp",
+            "thumb": "beltline-nails-v3-14-thumb.webp"
+          }
+        ]
+      },
+      {
+        "id": "niwe-academy",
+        "name": "NIWE Academy",
+        "type": "Training academy",
+        "photos": [
+          {
+            "full": "niwe-academy-v3-07.webp",
+            "thumb": "niwe-academy-v3-07-thumb.webp"
+          },
+          {
+            "full": "niwe-academy-v3-01.webp",
+            "thumb": "niwe-academy-v3-01-thumb.webp"
+          },
+          {
+            "full": "niwe-academy-v3-09.webp",
+            "thumb": "niwe-academy-v3-09-thumb.webp"
+          },
+          {
+            "full": "niwe-academy-v3-11.webp",
+            "thumb": "niwe-academy-v3-11-thumb.webp"
+          },
+          {
+            "full": "niwe-academy-v3-08.webp",
+            "thumb": "niwe-academy-v3-08-thumb.webp"
+          },
+          {
+            "full": "niwe-academy-v3-03.webp",
+            "thumb": "niwe-academy-v3-03-thumb.webp"
+          },
+          {
+            "full": "niwe-academy-v3-05.webp",
+            "thumb": "niwe-academy-v3-05-thumb.webp"
+          },
+          {
+            "full": "niwe-academy-v3-06.webp",
+            "thumb": "niwe-academy-v3-06-thumb.webp"
+          }
+        ]
+      },
+      {
+        "id": "kad-consulting",
+        "name": "KAD Consulting Services",
+        "type": "Offices",
+        "photos": [
+          {
+            "thumb": "63e079d56af00b6e0b62cccf_IMG_1955-thumb.webp",
+            "full": "63e079d56af00b6e0b62cccf_IMG_1955.webp"
+          },
+          {
+            "thumb": "63e07a5611b8730a57bdcd61_IMG_2021-Edit-thumb.webp",
+            "full": "63e07a5611b8730a57bdcd61_IMG_2021-Edit.webp"
+          },
+          {
+            "thumb": "63e07a3fd2a0eb12fc01f9f5_IMG_2014-thumb.webp",
+            "full": "63e07a3fd2a0eb12fc01f9f5_IMG_2014.webp"
+          },
+          {
+            "thumb": "63e079e23f86125fe3839676_IMG_1972-thumb.webp",
+            "full": "63e079e23f86125fe3839676_IMG_1972.webp"
+          },
+          {
+            "thumb": "63e07a343f86125c2083a106_IMG_2002-thumb.webp",
+            "full": "63e07a343f86125c2083a106_IMG_2002.webp"
+          },
+          {
+            "thumb": "63e0798e1693d14ef312e5b6_IMG_1923-thumb.webp",
+            "full": "63e0798e1693d14ef312e5b6_IMG_1923.webp"
+          },
+          {
+            "thumb": "63e07a0a3f8612c5e9839961_IMG_1981-thumb.webp",
+            "full": "63e07a0a3f8612c5e9839961_IMG_1981.webp"
+          },
+          {
+            "thumb": "63e079ef4cfa8b2e5e20b642_IMG_1980-thumb.webp",
+            "full": "63e079ef4cfa8b2e5e20b642_IMG_1980.webp"
+          },
+          {
+            "thumb": "63e07a1347ab58eabdb96509_IMG_1983-thumb.webp",
+            "full": "63e07a1347ab58eabdb96509_IMG_1983.webp"
+          },
+          {
+            "thumb": "63e079a810d0b9852c61bb80_IMG_1932-thumb.webp",
+            "full": "63e079a810d0b9852c61bb80_IMG_1932.webp"
+          },
+          {
+            "thumb": "63e079b3ae719f5503c4bf6d_IMG_1934-thumb.webp",
+            "full": "63e079b3ae719f5503c4bf6d_IMG_1934.webp"
+          },
+          {
+            "thumb": "63e079bd3700f05c85da73a0_IMG_1943-thumb.webp",
+            "full": "63e079bd3700f05c85da73a0_IMG_1943.webp"
+          }
+        ]
+      },
+      {
         "id": "3twelve-beauty-lounge",
         "name": "3Twelve Beauty Lounge",
         "type": "Beauty lounge",
@@ -87,6 +251,45 @@
           {
             "full": "3twelve-beauty-lounge-v3-24.webp",
             "thumb": "3twelve-beauty-lounge-v3-24-thumb.webp"
+          }
+        ]
+      },
+      {
+        "id": "ozy-nails",
+        "name": "Ozy Nails",
+        "type": "Nail salon",
+        "photos": [
+          {
+            "full": "ozy-nails-v3-01.webp",
+            "thumb": "ozy-nails-v3-01-thumb.webp"
+          },
+          {
+            "full": "ozy-nails-v3-04.webp",
+            "thumb": "ozy-nails-v3-04-thumb.webp"
+          },
+          {
+            "full": "ozy-nails-v3-05.webp",
+            "thumb": "ozy-nails-v3-05-thumb.webp"
+          },
+          {
+            "full": "ozy-nails-v3-15.webp",
+            "thumb": "ozy-nails-v3-15-thumb.webp"
+          },
+          {
+            "full": "ozy-nails-v3-10.webp",
+            "thumb": "ozy-nails-v3-10-thumb.webp"
+          },
+          {
+            "full": "ozy-nails-v3-06.webp",
+            "thumb": "ozy-nails-v3-06-thumb.webp"
+          },
+          {
+            "full": "ozy-nails-v3-07.webp",
+            "thumb": "ozy-nails-v3-07-thumb.webp"
+          },
+          {
+            "full": "ozy-nails-v3-11.webp",
+            "thumb": "ozy-nails-v3-11-thumb.webp"
           }
         ]
       },
@@ -249,194 +452,6 @@
         ]
       },
       {
-        "id": "beltline-nails",
-        "name": "Beltline Nails",
-        "type": "Nail salon",
-        "photos": [
-          {
-            "full": "beltline-nails-v3-20.webp",
-            "thumb": "beltline-nails-v3-20-thumb.webp"
-          },
-          {
-            "full": "beltline-nails-v3-02.webp",
-            "thumb": "beltline-nails-v3-02-thumb.webp"
-          },
-          {
-            "full": "beltline-nails-v3-11.webp",
-            "thumb": "beltline-nails-v3-11-thumb.webp"
-          },
-          {
-            "full": "beltline-nails-v3-10.webp",
-            "thumb": "beltline-nails-v3-10-thumb.webp"
-          },
-          {
-            "full": "beltline-nails-v3-05.webp",
-            "thumb": "beltline-nails-v3-05-thumb.webp"
-          },
-          {
-            "full": "beltline-nails-v3-09.webp",
-            "thumb": "beltline-nails-v3-09-thumb.webp"
-          },
-          {
-            "full": "beltline-nails-v3-01.webp",
-            "thumb": "beltline-nails-v3-01-thumb.webp"
-          },
-          {
-            "full": "beltline-nails-v3-12.webp",
-            "thumb": "beltline-nails-v3-12-thumb.webp"
-          },
-          {
-            "full": "beltline-nails-v3-16.webp",
-            "thumb": "beltline-nails-v3-16-thumb.webp"
-          },
-          {
-            "full": "beltline-nails-v3-06.webp",
-            "thumb": "beltline-nails-v3-06-thumb.webp"
-          },
-          {
-            "full": "beltline-nails-v3-08.webp",
-            "thumb": "beltline-nails-v3-08-thumb.webp"
-          },
-          {
-            "full": "beltline-nails-v3-14.webp",
-            "thumb": "beltline-nails-v3-14-thumb.webp"
-          }
-        ]
-      },
-      {
-        "id": "kad-consulting",
-        "name": "KAD Consulting Services",
-        "type": "Offices",
-        "photos": [
-          {
-            "thumb": "63e079d56af00b6e0b62cccf_IMG_1955-thumb.webp",
-            "full": "63e079d56af00b6e0b62cccf_IMG_1955.webp"
-          },
-          {
-            "thumb": "63e07a5611b8730a57bdcd61_IMG_2021-Edit-thumb.webp",
-            "full": "63e07a5611b8730a57bdcd61_IMG_2021-Edit.webp"
-          },
-          {
-            "thumb": "63e07a3fd2a0eb12fc01f9f5_IMG_2014-thumb.webp",
-            "full": "63e07a3fd2a0eb12fc01f9f5_IMG_2014.webp"
-          },
-          {
-            "thumb": "63e079e23f86125fe3839676_IMG_1972-thumb.webp",
-            "full": "63e079e23f86125fe3839676_IMG_1972.webp"
-          },
-          {
-            "thumb": "63e07a343f86125c2083a106_IMG_2002-thumb.webp",
-            "full": "63e07a343f86125c2083a106_IMG_2002.webp"
-          },
-          {
-            "thumb": "63e0798e1693d14ef312e5b6_IMG_1923-thumb.webp",
-            "full": "63e0798e1693d14ef312e5b6_IMG_1923.webp"
-          },
-          {
-            "thumb": "63e07a0a3f8612c5e9839961_IMG_1981-thumb.webp",
-            "full": "63e07a0a3f8612c5e9839961_IMG_1981.webp"
-          },
-          {
-            "thumb": "63e079ef4cfa8b2e5e20b642_IMG_1980-thumb.webp",
-            "full": "63e079ef4cfa8b2e5e20b642_IMG_1980.webp"
-          },
-          {
-            "thumb": "63e07a1347ab58eabdb96509_IMG_1983-thumb.webp",
-            "full": "63e07a1347ab58eabdb96509_IMG_1983.webp"
-          },
-          {
-            "thumb": "63e079a810d0b9852c61bb80_IMG_1932-thumb.webp",
-            "full": "63e079a810d0b9852c61bb80_IMG_1932.webp"
-          },
-          {
-            "thumb": "63e079b3ae719f5503c4bf6d_IMG_1934-thumb.webp",
-            "full": "63e079b3ae719f5503c4bf6d_IMG_1934.webp"
-          },
-          {
-            "thumb": "63e079bd3700f05c85da73a0_IMG_1943-thumb.webp",
-            "full": "63e079bd3700f05c85da73a0_IMG_1943.webp"
-          }
-        ]
-      },
-      {
-        "id": "ozy-nails",
-        "name": "Ozy Nails",
-        "type": "Nail salon",
-        "photos": [
-          {
-            "full": "ozy-nails-v3-01.webp",
-            "thumb": "ozy-nails-v3-01-thumb.webp"
-          },
-          {
-            "full": "ozy-nails-v3-04.webp",
-            "thumb": "ozy-nails-v3-04-thumb.webp"
-          },
-          {
-            "full": "ozy-nails-v3-05.webp",
-            "thumb": "ozy-nails-v3-05-thumb.webp"
-          },
-          {
-            "full": "ozy-nails-v3-15.webp",
-            "thumb": "ozy-nails-v3-15-thumb.webp"
-          },
-          {
-            "full": "ozy-nails-v3-10.webp",
-            "thumb": "ozy-nails-v3-10-thumb.webp"
-          },
-          {
-            "full": "ozy-nails-v3-06.webp",
-            "thumb": "ozy-nails-v3-06-thumb.webp"
-          },
-          {
-            "full": "ozy-nails-v3-07.webp",
-            "thumb": "ozy-nails-v3-07-thumb.webp"
-          },
-          {
-            "full": "ozy-nails-v3-11.webp",
-            "thumb": "ozy-nails-v3-11-thumb.webp"
-          }
-        ]
-      },
-      {
-        "id": "niwe-academy",
-        "name": "NIWE Academy",
-        "type": "Training academy",
-        "photos": [
-          {
-            "full": "niwe-academy-v3-07.webp",
-            "thumb": "niwe-academy-v3-07-thumb.webp"
-          },
-          {
-            "full": "niwe-academy-v3-01.webp",
-            "thumb": "niwe-academy-v3-01-thumb.webp"
-          },
-          {
-            "full": "niwe-academy-v3-09.webp",
-            "thumb": "niwe-academy-v3-09-thumb.webp"
-          },
-          {
-            "full": "niwe-academy-v3-11.webp",
-            "thumb": "niwe-academy-v3-11-thumb.webp"
-          },
-          {
-            "full": "niwe-academy-v3-08.webp",
-            "thumb": "niwe-academy-v3-08-thumb.webp"
-          },
-          {
-            "full": "niwe-academy-v3-03.webp",
-            "thumb": "niwe-academy-v3-03-thumb.webp"
-          },
-          {
-            "full": "niwe-academy-v3-05.webp",
-            "thumb": "niwe-academy-v3-05-thumb.webp"
-          },
-          {
-            "full": "niwe-academy-v3-06.webp",
-            "thumb": "niwe-academy-v3-06-thumb.webp"
-          }
-        ]
-      },
-      {
         "id": "law-office",
         "name": "Law Office",
         "type": "Office",
@@ -587,21 +602,6 @@
             "thumb": "nova-naturopathic-v3-08-thumb.webp"
           }
         ]
-      },
-      {
-        "id": "hello-nori",
-        "name": "Hello Nori",
-        "type": "Restaurant",
-        "photos": [
-          {
-            "full": "hello-nori-v3-02.webp",
-            "thumb": "hello-nori-v3-02-thumb.webp"
-          },
-          {
-            "full": "hello-nori-v3-03.webp",
-            "thumb": "hello-nori-v3-03-thumb.webp"
-          }
-        ]
       }
     ]
   },
@@ -609,6 +609,84 @@
     "title": "Homes built around the way you live",
     "intro": "From full rebuilds to finished basements, Make A Change Homes builds and renovates homes across Calgary. Every project is shaped to your taste and guided by our core values, so you get quality work, fair pricing and a home you are proud to live in.",
     "projects": [
+      {
+        "id": "custom-home",
+        "name": "Andrew's Home",
+        "type": "Home build",
+        "photos": [
+          {
+            "full": "custom-home-v3-01.webp",
+            "thumb": "custom-home-v3-01-thumb.webp"
+          },
+          {
+            "full": "custom-home-v3-02.webp",
+            "thumb": "custom-home-v3-02-thumb.webp"
+          },
+          {
+            "full": "custom-home-v3-03.webp",
+            "thumb": "custom-home-v3-03-thumb.webp"
+          },
+          {
+            "full": "custom-home-v3-04.webp",
+            "thumb": "custom-home-v3-04-thumb.webp"
+          }
+        ]
+      },
+      {
+        "id": "basement-development",
+        "name": "Basement Renovation",
+        "type": "Basement development",
+        "photos": [
+          {
+            "full": "basement-development-v3-19.webp",
+            "thumb": "basement-development-v3-19-thumb.webp"
+          },
+          {
+            "full": "basement-development-v3-20.webp",
+            "thumb": "basement-development-v3-20-thumb.webp"
+          },
+          {
+            "full": "basement-development-v3-17.webp",
+            "thumb": "basement-development-v3-17-thumb.webp"
+          },
+          {
+            "full": "basement-development-v3-13.webp",
+            "thumb": "basement-development-v3-13-thumb.webp"
+          },
+          {
+            "full": "basement-development-v3-12.webp",
+            "thumb": "basement-development-v3-12-thumb.webp"
+          },
+          {
+            "full": "basement-development-v3-11.webp",
+            "thumb": "basement-development-v3-11-thumb.webp"
+          },
+          {
+            "full": "basement-development-v3-05.webp",
+            "thumb": "basement-development-v3-05-thumb.webp"
+          },
+          {
+            "full": "basement-development-v3-01.webp",
+            "thumb": "basement-development-v3-01-thumb.webp"
+          },
+          {
+            "full": "basement-development-v3-03.webp",
+            "thumb": "basement-development-v3-03-thumb.webp"
+          },
+          {
+            "full": "basement-development-v3-06.webp",
+            "thumb": "basement-development-v3-06-thumb.webp"
+          },
+          {
+            "full": "basement-development-v3-09.webp",
+            "thumb": "basement-development-v3-09-thumb.webp"
+          },
+          {
+            "full": "basement-development-v3-08.webp",
+            "thumb": "basement-development-v3-08-thumb.webp"
+          }
+        ]
+      },
       {
         "id": "rebuilt-home",
         "name": "Complete Home Renovation",
@@ -681,61 +759,6 @@
         ]
       },
       {
-        "id": "basement-development",
-        "name": "Basement Renovation",
-        "type": "Basement development",
-        "photos": [
-          {
-            "full": "basement-development-v3-19.webp",
-            "thumb": "basement-development-v3-19-thumb.webp"
-          },
-          {
-            "full": "basement-development-v3-20.webp",
-            "thumb": "basement-development-v3-20-thumb.webp"
-          },
-          {
-            "full": "basement-development-v3-17.webp",
-            "thumb": "basement-development-v3-17-thumb.webp"
-          },
-          {
-            "full": "basement-development-v3-13.webp",
-            "thumb": "basement-development-v3-13-thumb.webp"
-          },
-          {
-            "full": "basement-development-v3-12.webp",
-            "thumb": "basement-development-v3-12-thumb.webp"
-          },
-          {
-            "full": "basement-development-v3-11.webp",
-            "thumb": "basement-development-v3-11-thumb.webp"
-          },
-          {
-            "full": "basement-development-v3-05.webp",
-            "thumb": "basement-development-v3-05-thumb.webp"
-          },
-          {
-            "full": "basement-development-v3-01.webp",
-            "thumb": "basement-development-v3-01-thumb.webp"
-          },
-          {
-            "full": "basement-development-v3-03.webp",
-            "thumb": "basement-development-v3-03-thumb.webp"
-          },
-          {
-            "full": "basement-development-v3-06.webp",
-            "thumb": "basement-development-v3-06-thumb.webp"
-          },
-          {
-            "full": "basement-development-v3-09.webp",
-            "thumb": "basement-development-v3-09-thumb.webp"
-          },
-          {
-            "full": "basement-development-v3-08.webp",
-            "thumb": "basement-development-v3-08-thumb.webp"
-          }
-        ]
-      },
-      {
         "id": "basements",
         "name": "Basement Buildout",
         "type": "Basement development",
@@ -771,29 +794,6 @@
           {
             "thumb": "63dfe7ace4e25f677c0b5ed9_IMG_2072-thumb.webp",
             "full": "63dfe7ace4e25f677c0b5ed9_IMG_2072.webp"
-          }
-        ]
-      },
-      {
-        "id": "custom-home",
-        "name": "Andrew's Home",
-        "type": "Home build",
-        "photos": [
-          {
-            "full": "custom-home-v3-01.webp",
-            "thumb": "custom-home-v3-01-thumb.webp"
-          },
-          {
-            "full": "custom-home-v3-02.webp",
-            "thumb": "custom-home-v3-02-thumb.webp"
-          },
-          {
-            "full": "custom-home-v3-03.webp",
-            "thumb": "custom-home-v3-03-thumb.webp"
-          },
-          {
-            "full": "custom-home-v3-04.webp",
-            "thumb": "custom-home-v3-04-thumb.webp"
           }
         ]
       },
