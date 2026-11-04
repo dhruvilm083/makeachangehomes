@@ -200,6 +200,45 @@
         ]
       },
       {
+        "id": "ozy-nails",
+        "name": "Ozy Nails",
+        "type": "Nail salon",
+        "photos": [
+          {
+            "full": "ozy-nails-v3-01.webp",
+            "thumb": "ozy-nails-v3-01-thumb.webp"
+          },
+          {
+            "full": "ozy-nails-v3-04.webp",
+            "thumb": "ozy-nails-v3-04-thumb.webp"
+          },
+          {
+            "full": "ozy-nails-v3-05.webp",
+            "thumb": "ozy-nails-v3-05-thumb.webp"
+          },
+          {
+            "full": "ozy-nails-v3-15.webp",
+            "thumb": "ozy-nails-v3-15-thumb.webp"
+          },
+          {
+            "full": "ozy-nails-v3-10.webp",
+            "thumb": "ozy-nails-v3-10-thumb.webp"
+          },
+          {
+            "full": "ozy-nails-v3-06.webp",
+            "thumb": "ozy-nails-v3-06-thumb.webp"
+          },
+          {
+            "full": "ozy-nails-v3-07.webp",
+            "thumb": "ozy-nails-v3-07-thumb.webp"
+          },
+          {
+            "full": "ozy-nails-v3-11.webp",
+            "thumb": "ozy-nails-v3-11-thumb.webp"
+          }
+        ]
+      },
+      {
         "id": "kad-consulting",
         "name": "KAD Consulting Services",
         "type": "Offices",
@@ -251,45 +290,6 @@
           {
             "thumb": "63e079bd3700f05c85da73a0_IMG_1943-thumb.webp",
             "full": "63e079bd3700f05c85da73a0_IMG_1943.webp"
-          }
-        ]
-      },
-      {
-        "id": "ozy-nails",
-        "name": "Ozy Nails",
-        "type": "Nail salon",
-        "photos": [
-          {
-            "full": "ozy-nails-v3-01.webp",
-            "thumb": "ozy-nails-v3-01-thumb.webp"
-          },
-          {
-            "full": "ozy-nails-v3-04.webp",
-            "thumb": "ozy-nails-v3-04-thumb.webp"
-          },
-          {
-            "full": "ozy-nails-v3-05.webp",
-            "thumb": "ozy-nails-v3-05-thumb.webp"
-          },
-          {
-            "full": "ozy-nails-v3-15.webp",
-            "thumb": "ozy-nails-v3-15-thumb.webp"
-          },
-          {
-            "full": "ozy-nails-v3-10.webp",
-            "thumb": "ozy-nails-v3-10-thumb.webp"
-          },
-          {
-            "full": "ozy-nails-v3-06.webp",
-            "thumb": "ozy-nails-v3-06-thumb.webp"
-          },
-          {
-            "full": "ozy-nails-v3-07.webp",
-            "thumb": "ozy-nails-v3-07-thumb.webp"
-          },
-          {
-            "full": "ozy-nails-v3-11.webp",
-            "thumb": "ozy-nails-v3-11-thumb.webp"
           }
         ]
       },
