@@ -405,6 +405,34 @@
         "type": "Daycare",
         "photos": [
           {
+            "thumb": "63e0781210d0b9bbe761a77d_IMG_2083-thumb.webp",
+            "full": "63e0781210d0b9bbe761a77d_IMG_2083.webp"
+          },
+          {
+            "thumb": "63e07809cc6c48788657002f_IMG_2077-thumb.webp",
+            "full": "63e07809cc6c48788657002f_IMG_2077.webp"
+          },
+          {
+            "thumb": "63e078823f8612b069837cc8_IMG_2108-thumb.webp",
+            "full": "63e078823f8612b069837cc8_IMG_2108.webp"
+          },
+          {
+            "full": "3twelve-beauty-lounge-v3-03.webp",
+            "thumb": "3twelve-beauty-lounge-v3-03-thumb.webp"
+          },
+          {
+            "thumb": "63e07836c6567af5e75895fc_IMG_2088-thumb.webp",
+            "full": "63e07836c6567af5e75895fc_IMG_2088.webp"
+          },
+          {
+            "thumb": "63e07892dd10661e873f8d12_IMG_2118-thumb.webp",
+            "full": "63e07892dd10661e873f8d12_IMG_2118.webp"
+          },
+          {
+            "full": "63e078a33f86128360837e82_IMG_2121.webp",
+            "thumb": "63e078a33f86128360837e82_IMG_2121-thumb.webp"
+          },
+          {
             "full": "kidzpen-v3-01.webp",
             "thumb": "kidzpen-v3-01-thumb.webp"
           },
@@ -417,52 +445,12 @@
             "thumb": "kidzpen-v3-03-thumb.webp"
           },
           {
-            "full": "kidzpen-v3-04.webp",
-            "thumb": "kidzpen-v3-04-thumb.webp"
-          },
-          {
             "full": "kidzpen-v3-05.webp",
             "thumb": "kidzpen-v3-05-thumb.webp"
           },
           {
-            "full": "3twelve-beauty-lounge-v3-03.webp",
-            "thumb": "3twelve-beauty-lounge-v3-03-thumb.webp"
-          },
-          {
-            "full": "kidzpen-v3-06.webp",
-            "thumb": "kidzpen-v3-06-thumb.webp"
-          },
-          {
-            "full": "kidzpen-v3-07.webp",
-            "thumb": "kidzpen-v3-07-thumb.webp"
-          },
-          {
-            "full": "kidzpen-v3-08.webp",
-            "thumb": "kidzpen-v3-08-thumb.webp"
-          },
-          {
-            "full": "kidzpen-v3-09.webp",
-            "thumb": "kidzpen-v3-09-thumb.webp"
-          },
-          {
-            "thumb": "63e07809cc6c48788657002f_IMG_2077-thumb.webp",
-            "full": "63e07809cc6c48788657002f_IMG_2077.webp"
-          },
-          {
-            "thumb": "63e0781210d0b9bbe761a77d_IMG_2083-thumb.webp",
-            "full": "63e0781210d0b9bbe761a77d_IMG_2083.webp"
-          },
-          {
-            "thumb": "63e07892dd10661e873f8d12_IMG_2118-thumb.webp",
-            "full": "63e07892dd10661e873f8d12_IMG_2118.webp"
-          },
-          {
-            "thumb": "63e078292ae9b00b99e7f648_IMG_2087-thumb.webp",
-            "full": "63e078292ae9b00b99e7f648_IMG_2087.webp"
-          },
-          {
-            "thumb": "63e07836c6567af5e75895fc_IMG_2088-thumb.webp",
-            "full": "63e07836c6567af5e75895fc_IMG_2088.webp"
+            "full": "kidzpen-v3-04.webp",
+            "thumb": "kidzpen-v3-04-thumb.webp"
           },
           {
             "thumb": "63e07840d88ab85d825e83ff_IMG_2094-thumb.webp",
@@ -477,36 +465,8 @@
             "full": "63e0785510d0b9f19661a93a_IMG_2102.webp"
           },
           {
-            "thumb": "63e07861d2a0eb9bd401d452_IMG_2103-thumb.webp",
-            "full": "63e07861d2a0eb9bd401d452_IMG_2103.webp"
-          },
-          {
             "thumb": "63e07870c6567a4d57589edc_IMG_2107-thumb.webp",
             "full": "63e07870c6567a4d57589edc_IMG_2107.webp"
-          },
-          {
-            "thumb": "63e078823f8612b069837cc8_IMG_2108-thumb.webp",
-            "full": "63e078823f8612b069837cc8_IMG_2108.webp"
-          },
-          {
-            "thumb": "63e078af11b873555dbdadb5_IMG_2124-thumb.webp",
-            "full": "63e078af11b873555dbdadb5_IMG_2124.webp"
-          },
-          {
-            "thumb": "63e07d8e6bf1b15ae689af4b_IMG_2125-thumb.webp",
-            "full": "63e07d8e6bf1b15ae689af4b_IMG_2125.webp"
-          },
-          {
-            "thumb": "63e078bc6bf1b1df7e89493d_IMG_2127-thumb.webp",
-            "full": "63e078bc6bf1b1df7e89493d_IMG_2127.webp"
-          },
-          {
-            "thumb": "63e078c8678a1729c331ca3a_IMG_2129-thumb.webp",
-            "full": "63e078c8678a1729c331ca3a_IMG_2129.webp"
-          },
-          {
-            "full": "63e078a33f86128360837e82_IMG_2121.webp",
-            "thumb": "63e078a33f86128360837e82_IMG_2121-thumb.webp"
           }
         ]
       },
