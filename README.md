@@ -20,6 +20,7 @@ Images and the original Webflow stylesheet live in `assets/`. The site no longer
 - `fonts/`: Droid Sans and Oswald, self-hosted.
 - `_headers`: tells Cloudflare to let browsers cache `assets/` and `fonts/` for a year.
 - `sitemap.xml` and `robots.txt`: for search engines. Add any new page to `sitemap.xml`.
+- `functions/_middleware.js`: sends `http://` and the bare domain to `https://www.makeachangehomes.ca` in one 301, so Google only ever sees one address. `_routes.json` keeps it off photos, fonts, CSS and JS.
 
 ## Project galleries
 
