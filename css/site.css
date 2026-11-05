@@ -148,13 +148,12 @@ h1:where(.as-h2){font-size:32px;line-height:36px}
 .pg-wrap ~ .logos-title-small .grid-logos{padding-top:0;padding-bottom:0}
 
 /* Contact button pinned to the bottom right (About, Residential, Commercial). */
-.contact-fab{position:fixed;right:20px;bottom:20px;z-index:900;display:inline-block;padding:13px 24px;border-radius:999px;background:#212121;color:#fff;text-decoration:none;font-size:15px;line-height:20px;letter-spacing:.02em;box-shadow:0 6px 20px rgba(0,0,0,.2);transition:background-color .2s,transform .2s}
+.contact-fab{position:fixed;right:20px;bottom:calc(20px + var(--fab-lift,0px));z-index:900;display:inline-block;padding:13px 24px;border-radius:999px;background:#212121;color:#fff;text-decoration:none;font-size:15px;line-height:20px;letter-spacing:.02em;box-shadow:0 6px 20px rgba(0,0,0,.2);transition:background-color .2s,transform .2s}
 .contact-fab:hover,.contact-fab:focus-visible{background:#a20e15;color:#fff;transform:translateY(-2px)}
 .contact-fab:focus-visible{outline:2px solid #fff;outline-offset:-5px}
-@media (max-width:767px){.contact-fab{right:16px;bottom:16px;padding:12px 20px}}
+@media (max-width:767px){.contact-fab{right:16px;bottom:calc(16px + var(--fab-lift,0px));padding:12px 20px}}
 /* It fades away once the footer scrolls into view, so it never covers the footer text. */
 .contact-fab{transition:background-color .2s,transform .3s ease,opacity .3s ease}
-.contact-fab.is-away{opacity:0;transform:translateY(12px);pointer-events:none}
 @media (prefers-reduced-motion:reduce){.contact-fab{transition:none}}
 
 /* Spacing pass: less dead space between sections on every page. */

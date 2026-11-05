@@ -208,17 +208,27 @@
 
   // ---- Pinned contact button: steps aside while the footer is on screen --
   var fab = document.querySelector('.contact-fab');
-  // The pinned button and the header Contact button: phones text Andrew, computers and tablets
-  // open an email. Without JS they still go to /contact-us.
-  var contactHref = /iPhone|iPod|Android.*Mobile|Windows Phone/i.test(navigator.userAgent)
-    ? 'sms:+15878326660'
-    : 'mailto:andrew@makeachangehomes.ca?subject=' + encodeURIComponent('Construction Inquiry - Website');
-  document.querySelectorAll('.contact-fab, .nav-contact').forEach(function (a) { a.href = contactHref; });
+  // Pinned button: phones text Andrew, computers and tablets open an email.
+  // Without JS it still goes to /contact-us. The header Contact link always goes to /contact-us.
+  if (fab) {
+    fab.href = /iPhone|iPod|Android.*Mobile|Windows Phone/i.test(navigator.userAgent)
+      ? 'sms:+15878326660'
+      : 'mailto:andrew@makeachangehomes.ca?subject=' + encodeURIComponent('Construction Inquiry - Website');
+  }
+  // When the footer comes on screen, the button rises to sit just above it instead of covering it.
   var foot = document.querySelector('.footer-subscribe');
-  if (fab && foot && 'IntersectionObserver' in window) {
-    new IntersectionObserver(function (entries) {
-      fab.classList.toggle('is-away', entries[0].isIntersecting);
-    }).observe(foot);
+  if (fab && foot) {
+    var liftQueued = false;
+    var lift = function () {
+      liftQueued = false;
+      var over = window.innerHeight - foot.getBoundingClientRect().top;
+      fab.style.setProperty('--fab-lift', Math.max(0, Math.round(over)) + 'px');
+    };
+    var queueLift = function () { if (!liftQueued) { liftQueued = true; requestAnimationFrame(lift); } };
+    window.addEventListener('scroll', queueLift, { passive: true });
+    window.addEventListener('resize', queueLift);
+    window.addEventListener('load', queueLift);
+    lift();
   }
 
   // ---- Testimonial slider -----------------------------------------------
