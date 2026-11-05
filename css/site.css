@@ -215,5 +215,6 @@ body :is(.paragraph-3,.margin-bottom-24px,.margin-bottom-24px-2,.margin-bottom-2
 .fab-dock{display:none}
 @media (max-width:767px){
   .fab-dock{display:block;height:44px;margin-top:16px;position:relative}
-  .fab-dock .contact-fab{position:absolute;top:0;left:0;right:auto;bottom:auto;box-shadow:none}
+  .fab-dock .contact-fab{position:absolute;top:0;left:50%;right:auto;bottom:auto;box-shadow:none;transform:translateX(-50%);white-space:nowrap}
+  .fab-dock .contact-fab:hover,.fab-dock .contact-fab:focus-visible{transform:translateX(-50%) translateY(-2px)}
 }
