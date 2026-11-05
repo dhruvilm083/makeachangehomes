@@ -7,6 +7,9 @@ projects or photos), then run from the repo root:
 
     python3 scripts/build_galleries.py
 
+Note: once photos have been pushed from the hidden photo portal (/portal/),
+the live gallery grids come from the portal, not from this file. See README.md.
+
 Only the part of each page between <!-- projects:start --> and
 <!-- projects:end --> is replaced.
 """

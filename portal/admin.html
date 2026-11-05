@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Photos admin | MACH</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/portal/portal.css">
+</head>
+<body>
+<div class="ad">
+  <main class="ad-main">
+    <div class="ad-bar" id="bar"></div>
+    <div class="ad-hint" id="hint"></div>
+    <div class="grid" id="grid" tabindex="0" aria-label="Photos"></div>
+  </main>
+
+  <aside class="side">
+    <div class="side-head">
+      <h2>Projects</h2>
+      <button type="button" class="btn-link" id="logout">Log out</button>
+    </div>
+    <nav class="side-list" id="plist" aria-label="Projects"></nav>
+    <div class="side-foot">
+      <button type="button" class="btn btn-primary" id="push">Push to website</button>
+      <p id="pushInfo"></p>
+      <span class="save-state" id="saveState" role="status"></span>
+    </div>
+  </aside>
+</div>
+
+<dialog id="dlg">
+  <form method="dialog" id="dlgForm">
+    <h2 id="dlgTitle">New project</h2>
+    <p class="muted" id="dlgSub" style="margin:0"></p>
+    <div id="dlgNew">
+      <div class="seg" role="radiogroup" aria-label="Type of project">
+        <label><input type="radio" name="cat" value="residential"> Residential</label>
+        <label><input type="radio" name="cat" value="commercial"> Commercial</label>
+      </div>
+    </div>
+    <label id="dlgNameWrap">Project name
+      <input type="text" name="pname" maxlength="120" autocomplete="off">
+    </label>
+    <div id="dlgExisting">
+      <div class="or">or add them to a project you already have</div>
+      <select name="existing" aria-label="Existing project"></select>
+    </div>
+    <p class="dlg-err" id="dlgErr" role="alert"></p>
+    <div class="dlg-btns">
+      <button type="button" class="btn" id="dlgCancel">Cancel</button>
+      <button type="submit" class="btn btn-primary" id="dlgOk">Create project</button>
+    </div>
+  </form>
+</dialog>
+
+<div class="lbx" id="lbx" role="dialog" aria-modal="true" aria-label="Photo viewer">
+  <img alt="" id="lbxImg">
+  <div class="file" id="lbxFile" hidden></div>
+  <button type="button" class="lx-close" aria-label="Close">&times;</button>
+  <button type="button" class="lx-prev" aria-label="Previous photo">&#8249;</button>
+  <button type="button" class="lx-next" aria-label="Next photo">&#8250;</button>
+  <div class="lx-info">
+    <span id="lbxCount"></span>
+    <button type="button" class="lx-sel" id="lbxSel">Select</button>
+    <a id="lbxOrig" target="_blank" rel="noopener">Open original</a>
+  </div>
+</div>
+
+<div class="toast" id="toast" role="status"></div>
+
+<script src="/portal/shared.js"></script>
+<script src="/portal/admin.js"></script>
+</body>
+</html>
