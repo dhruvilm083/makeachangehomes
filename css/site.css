@@ -28,9 +28,9 @@ body>.footer-subscribe{margin-top:auto}
 /* Navigation (option A): centered links, red underline slides in under the hovered/current page,
    Contact is a solid black pill matching the floating Contact button. */
 .navbar-logo-left-container.shadow-three{padding-top:14px!important;padding-bottom:14px!important}
-.nav-link-3[href="/contact-us"]{background:#212121;color:#fff!important;border-radius:999px;transition:background-color .2s}
-.nav-link-3.w--current[href="/contact-us"]{color:#fff!important}
-.nav-link-3[href="/contact-us"]:hover,.nav-link-3[href="/contact-us"]:focus-visible{background:#a20e15;color:#fff!important}
+.nav-link-3.nav-contact{background:#212121;color:#fff!important;border-radius:999px;transition:background-color .2s}
+.nav-link-3.nav-contact.w--current{color:#fff!important}
+.nav-link-3.nav-contact:hover,.nav-link-3.nav-contact:focus-visible{background:#a20e15;color:#fff!important}
 @media screen and (min-width:992px){
   .container-3{justify-content:center!important}
   .nav-menu{display:flex;align-items:center;gap:8px}
@@ -38,8 +38,8 @@ body>.footer-subscribe{margin-top:auto}
   .nav-link-3::after{content:"";position:absolute;left:18px;right:18px;bottom:4px;height:2px;background:#a20e15;transform:scaleX(0);transform-origin:left;transition:transform .3s ease}
   .nav-link-3:hover::after,.nav-link-3.w--current::after{transform:scaleX(1)}
   .nav-link-3.w--current{color:#212121!important}
-  .nav-link-3[href="/contact-us"]{margin-left:16px;padding:10px 24px}
-  .nav-link-3[href="/contact-us"]::after{display:none}
+  .nav-link-3.nav-contact{margin-left:16px;padding:10px 24px}
+  .nav-link-3.nav-contact::after{display:none}
 }
 @media (prefers-reduced-motion:reduce){.nav-link-3::after{transition:none}}
 
@@ -50,8 +50,8 @@ body>.footer-subscribe{margin-top:auto}
   .w-nav[data-collapse="medium"] .w-nav-menu[data-nav-menu-open].is-open{opacity:1;pointer-events:auto}
   .w-nav-menu[data-nav-menu-open] .nav-link-3{display:block;font-size:32px;line-height:1.2;font-weight:700;color:#212121;padding:12px 0;border:0;background:none;text-align:center}
   .w-nav-menu[data-nav-menu-open] .nav-link-3.w--current{color:#a20e15}
-  .w-nav-menu[data-nav-menu-open] .nav-link-3[href="/contact-us"]{background:#212121;color:#fff!important;padding:14px 40px;margin-top:16px}
-  .w-nav-menu[data-nav-menu-open] .nav-link-3.w--current[href="/contact-us"]{background:#a20e15}
+  .w-nav-menu[data-nav-menu-open] .nav-link-3.nav-contact{background:#212121;color:#fff!important;padding:14px 40px;margin-top:16px}
+  .w-nav-menu[data-nav-menu-open] .nav-link-3.nav-contact.w--current{background:#a20e15}
   .w-nav[data-collapse="medium"] .w-nav-menu[data-nav-menu-open]{z-index:1}
   .menu-button-4{position:relative;z-index:1001}
   .menu-button-4.w--open{background-color:#fff;color:#212121}
