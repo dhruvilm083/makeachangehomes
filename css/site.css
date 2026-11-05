@@ -198,3 +198,4 @@ body:not(.pg-editing) .pg-sep-first{height:3px;background:#d4d4d4;margin:4px 0 1
 .about-intro .paragraph-3{max-width:760px;margin:0 auto}
 .hero-without-image.about-inspiration{padding-top:50px!important}
 .about-inspiration h2.as-h1{margin:0 0 20px}
+.pg-head p + p{margin-top:6px}

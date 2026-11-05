@@ -31,9 +31,11 @@ def block(page):
             parts.append(
                 f'<a class="pg-item" href="/assets/{esc(ph["full"])}">'
                 f'<img src="/assets/{esc(ph["thumb"])}" {load} decoding="async" alt="{esc(alt)}"/></a>')
+    lines = page['intro'] if isinstance(page['intro'], list) else [page['intro']]
+    intro = ''.join(f'<p>{esc(t)}</p>' for t in lines)
     return (
         '<div class="pg-wrap">'
-        f'<header class="pg-head"><h1>{esc(page["title"])}</h1><p>{esc(page["intro"])}</p></header>'
+        f'<header class="pg-head"><h1>{esc(page["title"])}</h1>{intro}</header>'
         f'<div class="pg-grid">{"".join(parts)}</div>'
         '</div>')
 

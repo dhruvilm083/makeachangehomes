@@ -1,7 +1,10 @@
 {
   "commercial": {
     "title": "Spaces built around your business",
-    "intro": "A full service construction firm for your business, with an in-house realtor, designer and architect, permits handled, from first idea to opening day.",
+    "intro": [
+      "A full service construction firm for your business, with an in-house realtor, designer and architect, permits handled, from first idea to opening day.",
+      "From salons and restaurants to offices, clinics and daycares, we build commercial spaces across Calgary, planned around how you work and ready to open."
+    ],
     "projects": [
       {
         "id": "hello-nori",
@@ -607,7 +610,10 @@
   },
   "residential": {
     "title": "Homes built around the way you live",
-    "intro": "A full service construction firm for your home, with an in-house realtor, designer and architect, permits handled, from renovations to brand new builds.",
+    "intro": [
+      "A full service construction firm for your home, with an in-house realtor, designer and architect, permits handled, from renovations to brand new builds.",
+      "From full rebuilds to finished basements, we build and renovate homes across Calgary, shaped to your taste and built to last."
+    ],
     "projects": [
       {
         "id": "custom-home",
