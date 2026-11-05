@@ -25,12 +25,35 @@ body>.footer-subscribe{margin-top:auto}
 @media (prefers-reduced-motion:reduce){.navbar-logo-left-container.shadow-three{transition:none}}
 .w-nav-button:focus-visible{outline:2px solid #a20e15;outline-offset:2px}
 
-/* Phone menu: white panel with dark text instead of grey on grey. */
+/* Navigation (option A): centered links, red underline slides in under the hovered/current page,
+   Contact is a solid black pill matching the floating Contact button. */
+.navbar-logo-left-container.shadow-three{padding-top:14px!important;padding-bottom:14px!important}
+.nav-link-3[href="/contact-us"]{background:#212121;color:#fff!important;border-radius:999px;transition:background-color .2s}
+.nav-link-3.w--current[href="/contact-us"]{color:#fff!important}
+.nav-link-3[href="/contact-us"]:hover,.nav-link-3[href="/contact-us"]:focus-visible{background:#a20e15;color:#fff!important}
+@media screen and (min-width:992px){
+  .container-3{justify-content:center!important}
+  .nav-menu{display:flex;align-items:center;gap:8px}
+  .nav-link-3{position:relative;padding:10px 18px;font-size:15px;color:#212121}
+  .nav-link-3::after{content:"";position:absolute;left:18px;right:18px;bottom:4px;height:2px;background:#a20e15;transform:scaleX(0);transform-origin:left;transition:transform .3s ease}
+  .nav-link-3:hover::after,.nav-link-3.w--current::after{transform:scaleX(1)}
+  .nav-link-3.w--current{color:#212121!important}
+  .nav-link-3[href="/contact-us"]{margin-left:16px;padding:10px 24px}
+  .nav-link-3[href="/contact-us"]::after{display:none}
+}
+@media (prefers-reduced-motion:reduce){.nav-link-3::after{transition:none}}
+
+/* Phone menu: full-screen white panel with big links. */
 @media screen and (max-width:991px){
-  .w-nav[data-collapse="medium"] .w-nav-menu[data-nav-menu-open]{display:block!important;position:absolute;top:100%;left:0;right:0;background:#fff;box-shadow:0 12px 24px rgba(0,0,0,.12);border-top:1px solid #e4e4e4;text-align:left;overflow:hidden;transition:max-height .4s ease;max-height:0}
-  .w-nav[data-collapse="medium"] .w-nav-menu[data-nav-menu-open].is-open{max-height:400px}
-  .w-nav-menu[data-nav-menu-open] .nav-link-3{display:block;color:#212121;padding:16px 24px;border-bottom:1px solid #f0f0f0}
+  .container-3{justify-content:flex-end!important}
+  .w-nav[data-collapse="medium"] .w-nav-menu[data-nav-menu-open]{position:fixed!important;inset:0!important;height:100vh;height:100dvh;max-height:none!important;background:#fff!important;box-shadow:none!important;border:0!important;display:flex!important;flex-direction:column;align-items:center;justify-content:center;gap:4px;padding:0 32px;opacity:0;pointer-events:none;transition:opacity .25s ease}
+  .w-nav[data-collapse="medium"] .w-nav-menu[data-nav-menu-open].is-open{opacity:1;pointer-events:auto}
+  .w-nav-menu[data-nav-menu-open] .nav-link-3{display:block;font-size:32px;line-height:1.2;font-weight:700;color:#212121;padding:12px 0;border:0;background:none;text-align:center}
   .w-nav-menu[data-nav-menu-open] .nav-link-3.w--current{color:#a20e15}
+  .w-nav-menu[data-nav-menu-open] .nav-link-3[href="/contact-us"]{background:#212121;color:#fff!important;padding:14px 40px;margin-top:16px}
+  .w-nav-menu[data-nav-menu-open] .nav-link-3.w--current[href="/contact-us"]{background:#a20e15}
+  .w-nav[data-collapse="medium"] .w-nav-menu[data-nav-menu-open]{z-index:1}
+  .menu-button-4{position:relative;z-index:1001}
   .menu-button-4.w--open{background-color:#fff;color:#212121}
 }
 
