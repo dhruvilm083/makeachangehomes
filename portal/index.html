@@ -13,7 +13,13 @@
   <form id="login" autocomplete="on">
     <h1 class="login-logo"><img src="/assets/632d8af1ed30f2086135647e_make-a-change-logo-black.svg" alt="Make A Change Homes" width="353" height="76"></h1>
     <label class="sr-only" for="pw">Password</label>
-    <input id="pw" name="password" type="password" placeholder="Password" autocomplete="current-password" required autofocus>
+    <div class="pw-wrap">
+      <input id="pw" name="password" type="password" placeholder="Password" autocomplete="current-password" required autofocus>
+      <button type="button" class="pw-eye" id="eye" aria-label="Show password" aria-pressed="false" title="Show password">
+        <svg class="eye-open" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+        <svg class="eye-off" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="2"/><path d="M3 3l18 18" stroke="currentColor" stroke-width="2"/></svg>
+      </button>
+    </div>
     <button class="btn btn-primary" type="submit">Log in</button>
     <p class="err" id="err" role="alert"></p>
   </form>
@@ -22,6 +28,16 @@
 (function () {
   var form = document.getElementById('login');
   var err = document.getElementById('err');
+  // Eye button: click once to show the password, click again to hide it.
+  var eye = document.getElementById('eye');
+  eye.addEventListener('click', function () {
+    var show = form.password.type === 'password';
+    form.password.type = show ? 'text' : 'password';
+    eye.setAttribute('aria-pressed', show ? 'true' : 'false');
+    eye.setAttribute('aria-label', show ? 'Hide password' : 'Show password');
+    eye.title = show ? 'Hide password' : 'Show password';
+    form.password.focus();
+  });
   form.addEventListener('submit', function (e) {
     e.preventDefault();
     var btn = form.querySelector('button');
