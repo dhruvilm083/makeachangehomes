@@ -215,6 +215,28 @@
       ? 'sms:+15878326660'
       : 'mailto:andrew@makeachangehomes.ca?subject=' + encodeURIComponent('Construction Inquiry - Website');
   }
+  // Contact page on phones: dock the button in the "Reach us directly" card when its spot reaches it.
+  var dock = document.querySelector('.fab-dock');
+  if (fab && dock) {
+    var home = fab.parentNode, next = fab.nextSibling, docked = false;
+    var checkDock = function () {
+      if (getComputedStyle(dock).display === 'none') {
+        if (docked) { home.insertBefore(fab, next); docked = false; }
+        return;
+      }
+      // Where the floating button's top edge sits on screen right now.
+      var floatTop = window.innerHeight - 16 - dock.offsetHeight;
+      var want = dock.getBoundingClientRect().top <= floatTop;
+      if (want !== docked) {
+        if (want) dock.appendChild(fab); else home.insertBefore(fab, next);
+        docked = want;
+      }
+    };
+    window.addEventListener('scroll', checkDock, { passive: true });
+    window.addEventListener('resize', checkDock);
+    window.addEventListener('load', checkDock);
+    checkDock();
+  }
   // When the footer comes on screen, the button rises to sit just above it instead of covering it.
   var foot = document.querySelector('.footer-subscribe');
   if (fab && foot) {
