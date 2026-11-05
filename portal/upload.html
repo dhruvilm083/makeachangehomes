@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Upload photos | MACH</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/portal/portal.css">
+</head>
+<body>
+<main class="up">
+  <div class="up-top">
+    <h1>Upload photos</h1>
+    <button type="button" class="btn-link" id="logout">Log out</button>
+  </div>
+
+  <form class="up-form" id="form">
+    <label class="drop" id="drop">
+      <input type="file" id="files" multiple>
+      <strong>Choose photos or files</strong>
+      <span class="muted">or drop them here. Any number, any type (JPG, PNG, WebP, HEIC, DNG...).</span>
+    </label>
+    <ul class="queue" id="queue"></ul>
+    <p class="up-msg" id="msg" role="status"></p>
+    <button type="submit" class="btn btn-primary" id="submit" disabled>Upload</button>
+  </form>
+
+  <section class="history">
+    <h2>Upload history</h2>
+    <div id="history"><p class="muted">Loading...</p></div>
+  </section>
+</main>
+<script src="/portal/shared.js"></script>
+<script src="/portal/upload.js"></script>
+</body>
+</html>

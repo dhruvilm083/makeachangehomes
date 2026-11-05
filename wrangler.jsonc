@@ -1,0 +1,27 @@
+// Cloudflare Worker for makeachangehomes.ca.
+// The site itself is static files (this folder). The Worker only runs for the
+// paths in run_worker_first: the hidden photo portal (/portal/), its API, the
+// uploaded photos (/media/), and the two gallery pages, which it fills from the
+// galleries last pushed from the portal. See README.md, "Photo portal".
+{
+  "name": "makeachangehomes",
+  "main": "worker/index.js",
+  "compatibility_date": "2025-09-01",
+  "assets": {
+    "directory": ".",
+    "binding": "ASSETS",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page",
+    "run_worker_first": [
+      "/api/*",
+      "/media/*",
+      "/portal",
+      "/portal/*",
+      "/home-showcase*",
+      "/commercial-showcase*"
+    ]
+  },
+  "r2_buckets": [
+    { "binding": "BUCKET", "bucket_name": "mach-photos" }
+  ]
+}
