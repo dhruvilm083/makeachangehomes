@@ -208,12 +208,12 @@
 
   // ---- Pinned contact button: steps aside while the footer is on screen --
   var fab = document.querySelector('.contact-fab');
-  // Phones text Andrew; computers and tablets opens an email. Without JS it still goes to /contact-us.
-  if (fab) {
-    var phone = /iPhone|iPod|Android.*Mobile|Windows Phone/i.test(navigator.userAgent);
-    fab.href = phone ? 'sms:+15878326660'
-      : 'mailto:andrew@makeachangehomes.ca?subject=' + encodeURIComponent('Construction Inquiry - Website');
-  }
+  // The pinned button and the header Contact button: phones text Andrew, computers and tablets
+  // open an email. Without JS they still go to /contact-us.
+  var contactHref = /iPhone|iPod|Android.*Mobile|Windows Phone/i.test(navigator.userAgent)
+    ? 'sms:+15878326660'
+    : 'mailto:andrew@makeachangehomes.ca?subject=' + encodeURIComponent('Construction Inquiry - Website');
+  document.querySelectorAll('.contact-fab, .nav-contact').forEach(function (a) { a.href = contactHref; });
   var foot = document.querySelector('.footer-subscribe');
   if (fab && foot && 'IntersectionObserver' in window) {
     new IntersectionObserver(function (entries) {
