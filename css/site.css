@@ -209,3 +209,11 @@ body :is(.paragraph-3,.margin-bottom-24px,.margin-bottom-24px-2,.margin-bottom-2
 .hero-without-image.about-inspiration{padding-top:50px!important}
 .about-inspiration h2.as-h1{margin:0 0 20px}
 .pg-head p + p{margin-top:6px}
+
+/* Contact page on phones: the pinned button docks under "We serve..." once that spot scrolls up to it,
+   and floats again when scrolling back up. The dock keeps its height so nothing jumps. */
+.fab-dock{display:none}
+@media (max-width:767px){
+  .fab-dock{display:block;height:44px;margin-top:16px;position:relative}
+  .fab-dock .contact-fab{position:absolute;top:0;left:0;right:auto;bottom:auto;box-shadow:none}
+}
